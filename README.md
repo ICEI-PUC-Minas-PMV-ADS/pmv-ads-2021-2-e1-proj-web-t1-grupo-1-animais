@@ -11,7 +11,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 ## Integrantes
 
 * Nome completo do aluno 1
-* Ciro Hideki Artiga Watanabe
+* **Ciro Hideki Artiga Watanabe**
 * Vitoria
 * João
 
