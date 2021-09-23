@@ -12,7 +12,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 * Nome completo do aluno 1
 * Ciro Hideki Artiga Watanabe
-* Nome completo do aluno 3
+* Vitoria
 * Nome completo do aluno 4
 
 ## Orientador
