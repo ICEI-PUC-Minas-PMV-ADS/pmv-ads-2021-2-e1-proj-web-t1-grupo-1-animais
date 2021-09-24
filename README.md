@@ -12,8 +12,10 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 * Nayra Alessandra Simão Reis 
 * Ciro Hideki Artiga Watanabe
-* Vitoria
-* João
+* Vitoria Gabriella Maffei Corrêa 
+* Joao Gabriel Müller Gonçalves
+* Gabriel Leite Soares Ramos 
+* Leandro Daniel Dos Anjos 
 
 ## Orientador
 
