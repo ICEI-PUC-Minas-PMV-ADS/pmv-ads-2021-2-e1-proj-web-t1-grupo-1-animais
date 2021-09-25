@@ -4,7 +4,7 @@
 
 `Projeto: Desenvolvimento de Aplicação Web Front-End`
 
-`Segundo semestre 2021`
+`Segundo Semestre 2021`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
