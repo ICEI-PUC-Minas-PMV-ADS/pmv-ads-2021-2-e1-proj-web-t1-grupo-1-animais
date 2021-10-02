@@ -15,7 +15,8 @@ básicos sobre eles. Também enfrentamos um problema relacionado a disseminaçã
 
 
 ## Objetivos
-O objetivo do projeto é fornecer e propagar informações sobre animais, com foco em animais domésticos, insetos e alguns animais peçonhentos encontrados em residências e animais do grupo de criação animal.  
+
+    O objetivo do projeto é fornecer e propagar informações sobre animais, com foco em animais domésticos, insetos e alguns animais peçonhentos encontrados em residências e animais do grupo de criação animal.  
 Como objetivos específicos temos:
 
 ●   Animais domésticos: características da raça, primeiros cuidados, importância de vacinação, cuidados acerca de alimentação e precauções para casos de emergências. 
