@@ -11,8 +11,11 @@ Conforme exposto anteriormente, existe uma necessidade urgente de informar a soc
 ## Objetivos
 O objetivo do projeto é fornecer e propagar informações sobre animais, com foco em animais domésticos, insetos e alguns animais peçonhentos encontrados em residências e animais do grupo de criação animal.  
 Como objetivos específicos temos:
+
 ●   Animais domésticos: características da raça, primeiros cuidados, importância de vacinação, cuidados acerca de alimentação e precauções para casos de emergências. 
+
 ●   Animais peçonhentos e insetos: identificação, como proceder quando encontrados, como evitar (casos de pragas urbanas) números úteis e o que fazer caso haja algum acidente envolvendo-os.  
+
 ●   Animais de pecuária: Criação, cuidados, curiosidades e importância de criação.  
 
  
