@@ -8,26 +8,20 @@ animais que escolhemos como nossos companheiros, o sucesso da espécie humana si
 
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+    Conforme exposto anteriormente, existe uma necessidade urgente de informar a sociedade acerca dos animais que estão, de forma direta ou indireta, presentes no nosso cotidiano. Muitas pessoas possuem animais de estimação e sequer sabem coisas sobre cuidados 
+básicos sobre eles. Também enfrentamos um problema relacionado a disseminação de informações falsas e fantasiosas a respeito de insetos, que, por mais que não sejam animais de estimação (para a maioria das pessoas) ainda estão presentes nas residências e devem ser respeitados como qualquer outro ser vivo.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+    O objetivo do projeto é fornecer e propagar informações sobre animais, com foco em animais domésticos, insetos e alguns animais peçonhentos encontrados em residências e animais do grupo de criação animal.  
+Como objetivos específicos temos:
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+●   Animais domésticos: características da raça, primeiros cuidados, importância de vacinação, cuidados acerca de alimentação e precauções para casos de emergências. 
+●   Animais peçonhentos e insetos: identificação, como proceder quando encontrados, como evitar (casos de pragas urbanas) números úteis e o que fazer caso haja algum acidente envolvendo-os.  
+●   Animais de pecuária: Criação, cuidados, curiosidades e importância de criação.  
+
  
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
 ## Justificativa
 
 Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
