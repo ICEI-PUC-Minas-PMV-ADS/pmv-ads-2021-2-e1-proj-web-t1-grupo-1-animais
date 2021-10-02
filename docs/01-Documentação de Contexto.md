@@ -1,5 +1,4 @@
 # Introdução
-
     Conforme Harari expõe em sua obra, Sapiens: Uma breve história da humanidade (2012), a emergência de nossa espécie ao topo da cadeia alimentar foi um fenômeno que ocorreu de forma extremamente rápida. Animais que estavam no topo antes de nós viviam em 
 equilíbrio com seu nicho ecológico porque houve tempo para que eles e as espécies com as quais eles viviam se adaptassem. Entretanto, a humanidade superou a capacidade de qualquer outro animal de se organizar, modificar o próprio meio e se espalhar geograficamente. Uma vez que isso ocorreu de forma acelerada, não houve tempo hábil, em termos evolutivos, para que as espécies que coabitavam o mesmo espaço que nós se adaptassem. Mais do que isso: não houve tempo para que a espécie humana se adaptasse à posição que passou a ocupar na cadeia alimentar.
     As consequências dessa rápida guinada são inúmeras. Algumas delas são positivas – dependendo do ponto de vista. Da perspectiva dos gatos e cachorros, 
@@ -7,7 +6,7 @@ animais que escolhemos como nossos companheiros, o sucesso da espécie humana si
     O presente projeto é baseado na premissa de que a informação é a melhor maneira de mudar esse cenário. Precisamos nos conscientizar do fato de que o desequilíbrio ecológico é prejudicial para todos, e de que precisamos aprender a coabitar com a variedade de espécies que estavam aqui antes de nós. Além de que também almejamos que animais, muitas vezes, mal quistos, como aranhas, baratas e outros insetos, possam ser vistos de outras formas. 
 
 
-## Problema
+# Problema
     Conforme exposto anteriormente, existe uma necessidade urgente de informar a sociedade acerca dos animais que estão, de forma direta ou indireta, presentes no nosso cotidiano. Muitas pessoas possuem animais de estimação e sequer sabem coisas sobre cuidados 
 básicos sobre eles. Também enfrentamos um problema relacionado a disseminação de informações falsas e fantasiosas a respeito de insetos, que, por mais que não sejam animais de estimação (para a maioria das pessoas) ainda estão presentes nas residências e devem ser respeitados como qualquer outro ser vivo.
 
