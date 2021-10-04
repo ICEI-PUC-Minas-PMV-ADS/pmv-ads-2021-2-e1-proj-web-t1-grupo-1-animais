@@ -20,6 +20,9 @@ O objetivo do projeto é fornecer e propagar informações sobre animais, com fo
 Em artigo publicado por Pedro Jacobi na SciELO - Scientific Electronic Library Online(2003), fica evidente que a educação ambiental e a sustentabilidade são os caminhos para que se atinja a harmonia entre os homens e os animais presentes na natureza. O ser humano, por possuir em si, o sentimento de superioridade perante a outras espécies, acaba não observando os impactos que suas ações causam no meio ambiente. E não percebem também, que nesse longo processo de destruição, acaba destruindo espécies que são essenciais para sua sobrevivência.
 
 ## Público-Alvo
+Mesmo que toda a sociedade se beneficie das informações aqui repassadas, o trabalho possui foco no público que, além de ter animais domésticos, também possuem interesse em se informar mais sobre os demais animais presentes em suas casas ou da vida selvagem. 
+Desta forma, o público alvo foi estabelecido de forma a ser destinado a pessoas acima de 12 anos, que possuem dúvidas sobre os cuidados a serem tomados. Ressaltamos também que o objetivo desse trabalho é apenas informativo e que, ainda que as informações aqui compiladas sejam retiradas de veículos confiáveis de informação e também de profissionais das áreas, este não exclui nem substitui profissionais das áreas de biologia, medicina veterinária e corpo de bombeiros.
+
 
 
 
