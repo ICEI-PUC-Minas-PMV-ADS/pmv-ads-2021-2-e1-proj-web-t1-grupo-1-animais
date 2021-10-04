@@ -8,6 +8,250 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 As personas levantadas durante o processo de entendimento do problema são apresentadas nas figuras que se seguem:	
 
+## **AMANDA ALVES**
+
+<img src="../src/img/amandaalves.png" />
+
+**Idade**: 28 anos
+
+ **Ocupação**: Biomédica, atua no campo de análises clínicas na cidade de Cuiabá, onde mora há 5 anos depois de se mudar de São Paulo.
+
+**Aplicativos**: 
+
+⦁ Instagram 
+
+⦁ Facebook
+
+⦁ Whatsapp
+
+⦁ Linkedin
+
+⦁ Aplicativos de Bancos
+
+⦁ Entrega de comida.
+
+**Mora em**: Cuiabá, MT.
+
+**Interesses**:
+
+⦁ Vôlei
+
+⦁ Cinema
+
+⦁ Viagens
+
+⦁ Leitura e ajudar cães abandonados.
+
+**Motivações**:
+
+⦁ Ter reconhecimento.
+
+⦁ Ajudar pessoas.
+
+⦁ Construir uma família.
+
+⦁ Deus.
+
+**Frustrações**:
+
+⦁	Não poder ajudar todos os animais abandonados.
+
+⦁	Não ter tempo suficiente para viagens.
+
+⦁	Não poder visitar a mãe, que mora em São Paulo, com frequência.
+
+⦁	Não conseguir comprar a casa dos sonhos.
+
+**Crença e resumo história**:
+
+⦁	Católico
+
+⦁	Nascida em São Paulo, é cristã, gosta de ajudar pessoas necessitadas nas horas vagas e cães abandonados.Tem 28 anos e atua no ramo da biomedicina há 4 anos.
+
+**Hábitos de compra**:
+
+⦁	Compras online, por ser mais prático e por ter acesso a muitas lojas. Menos frequente, lojas físicas.
+
+Quem a influência
+
+⦁	Shinya Yamanaka.
+
+⦁	Jesus.
+
+⦁	Seus pais.
+
+**Estilo de vida**:
+
+⦁	Gosta de ler e viajar aos finais de semana. 
+
+
+## **CARLOS GOMES** 
+
+<img src="../src/img/carlosgomes.png" />
+
+**Idade**: 33 anos
+
+**Ocupação**: Engenheiro de Minas, atua no ramo de exploração de minérios para exportação em uma multinacional.
+
+**Aplicativos**: 
+
+⦁	Facebook
+
+⦁	Linkedin
+
+⦁	Aplicativos de Bancos
+
+⦁	WhatsApp
+
+⦁	Instagram
+
+⦁	Tiktok
+
+**Mora em**: Jacobina, BA.
+
+**Interesses**: Rochas, vida selvagem e felinos domésticos, futebol, churrasco e natação.
+
+**Motivações**: 
+
+⦁	Ascensão no emprego
+
+⦁	Estudar e ser o melhor em sua área.
+
+⦁	Comprar um bom carro.
+
+⦁	Ajudar os pais.
+
+**Frustrações**:
+
+⦁	Não ter a casa própria.
+
+⦁	Viajar pelo trabalho com frequência.
+
+**Crença e resumo história**:
+
+⦁	Católico
+
+⦁	Nascido em Ouro Preto, veio para Jacobina aos 12 anos. Trabalha com Engenharia de Minas e ama a vida selvagem. Adora comer um churrasco sempre que pode aos finais de semana e pratica natação como exercício físico.
+
+**Hábitos de compra**:
+
+⦁	Gosta da compra em loja física, sentir o produto. Mas sempre que possível, compra online.
+
+**Quem o influencia**:
+
+⦁	Seu pai, sua inspiração.	
+
+**Estilo de vida**:
+
+⦁	Gosta de manter uma vida saudável e exercitar.
+
+
+## **ROBERTO SANTANA**
+
+<img src="../src/img/robertosantana.png" />
+
+**Idade**: 38 anos
+
+**Ocupação**: Agropecuarista.
+
+**Aplicativos**: 
+
+⦁	Facebook
+
+⦁	WhatsApp
+
+**Mora em**: Rio Grande do Sul, RS.
+
+**Interesses**: Praticar trilha, ir à igreja, escalada, plantio, pecuária e leilões de bovinos.
+
+**Motivações**: 
+
+⦁	Expandir a fazenda.
+
+⦁	Aposentar e viver na roça.
+
+**Frustrações**:
+
+⦁	Não ter começado na agropecuária mais cedo.
+
+⦁	Não ter condições financeiras para a criação de ave no momento.
+
+⦁	Não ter casado
+
+**Crença e resumo história**:
+
+⦁	Evangélico
+
+⦁	Nascido no Rio Grande do Sul, desde pequeno se interessou por animais de fazenda. Aos 30, conseguiu, graças ao seu avô, iniciar uma fazenda focada no plantio de soja e na criação de gado. Quer expandir a fazenda e começar a criação de aves.		
+
+**Hábitos de compra**:
+
+⦁	Lojas físicas.	
+
+**Quem o influencia**:
+
+⦁	Seu avô.	
+
+**Estilo de vida**:
+
+⦁	Homem do campo e da roça, gosta de sertanejo e de curtir a natureza.	
+
+
+## **CRIS DA SILVA**
+
+<img src="../src/img/crisdasilva.png" />
+
+
+**Idade**: 15 anos
+
+**Ocupação**: Estudante.
+
+**Mora em**: Rio de Janeiro, RJ
+
+**Interesses**: Jogos eletrônicos, filmes, séries, animais em geral, praia e construção civil.
+
+**Aplicativos**:
+
+⦁	Facebook
+
+⦁	WhatsApp
+
+⦁	Instagram
+
+⦁	Twitter
+
+**Motivações**:
+
+⦁	Ser empreendedor.
+
+⦁	Formar em engenharia civil.
+
+**Frustrações**:
+
+⦁	Não saber inglês.
+
+⦁	Não ter conhecido seus avós.
+
+**Crença e resumo história**:
+
+⦁	Católico.
+
+⦁	Nascido no Rio de Janeiro, Cris gosta de praia. Almeja empreender na engenharia civil e ser o orgulho da família. Adora o contato com o mar e de se sentir vivo. Gosta de aprender também sobre os animais e sempre preza a importância dos mesmos para o meio ambiente.	
+
+**Hábitos de compra**:
+
+⦁	Não informou.	
+
+**Quem o influencia**:
+
+⦁	Sua mãe, dona Maria.	
+
+**Estilo de vida**:
+
+⦁	Cris gosta de ver séries, acompanhar documentários de construção e de aprender sobre negócios.
+
+
+
 ## Histórias de Usuários
 
 A partir do entendimento do cotidiano das personas determinadas pelo projeto, são registradas as seguintes histórias de usuários.
