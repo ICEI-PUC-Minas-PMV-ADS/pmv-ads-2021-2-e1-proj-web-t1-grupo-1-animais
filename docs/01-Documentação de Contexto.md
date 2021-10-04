@@ -17,7 +17,7 @@ O objetivo do projeto é fornecer e propagar informações sobre animais, com fo
 
  
 ## Justificativa
-
+Em artigo publicado por Pedro Jacobi na SciELO - Scientific Electronic Library Online(2003), fica evidente que a educação ambiental e a sustentabilidade são os caminhos para que se atinja a harmonia entre os homens e os animais presentes na natureza. O ser humano, por possuir em si, o sentimento de superioridade perante a outras espécies, acaba não observando os impactos que suas ações causam no meio ambiente. E não percebem também, que nesse longo processo de destruição, acaba destruindo espécies que são essenciais para sua sobrevivência.
 
 ## Público-Alvo
 
