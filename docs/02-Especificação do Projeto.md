@@ -16,7 +16,6 @@ A partir do entendimento do cotidiano das personas determinadas pelo projeto, s�
 |EU COMO... `PERSONA`|      QUERO/PRECISO ... `FUNCIONALIDADE`       |  PARA ... `MOTIVO/VALOR`        |
 |--------------------|-----------------------------------------------|---------------------------------|
 |   Cris da Silva    |Me informar a respeito de animais domésticos.  |Cuidar do meu gato               |
-|--------------------|-----------------------------------------------|---------------------------------| 
 |   Cris da Silva    |Material em português.                         |Compreensão mais rápida e melhor.|
 
 
