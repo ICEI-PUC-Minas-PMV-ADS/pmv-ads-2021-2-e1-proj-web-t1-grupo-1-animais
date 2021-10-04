@@ -24,7 +24,7 @@ A tela do sistema possui uma estrutura geral conforme mostrado na Figura. Nessa 
 
 ● Barra lateral - exibe elementos de pesquisa, elementos de navegação secundários, geralmente associados a elementos de bloco de conteúdo.
 
-<img src="..\img\wireframe-example.png" />
+<img src="../src/img/wfcabecalho.png" />
 
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
