@@ -34,7 +34,9 @@ Para o processo de desenvolvimento do projeto, a equipe escolheu o método SCRUM
 
 A organização do time é a seguinte:
 Product Owner:
+
 • João Gabriel Müller Gonçalves
+
 Equipe de Desenvolvimento:
 
 • Ciro Hideki Artiga Watanabe
@@ -51,7 +53,7 @@ Equipe de Desenvolvimento:
 
 ### Processo
 
-As tarefas do projeto são gerenciadas através do Projects do GitHub. Essa ferramenta possibilita a atribuição de tarefas a membros do time, separação de acordo com o estágio em que se encontram no ciclo de desenvolvimento (se está em progresso, pronta, precisa de revisão etc.), dentre outros recursos. A figura 3.1 apresenta a visão geral da ferramenta. As colunas que dividem as tarefas são descritas a seguir:
+As tarefas do projeto são gerenciadas através do Projects do GitHub. Essa ferramenta possibilita a atribuição de tarefas a membros do time, separação de acordo com o estágio em que se encontram no ciclo de desenvolvimento (se está em progresso, pronta, precisa de revisão etc.), dentre outros recursos.
 
 **Backlog do produto:** contém os artefatos que deverão ser obtidos ao longo do processo de desenvolvimento, desde o seu início até a implementação completa do website.
 
@@ -62,6 +64,9 @@ As tarefas do projeto são gerenciadas através do Projects do GitHub. Essa ferr
 **Checking:** contém as tarefas que foram finalizadas e precisam passar por avaliação do time.
 
 **Done:** são as tarefas que foram finalizadas e aprovadas pelo time.
+
+ A figura 3.1 apresenta a visão geral da ferramenta. As colunas que dividem as tarefas são descritas a seguir:
+
 
 
 ### Ferramentas
