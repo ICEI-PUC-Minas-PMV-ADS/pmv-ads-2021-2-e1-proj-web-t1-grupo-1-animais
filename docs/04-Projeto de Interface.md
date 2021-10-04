@@ -31,3 +31,27 @@ A tela do sistema possui uma estrutura geral conforme mostrado na Figura. Nessa 
 **Tela - Home Page**
 
 <img src="../src/img/hometela.png" /> 
+
+Nesta página iniciamos nosso projeto, nela encontramos a logo e alguns menus que servem de atalho para os usuários encontrarem da melhor forma possível seus objetivos.
+
+● No rodapé podemos observar um **menu** com os tipos de animais. facilitando a busca do usuário;
+
+● Na lateral esquerda temos **imagens ilustrativas** de animais juntamente com **texto** geral sobre um tópico;
+
+● No canto direito encontramos uma **barra de pesquisa** juntamente com sugestões de animais aleatoriamente facilitando a experiência do usuário;
+
+**Tela - Página de apresentação/Conteúdo**
+
+<img src="../src/img/pagapresentacao.png" />
+
+Nesta tela encontramos as funções superiores igual as da home page, com um acréscimo de uma **barra de pesquisa** juntamente com um bloco com um texto sobre o animal selecionado e uma foto ilustrativa do animal  escolhido pelo usuário.
+
+**Tela - Página de pesquisa**
+
+<img src="../src/img/pagpesquisa.png">
+
+Nesta tela temos o mesmo layout da Homepage, retirando apenas a sugestão para o usuário. Essa página será utilizada para apresentar pesquisas feitas pelo usuário. 
+
+**Tela - Lista de Animais**
+ 
+Após escolher a categoria de animais desejadas, o usuário será direcionado para essa tela, onde poderá selecionar qual animal deseja se informar.
