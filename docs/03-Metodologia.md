@@ -67,8 +67,7 @@ As tarefas do projeto são gerenciadas através do Projects do GitHub. Essa ferr
 
  A figura 3.1 apresenta a visão geral da ferramenta. As colunas que dividem as tarefas são descritas a seguir:
 
-<img src=" C:\Users\vitor\OneDrive\Documentos\GitHub\pmv-ads-2021-2-e1-proj-web-t1-grupo-1-animais\src\img\metodologiaprocesso.png" />
-
+<img src=" https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t1-grupo-1-animais/blob/Vitoria/src/img/metodologiaprocesso.png" />
 
 ### Ferramentas
 
