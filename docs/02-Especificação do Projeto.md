@@ -12,11 +12,11 @@ As personas levantadas durante o processo de entendimento do problema são apres
 
 <img src="../src/img/amandaalves.png" />
 
-**Idade**: 28 anos
+**IDADE**: 28 anos
 
- **Ocupação**: Biomédica, atua no campo de análises clínicas na cidade de Cuiabá, onde mora há 5 anos depois de se mudar de São Paulo.
+ **OCUPAÇÃO**: Biomédica, atua no campo de análises clínicas na cidade de Cuiabá, onde mora há 5 anos depois de se mudar de São Paulo.
 
-**Aplicativos**: 
+**APLICATIVOS**: 
 
 ⦁ Instagram 
 
@@ -30,9 +30,9 @@ As personas levantadas durante o processo de entendimento do problema são apres
 
 ⦁ Entrega de comida.
 
-**Mora em**: Cuiabá, MT.
+**MORA EM**: Cuiabá, MT.
 
-**Interesses**:
+**INTERESSES**:
 
 ⦁ Vôlei
 
@@ -42,7 +42,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 
 ⦁ Leitura e ajudar cães abandonados.
 
-**Motivações**:
+**MOTIVAÇÕES**:
 
 ⦁ Ter reconhecimento.
 
@@ -52,7 +52,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 
 ⦁ Deus.
 
-**Frustrações**:
+**FRUSTRAÇÕES**:
 
 ⦁	Não poder ajudar todos os animais abandonados.
 
@@ -62,17 +62,17 @@ As personas levantadas durante o processo de entendimento do problema são apres
 
 ⦁	Não conseguir comprar a casa dos sonhos.
 
-**Crença e resumo história**:
+**CRESÇA E RESUME HISTÓRIA**:
 
 ⦁	Católico
 
 ⦁	Nascida em São Paulo, é cristã, gosta de ajudar pessoas necessitadas nas horas vagas e cães abandonados.Tem 28 anos e atua no ramo da biomedicina há 4 anos.
 
-**Hábitos de compra**:
+**HÁBITOS DE COMPRA**:
 
 ⦁	Compras online, por ser mais prático e por ter acesso a muitas lojas. Menos frequente, lojas físicas.
 
-Quem a influência
+**QUEM A INFLUENCIA**:
 
 ⦁	Shinya Yamanaka.
 
@@ -80,20 +80,20 @@ Quem a influência
 
 ⦁	Seus pais.
 
-**Estilo de vida**:
+**ESTILO DE VIDA**:
 
-⦁	Gosta de ler e viajar aos finais de semana. 
+⦁	Gosta de ler e viajar aos finais de semana.
 
 
 ## **CARLOS GOMES** 
 
 <img src="../src/img/carlosgomes.png" />
 
-**Idade**: 33 anos
+**IDADE**: 33 anos
 
-**Ocupação**: Engenheiro de Minas, atua no ramo de exploração de minérios para exportação em uma multinacional.
+**OCUPAÇÃO**: Engenheiro de Minas, atua no ramo de exploração de minérios para exportação em uma multinacional.
 
-**Aplicativos**: 
+**APLICATIVOS**: 
 
 ⦁	Facebook
 
@@ -107,11 +107,11 @@ Quem a influência
 
 ⦁	Tiktok
 
-**Mora em**: Jacobina, BA.
+**MORA EM**: Jacobina, BA.
 
-**Interesses**: Rochas, vida selvagem e felinos domésticos, futebol, churrasco e natação.
+**INTERESSES**: Rochas, vida selvagem e felinos domésticos, futebol, churrasco e natação.
 
-**Motivações**: 
+**MOTIVAÇÕES**: 
 
 ⦁	Ascensão no emprego
 
@@ -121,27 +121,27 @@ Quem a influência
 
 ⦁	Ajudar os pais.
 
-**Frustrações**:
+**FRUSTRAÇÕES**:
 
 ⦁	Não ter a casa própria.
 
 ⦁	Viajar pelo trabalho com frequência.
 
-**Crença e resumo história**:
+**CRESÇA E RESUME HISTÓRIA**:
 
 ⦁	Católico
 
 ⦁	Nascido em Ouro Preto, veio para Jacobina aos 12 anos. Trabalha com Engenharia de Minas e ama a vida selvagem. Adora comer um churrasco sempre que pode aos finais de semana e pratica natação como exercício físico.
 
-**Hábitos de compra**:
+**HÁBITOS DE COMPRA**:
 
 ⦁	Gosta da compra em loja física, sentir o produto. Mas sempre que possível, compra online.
 
-**Quem o influencia**:
+**QUEM O INFLUENCIA**:
 
 ⦁	Seu pai, sua inspiração.	
 
-**Estilo de vida**:
+**ESTILO DE VIDA**:
 
 ⦁	Gosta de manter uma vida saudável e exercitar.
 
@@ -150,27 +150,27 @@ Quem a influência
 
 <img src="../src/img/robertosantana.png" />
 
-**Idade**: 38 anos
+**IDADE**: 38 anos
 
-**Ocupação**: Agropecuarista.
+**OCUPAÇÃO**: Agropecuarista.
 
-**Aplicativos**: 
+**APLICATIVOS**: 
 
 ⦁	Facebook
 
 ⦁	WhatsApp
 
-**Mora em**: Rio Grande do Sul, RS.
+**MORA EM**: Rio Grande do Sul, RS.
 
-**Interesses**: Praticar trilha, ir à igreja, escalada, plantio, pecuária e leilões de bovinos.
+**INTERESSES**: Praticar trilha, ir à igreja, escalada, plantio, pecuária e leilões de bovinos.
 
-**Motivações**: 
+**MOTIVAÇÕES**: 
 
 ⦁	Expandir a fazenda.
 
 ⦁	Aposentar e viver na roça.
 
-**Frustrações**:
+**FRUSTRAÇÕES**:
 
 ⦁	Não ter começado na agropecuária mais cedo.
 
@@ -178,21 +178,21 @@ Quem a influência
 
 ⦁	Não ter casado
 
-**Crença e resumo história**:
+**CRESÇA E RESUME HISTÓRIA**:
 
 ⦁	Evangélico
 
 ⦁	Nascido no Rio Grande do Sul, desde pequeno se interessou por animais de fazenda. Aos 30, conseguiu, graças ao seu avô, iniciar uma fazenda focada no plantio de soja e na criação de gado. Quer expandir a fazenda e começar a criação de aves.		
 
-**Hábitos de compra**:
+**HÁBITOS DE COMPRA**:
 
 ⦁	Lojas físicas.	
 
-**Quem o influencia**:
+**QUEM O INFLUENCIA**:
 
 ⦁	Seu avô.	
 
-**Estilo de vida**:
+**ESTILO DE VIDA**:
 
 ⦁	Homem do campo e da roça, gosta de sertanejo e de curtir a natureza.	
 
@@ -202,15 +202,15 @@ Quem a influência
 <img src="../src/img/crisdasilva.png" />
 
 
-**Idade**: 15 anos
+**IDADE**: 15 anos
 
-**Ocupação**: Estudante.
+**OCUPAÇÃO**: Estudante.
 
-**Mora em**: Rio de Janeiro, RJ
+**MORA EM**: Rio de Janeiro, RJ
 
-**Interesses**: Jogos eletrônicos, filmes, séries, animais em geral, praia e construção civil.
+**INTERESSES**: Jogos eletrônicos, filmes, séries, animais em geral, praia e construção civil.
 
-**Aplicativos**:
+**APLICATIVOS**:
 
 ⦁	Facebook
 
@@ -220,33 +220,33 @@ Quem a influência
 
 ⦁	Twitter
 
-**Motivações**:
+**MOTIVAÇÕES**:
 
 ⦁	Ser empreendedor.
 
 ⦁	Formar em engenharia civil.
 
-**Frustrações**:
+**FRUSTRAÇÕES**:
 
 ⦁	Não saber inglês.
 
 ⦁	Não ter conhecido seus avós.
 
-**Crença e resumo história**:
+**CRESÇA E RESUME HISTÓRIA**:
 
 ⦁	Católico.
 
 ⦁	Nascido no Rio de Janeiro, Cris gosta de praia. Almeja empreender na engenharia civil e ser o orgulho da família. Adora o contato com o mar e de se sentir vivo. Gosta de aprender também sobre os animais e sempre preza a importância dos mesmos para o meio ambiente.	
 
-**Hábitos de compra**:
+**HÁBITOS DE COMPRA**:
 
 ⦁	Não informou.	
 
-**Quem o influencia**:
+**QUEM O INFLUENCIA**:
 
 ⦁	Sua mãe, dona Maria.	
 
-**Estilo de vida**:
+**ESTILO DE VIDA**:
 
 ⦁	Cris gosta de ver séries, acompanhar documentários de construção e de aprender sobre negócios.
 
