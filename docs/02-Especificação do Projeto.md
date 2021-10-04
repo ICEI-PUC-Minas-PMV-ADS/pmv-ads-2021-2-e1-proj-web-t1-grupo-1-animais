@@ -17,7 +17,7 @@ A partir do entendimento do cotidiano das personas determinadas pelo projeto, s�
 |--------------------|-----------------------------------------------|---------------------------------|
 |   Cris da Silva    |Me informar a respeito de animais domésticos.  |Cuidar do meu gato               |
 |   Cris da Silva    |Material em português.                         |Compreensão mais rápida e melhor.|
-
+|   Carlos Gomes     |Ter ciência das espécies peçonhentas da região onde vivo.|Poder tomar as decisões corretas para um eventual aparecimento.|
 
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
