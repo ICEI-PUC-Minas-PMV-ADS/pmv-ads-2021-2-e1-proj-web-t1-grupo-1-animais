@@ -27,3 +27,7 @@ A tela do sistema possui uma estrutura geral conforme mostrado na Figura. Nessa 
 ● Barra lateral - exibe elementos de pesquisa, elementos de navegação secundários, geralmente associados a elementos de bloco de conteúdo.
 
 <img src="../src/img/wfcabecalho.png" />
+
+**Tela - Home Page**
+
+<img src="../src/img/hometela.png" /> 
