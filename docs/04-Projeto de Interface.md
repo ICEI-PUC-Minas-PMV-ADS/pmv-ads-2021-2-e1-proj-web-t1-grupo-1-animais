@@ -3,13 +3,15 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
+Na atenção à montagem da interface do sistema, nos concentramos em questões como agilidade, acessibilidade e usabilidade. Dessa forma, o projeto possui uma identidade visual padronizada em todas as telas projetadas para desktops e dispositivos móveis.
 
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+ Apresenta as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
 
 ## User Flow
+O diagrama da figura X mostra o fluxo da interação do usuário nas telas do sistema. Cada tela neste processo é descrita em detalhes na seção wireframes a seguir. 
+Para visualizar o fluxo total interativo visite o link: 
 
-![Exemplo de UserFlow](img/userflow.jpg)
+(img/https://www.figma.com/proto/RVVY9vUzOz2UAcDXo3sfMQ/Wireframe-Animais.jpg)
 
 Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
 
