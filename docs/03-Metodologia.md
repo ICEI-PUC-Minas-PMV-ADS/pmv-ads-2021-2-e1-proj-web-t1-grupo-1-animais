@@ -67,6 +67,7 @@ As tarefas do projeto são gerenciadas através do Projects do GitHub. Essa ferr
 
  A figura 3.1 apresenta a visão geral da ferramenta. As colunas que dividem as tarefas são descritas a seguir:
 
+<img src=" ..\img\metodologiaprocesso.png" />
 
 
 ### Ferramentas
