@@ -13,6 +13,8 @@ Para visualizar o fluxo total interativo visite o link:
 
 https://www.figma.com/proto/RVVY9vUzOz2UAcDXo3sfMQ/Wireframe-Animais
 
+<img src="../src/img/fluxodousuario.png" /> 
+
 ## Wireframes
 
 De acordo com o fluxo da tela do projeto introduzido no item anterior, a tela do sistema será descrita detalhadamente nos itens a seguir. 
@@ -25,15 +27,3 @@ A tela do sistema possui uma estrutura geral conforme mostrado na Figura. Nessa 
 ● Barra lateral - exibe elementos de pesquisa, elementos de navegação secundários, geralmente associados a elementos de bloco de conteúdo.
 
 <img src="../src/img/wfcabecalho.png" />
-
-
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
