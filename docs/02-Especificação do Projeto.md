@@ -7,24 +7,16 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 ## Personas
 
 As personas levantadas durante o processo de entendimento do problema são apresentadas nas figuras que se seguem:	
-|                          
-|
-|
-|
-|
-|
-|
-|
+
 ## Histórias de Usuários
 
 A partir do entendimento do cotidiano das personas determinadas pelo projeto, são registradas as seguintes histórias de usuários.
 
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`   |
-|--------------------|------------------------------------|--------------------------|
-|   Cris da Silva    |Me informar a respeito de animais   |     Cuidar do meu gato   |
-|                    | domésticos.                        |                          |
-|--------------------|------------------------------------|--------------------------| 
+|EU COMO... `PERSONA`|      QUERO/PRECISO ... `FUNCIONALIDADE`       |  PARA ... `MOTIVO/VALOR` |
+|--------------------|-----------------------------------------------|--------------------------|
+|   Cris da Silva    |Me informar a respeito de animais domésticos.  |     Cuidar do meu gato   |
+|--------------------|-----------------------------------------------|--------------------------| 
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
