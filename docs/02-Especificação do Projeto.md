@@ -13,21 +13,19 @@ As personas levantadas durante o processo de entendimento do problema são apres
 A partir do entendimento do cotidiano das personas determinadas pelo projeto, são registradas as seguintes histórias de usuários.
 
 
-|EU COMO... `PERSONA`|      QUERO/PRECISO ... `FUNCIONALIDADE`       |  PARA ... `MOTIVO/VALOR`        |
-|--------------------|-----------------------------------------------|---------------------------------|
-|   Cris da Silva    |Me informar a respeito de animais domésticos.  |Cuidar do meu gato               |
-|   Cris da Silva    |Material em português.                         |Compreensão mais rápida e melhor.|
-|   Carlos Gomes     |Ter ciência das espécies peçonhentas da região onde vivo.|Poder tomar as decisões corretas para um eventual aparecimento.|
-
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+|EU COMO... `PERSONA`|      QUERO/PRECISO ... `FUNCIONALIDADE`                  |  PARA ... `MOTIVO/VALOR`                                         |
+|--------------------|----------------------------------------------------------|------------------------------------------------------------------|
+|   Cris da Silva    |Me informar a respeito de animais domésticos.             |Cuidar do meu gato                                                |
+|   Cris da Silva    |Material em português.                                    |Compreensão mais rápida e melhor.                                 |
+|   Carlos Gomes     |Ter ciência das espécies peçonhentas da região onde vivo. |Poder tomar as decisões corretas para um eventual aparecimento.   |
+|   Amanda Alves     |Quero a fonte das informações|Confiar no conteúdo passado.|Confiar no conteúdo passado.                                      |
+|   Amanda Alves     |Poder realizar uma pesquisa acerca de espécies específicas|Localizar espécies específicas e ter mais objetividade na pesquisa|
+|   Roberto Santana  |Ter acesso tanto no desktop, quanto no celular.           |Passar tempo enquanto espero algo (ex: filas do banco).           |
+|   Roberto Santana  |Ler a respeito da avicultura.                             |Posterior investimento.                                           |
+|   Cris da Silva    |Ilustrações (imagens, gráficos e textos).                 |Melhor interpretação.                                             |
+|   Roberto Santana  |Saber as doenças mais comuns num rebanho.                 |Prevenção e tratamento adequado.                                  |
+|   Amanda Alves     |Indicações de sites de adoção de animais.                 |Pretendo adotar um animal de estimação.                           |
+|   Carlos Gomes     |Um site com informações claras, sem poluição visual.      |Para ficar fácil a navegação e entendimento do conteúdo.          |
 
 ## Requisitos
 
