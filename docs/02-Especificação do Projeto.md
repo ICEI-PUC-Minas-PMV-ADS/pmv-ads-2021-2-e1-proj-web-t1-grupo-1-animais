@@ -2,77 +2,301 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários em um trabalho de imersão feito pelos membros da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+As personas levantadas durante o processo de entendimento do problema são apresentadas nas figuras que se seguem:	
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+## **AMANDA ALVES**
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+<img src="../src/img/amandaalves.png" />
+
+**IDADE**: 28 anos
+
+ **OCUPAÇÃO**: Biomédica, atua no campo de análises clínicas na cidade de Cuiabá, onde mora há 5 anos depois de se mudar de São Paulo.
+
+**APLICATIVOS**: 
+
+⦁ Instagram 
+
+⦁ Facebook
+
+⦁ Whatsapp
+
+⦁ Linkedin
+
+⦁ Aplicativos de Bancos
+
+⦁ Entrega de comida.
+
+**MORA EM**: Cuiabá, MT.
+
+**INTERESSES**:
+
+⦁ Vôlei
+
+⦁ Cinema
+
+⦁ Viagens
+
+⦁ Leitura e ajudar cães abandonados.
+
+**MOTIVAÇÕES**:
+
+⦁ Ter reconhecimento.
+
+⦁ Ajudar pessoas.
+
+⦁ Construir uma família.
+
+⦁ Deus.
+
+**FRUSTRAÇÕES**:
+
+⦁	Não poder ajudar todos os animais abandonados.
+
+⦁	Não ter tempo suficiente para viagens.
+
+⦁	Não poder visitar a mãe, que mora em São Paulo, com frequência.
+
+⦁	Não conseguir comprar a casa dos sonhos.
+
+**CRESÇA E RESUME HISTÓRIA**:
+
+⦁	Católico
+
+⦁	Nascida em São Paulo, é cristã, gosta de ajudar pessoas necessitadas nas horas vagas e cães abandonados.Tem 28 anos e atua no ramo da biomedicina há 4 anos.
+
+**HÁBITOS DE COMPRA**:
+
+⦁	Compras online, por ser mais prático e por ter acesso a muitas lojas. Menos frequente, lojas físicas.
+
+**QUEM A INFLUENCIA**:
+
+⦁	Shinya Yamanaka.
+
+⦁	Jesus.
+
+⦁	Seus pais.
+
+**ESTILO DE VIDA**:
+
+⦁	Gosta de ler e viajar aos finais de semana.
+
+
+## **CARLOS GOMES** 
+
+<img src="../src/img/carlosgomes.png" />
+
+**IDADE**: 33 anos
+
+**OCUPAÇÃO**: Engenheiro de Minas, atua no ramo de exploração de minérios para exportação em uma multinacional.
+
+**APLICATIVOS**: 
+
+⦁	Facebook
+
+⦁	Linkedin
+
+⦁	Aplicativos de Bancos
+
+⦁	WhatsApp
+
+⦁	Instagram
+
+⦁	Tiktok
+
+**MORA EM**: Jacobina, BA.
+
+**INTERESSES**: Rochas, vida selvagem e felinos domésticos, futebol, churrasco e natação.
+
+**MOTIVAÇÕES**: 
+
+⦁	Ascensão no emprego
+
+⦁	Estudar e ser o melhor em sua área.
+
+⦁	Comprar um bom carro.
+
+⦁	Ajudar os pais.
+
+**FRUSTRAÇÕES**:
+
+⦁	Não ter a casa própria.
+
+⦁	Viajar pelo trabalho com frequência.
+
+**CRESÇA E RESUME HISTÓRIA**:
+
+⦁	Católico
+
+⦁	Nascido em Ouro Preto, veio para Jacobina aos 12 anos. Trabalha com Engenharia de Minas e ama a vida selvagem. Adora comer um churrasco sempre que pode aos finais de semana e pratica natação como exercício físico.
+
+**HÁBITOS DE COMPRA**:
+
+⦁	Gosta da compra em loja física, sentir o produto. Mas sempre que possível, compra online.
+
+**QUEM O INFLUENCIA**:
+
+⦁	Seu pai, sua inspiração.	
+
+**ESTILO DE VIDA**:
+
+⦁	Gosta de manter uma vida saudável e exercitar.
+
+
+## **ROBERTO SANTANA**
+
+<img src="../src/img/robertosantana.png" />
+
+**IDADE**: 38 anos
+
+**OCUPAÇÃO**: Agropecuarista.
+
+**APLICATIVOS**: 
+
+⦁	Facebook
+
+⦁	WhatsApp
+
+**MORA EM**: Rio Grande do Sul, RS.
+
+**INTERESSES**: Praticar trilha, ir à igreja, escalada, plantio, pecuária e leilões de bovinos.
+
+**MOTIVAÇÕES**: 
+
+⦁	Expandir a fazenda.
+
+⦁	Aposentar e viver na roça.
+
+**FRUSTRAÇÕES**:
+
+⦁	Não ter começado na agropecuária mais cedo.
+
+⦁	Não ter condições financeiras para a criação de ave no momento.
+
+⦁	Não ter casado
+
+**CRESÇA E RESUME HISTÓRIA**:
+
+⦁	Evangélico
+
+⦁	Nascido no Rio Grande do Sul, desde pequeno se interessou por animais de fazenda. Aos 30, conseguiu, graças ao seu avô, iniciar uma fazenda focada no plantio de soja e na criação de gado. Quer expandir a fazenda e começar a criação de aves.		
+
+**HÁBITOS DE COMPRA**:
+
+⦁	Lojas físicas.	
+
+**QUEM O INFLUENCIA**:
+
+⦁	Seu avô.	
+
+**ESTILO DE VIDA**:
+
+⦁	Homem do campo e da roça, gosta de sertanejo e de curtir a natureza.	
+
+
+## **CRIS DA SILVA**
+
+<img src="../src/img/crisdasilva.png" />
+
+
+**IDADE**: 15 anos
+
+**OCUPAÇÃO**: Estudante.
+
+**MORA EM**: Rio de Janeiro, RJ
+
+**INTERESSES**: Jogos eletrônicos, filmes, séries, animais em geral, praia e construção civil.
+
+**APLICATIVOS**:
+
+⦁	Facebook
+
+⦁	WhatsApp
+
+⦁	Instagram
+
+⦁	Twitter
+
+**MOTIVAÇÕES**:
+
+⦁	Ser empreendedor.
+
+⦁	Formar em engenharia civil.
+
+**FRUSTRAÇÕES**:
+
+⦁	Não saber inglês.
+
+⦁	Não ter conhecido seus avós.
+
+**CRESÇA E RESUME HISTÓRIA**:
+
+⦁	Católico.
+
+⦁	Nascido no Rio de Janeiro, Cris gosta de praia. Almeja empreender na engenharia civil e ser o orgulho da família. Adora o contato com o mar e de se sentir vivo. Gosta de aprender também sobre os animais e sempre preza a importância dos mesmos para o meio ambiente.	
+
+**HÁBITOS DE COMPRA**:
+
+⦁	Não informou.	
+
+**QUEM O INFLUENCIA**:
+
+⦁	Sua mãe, dona Maria.	
+
+**ESTILO DE VIDA**:
+
+⦁	Cris gosta de ver séries, acompanhar documentários de construção e de aprender sobre negócios.
+
+
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+A partir do entendimento do cotidiano das personas determinadas pelo projeto, são registradas as seguintes histórias de usuários.
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`|  PARA ... `MOTIVO/VALOR`|
+|--------------------|----------------------------------------|-------------------------|
+|   Cris da Silva    |Me informar a respeito de animais domésticos.|Cuidar do meu gato|
+|   Cris da Silva    |Material em português.|Compreensão mais rápida e melhor.|
+|   Carlos Gomes     |Ter ciência das espécies peçonhentas da região onde vivo. |Poder tomar as decisões corretas para um eventual aparecimento.|
+|   Amanda Alves     |Quero a fonte das informações|Confiar no conteúdo passado.|Confiar no conteúdo passado.|
+|   Amanda Alves     |Poder realizar uma pesquisa acerca de espécies específicas|Localizar espécies específicas e ter mais objetividade na pesquisa|
+|   Roberto Santana  |Ter acesso tanto no desktop, quanto no celular.|Passar tempo enquanto espero algo (ex: filas do banco).|
+|   Roberto Santana  |Ler a respeito da avicultura.|Posterior investimento.|
+|   Cris da Silva    |Ilustrações (imagens, gráficos e textos).|Melhor interpretação.|
+|   Roberto Santana  |Saber as doenças mais comuns num rebanho.|Prevenção e tratamento adequado.|
+|   Amanda Alves     |Indicações de sites de adoção de animais.|Pretendo adotar um animal de estimação.|
+|   Carlos Gomes     |Um site com informações claras, sem poluição visual.|Para ficar fácil a navegação e entendimento do conteúdo.|
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+Os requisitos do projeto são divididos em dois grupos, os funcionais e os não funcionais, conforme as tabelas abaixo.
 
 ### Requisitos Funcionais
+A tabela a seguir apresenta os requisitos funcionais do projeto, identificando a prioridade em que os mesmos devem ser entregues.
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
+|RF-01|O site deve apresentar informações sobre três grandes categorias de animais (silvestres, domésticos e de criação).| ALTA | 
+|RF-02|O site deve possibilitar a pesquisa por categoria de animais e, no caso de animais silvestres, a pesquisa por região.| ALTA |
+|RF-03|O site deve apresentar as fontes de onde as informações foram retiradas.| BAIXA |
+|RF-04|O site deve oferecer a função de pesquisa para o usuário buscar informações sobre espécies específicas.| ALTA |
+|RF-05|O site deve fornecer imagens e gráficos junto ao conteúdo informativo sobre as espécies.| MÉDIO |
+|RF-06|O site deve fornecer informações a respeito de ongs de adoção de animais.| BAIXO |
 
 ### Requisitos não Funcionais
+A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender:
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-01|O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku).| ALTA |
+|RNF-02|O site deverá ser responsivo, permitindo a visualização em um celular de forma adequada.| MÉDIO |
+|RNF-03|O site deve apresentar conteúdo em português.| BAIXA|
+|RNF-04|O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge).|ALTA|
+|RNF-05|O site deve ser desenvolvido com layout clean e organizado para o usuário.|MÉDIO|
 
 ## Restrições
 
@@ -80,12 +304,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|RE-01|O projeto deverá ser entregue até o final do semestre |
+|RE-02|O aplicativo deve se restringir às tecnologias básicas da Web no Frontend |
+|RE-03|A equipe não pode subcontratar o desenvolvimento do trabalho.|

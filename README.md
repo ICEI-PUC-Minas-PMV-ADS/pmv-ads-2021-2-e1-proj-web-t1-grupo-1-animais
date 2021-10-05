@@ -1,23 +1,26 @@
-# TÍTULO DO PROJETO
+# WIKIPET's
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`Segundo Semestre 2021`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
+
 * Vitória Gabriella Maffei Corrêa
+* Nayra Alessandra Simão Reis 
 * Ciro Hideki Artiga Watanabe
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Joao Gabriel Müller Gonçalves
+* Gabriel Leite Soares Ramos 
+
 
 ## Orientador
 
-* Nome completo do professor 1
+* Joyce Christina de Paiva Carvalho
 
 ## Instruções de utilização
 
