@@ -10,9 +10,10 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
+
+* Vitória Gabriella Maffei Corrêa
 * Nayra Alessandra Simão Reis 
 * Ciro Hideki Artiga Watanabe
-* Vitoria Gabriella Maffei Corrêa 
 * Joao Gabriel Müller Gonçalves
 * Gabriel Leite Soares Ramos 
 
