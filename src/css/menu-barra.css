@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "Glacial Indifference";
+    font-weight: bold;
+    src: url("../fonts/glacial-indifference/GlacialIndifference-Regular.woff") format("woff"), url("../fonts/glacial-indifference/GlacialIndifference-Regular.ttf") format("truetype");
+}
+
+body {
+    display:grid;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.menu-caixa {
+    display: flex;    
+    background-color: #A9EB9C;
+    height: 80px;
+    margin-top: 3px;
+    border-top: 1px solid #635049;
+    border-bottom: 2px solid #635049;
+}
+
+section {
+    display: flex;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    float: left;
+}
+
+.logo>img {
+    display: flex;
+    margin: 0 auto;
+    height: 120px;
+    width: 200px;
+    padding-left: 60%;
+}
+
+
+.menu-categorias ul {   
+    padding-left: 40%;
+    width:100%;   
+    
+}
+
+.menu-categorias li {
+    height: 100%;
+    border-left: 1px solid #635049;
+}
+
+.menu-categorias ul li {
+    display: inline-block;    
+    padding: 13px;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.menu-categorias a {
+    color: #635049;
+    font-family: Glacial Indifference;
+    font-size: 15pt;
+    font-weight: bold;
+    text-decoration: none;
+    vertical-align:center;
+    
+}
+
+.menu-categorias a:hover {
+    color: #000;
+    font-weight: bolder;
+    font-size: 16pt;
+    text-decoration: underline;
+}
