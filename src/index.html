@@ -1,36 +1,83 @@
-<!DOCTYPE html>
+<!DOCTYPE htm>
 <html>
 
 <head>
-    <link rel="stylesheet" href="css/menu-barra.css">
-    <title> Primeiro projeto </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/wikepet.css">
+    <title>WikiPet's</title>
+    <style>
+        header {
+            height: 150px
+        }
+
+        nav {
+            width: 60%;
+            float: left;
+            padding: 20px
+        }
+
+        section {
+            width: 40%;
+            float: left;
+        }
+
+        footer {
+            clear: both
+        }
+    </style>
 </head>
 
 <body>
-    <header class="menu-caixa">
-        <div class="logo">
-            <img src="img/logosite.png" />
-        </div>
-        <div class="menu-categorias">
-            <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/domesticos.html">Domésticos</a></li>
-                <li><a href="/agropecuarios.html">Agropecuários</a></li>
-                <li><a href="/insetos.html">Insetos</a></li>
-                <li><a href="/peconhentos.html">Peçonhentos</a></li>
-            </ul>
-        </div>
-    </header>
-    <nav>
-        <div class="linha">
-        </div>
-    </nav>
+    <div class="container">
+        <header class="menu-caixa">
+            <div class="logo">
+                <img src="img/logosite.png" />
+            </div>
+            <nav class="col-100">
+                <div class="menu-categorias">
+                    <ul>
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/domesticos.html">Domésticos</a></li>
+                        <li><a href="/agropecuarios.html">Agropecuários</a></li>
+                        <li><a href="/insetos.html">Insetos</a></li>
+                        <li><a href="/peconhentos.html">Peçonhentos</a></li>
+                        <li><a href="/vacinacao.html">Vacinação</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="busca">
+                <input placeholder="Pesquisar na Wikipet" type="text" />
+            </div>
+        </header>
 
-    <section>
-        <div class="header-2">
+        <section>
+            <div class="col-100">
+                <img src="./img/banner.png" class="imagem-banner" />
+            </div>
+        </section>
+        <section class="texto-destaque">
+            <h1> Nosso objetivo: </h1>
+            <img src="img/nossoobjetivo.png" />
+            <p>O nosso objetivo é fornecer e propagar informações sobre animais, com foco nos animais domésticos,
+                insetos e alguns peçonhentos encontrados em residências além daqueles do grupo de criação em cativeiro.
+                Como objetivos específicos para cada um destas espécies temos: </p>
+            <p>Animais Domésticos: características da raça, primeiros cuidados, importância de vacinação,
+                informações de alimentação e precauções para casos de emergências.</p>
+            <p>Animais Peçonhentos e Insetos: identificação, como proceder quando encontrados, como evitar (casos
+                de infestação de pragas urbanas) números úteis e o que fazer caso haja algum acidente envolvendo-os.</p>
+            <p>Animais agropecuários: Criação, cuidados, curiosidades e importância de criação.</p>
+            <h2> Quem somos? </h2>
+            <img src="img/quemsomos.png" />
+            <p>Somos um grupo de estudantes da Instituição Puc Minas. Nosso site irá sanar suas dúvidas a respeito de
+                animais domésticos a e até mesmo animais peçonhentos.</p>
+        </section>
 
-        </div>
-    </section>
+        <footer>
+
+        </footer>
+    </div>
+
 </body>
 
 </html>
