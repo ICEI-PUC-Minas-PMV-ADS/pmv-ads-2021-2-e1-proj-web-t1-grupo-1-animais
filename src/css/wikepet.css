@@ -116,6 +116,72 @@ html,body {
 .imagem-banner{
     width: 250%;          
 }
+
+/* ---------- ARTIGOS & BARRA LATERAL ---------- */
+
+.artigos_barra_lateral{
+    background-color: #78966c;
+}
+
+.wrapper{
+    display: grid;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: 1fr 300px;
+    grid-template-rows: auto;
+    grid-template-areas: "artigo aside";
+
+    padding-top: 10px;
+    background-color: gray;
+}
+
+.artigos{
+    grid-area: artigo;
+    margin-left: 5px;
+    color: white;
+}
+
+.artigo{
+    border: 2px black solid;
+    border-radius: 8px;
+    margin: 2px;
+    display: flex;
+}
+
+.artigo p{
+    font-family: "Glacial Indifference";
+    margin: 20px;
+}
+
+.artigo img{
+    margin: 4px;
+}
+
+.barra_pesquisa{
+    grid-area: aside;
+    border: 2px black solid;
+    margin: 5px;
+    border-radius: 8px;
+    font-family: "Glacial Indifference";
+    color: white
+}
+
+.barra_pesquisa h1{
+    margin-left: 90px;
+}
+
+.campo_pesquisa{
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.buscador{
+    color: lightgray;
+}
+
+
+/* --------- TEXTO COM OBJETIVO -------- */
+
 section {
     display: grid;
     width: 100%;
@@ -130,7 +196,6 @@ section {
     font-family: Glacial Indifference;
     font-size: 15pt;
     font-weight: bold;
-    padding: 90px;
     display:inline-block;
 }
 /* ---------------------------------------------- formataÃ§Ãµes de rodapÃ© css ------------------------------------------------------------------------- */
@@ -271,7 +336,7 @@ section {
     font-family: Glacial Indifference;
     font-size: 15pt;
     font-weight: bold;
-    padding: 100px;
+    padding: 10px 100px;
     display:inline-block;
 }
 /* ---------------------------------------------- formataÃ§Ãµes de rodapÃ© css ------------------------------------------------------------------------- */
