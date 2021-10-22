@@ -119,6 +119,10 @@ html,body {
 
 /* ---------- ARTIGOS & BARRA LATERAL ---------- */
 
+.artigos_barra_lateral{
+    background-image: linear-gradient(to bottom, white, #78966c);
+}
+
 .wrapper{
     display: grid;
     width: 80%;
@@ -126,17 +130,18 @@ html,body {
     grid-template-columns: 1fr 300px;
     grid-template-rows: auto;
     grid-template-areas: "artigo aside";
-    grid-gap: 10px;
 
-    padding-top: 20px;
+    padding-top: 10px;
+    background-color: white;
 }
 
 .artigos{
     grid-area: artigo;
+    margin-left: 5px;
 }
 
 .artigo{
-    border: 2px #78966c solid;
+    border: 1px #78966c solid;
     border-radius: 8px;
     margin: 2px;
     display: flex;
@@ -153,7 +158,8 @@ html,body {
 
 .barra_pesquisa{
     grid-area: aside;
-    border: 2px #78966c solid;
+    border: 1px #78966c solid;
+    margin: 5px;
     border-radius: 8px;
     font-family: "Glacial Indifference";
 }
