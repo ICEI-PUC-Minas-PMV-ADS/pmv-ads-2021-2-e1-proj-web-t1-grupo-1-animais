@@ -116,6 +116,60 @@ html,body {
 .imagem-banner{
     width: 250%;          
 }
+
+/* ---------- ARTIGOS & BARRA LATERAL ---------- */
+
+.wrapper{
+    display: grid;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: 1fr 300px;
+    grid-template-rows: auto;
+    grid-template-areas: "artigo aside";
+    grid-gap: 10px;
+
+    padding-top: 20px;
+}
+
+.artigos{
+    grid-area: artigo;
+}
+
+.artigo{
+    border: 2px #78966c solid;
+    border-radius: 8px;
+    margin: 2px;
+    display: flex;
+}
+
+.artigo p{
+    font-family: "Glacial Indifference";
+    margin-top: 20px;
+}
+
+.artigo img{
+    margin: 4px;
+}
+
+.barra_pesquisa{
+    grid-area: aside;
+    border: 2px #78966c solid;
+    border-radius: 8px;
+    font-family: "Glacial Indifference";
+}
+
+.barra_pesquisa h1{
+    margin-left: 90px;
+}
+
+.campo_pesquisa{
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+
+/* --------- TEXTO COM OBJETIVO -------- */
+
 section {
     display: grid;
     width: 100%;
