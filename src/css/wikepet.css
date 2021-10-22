@@ -184,7 +184,6 @@ section {
     font-family: Glacial Indifference;
     font-size: 15pt;
     font-weight: bold;
-    padding: 90px;
     display:inline-block;
 }
 /* ---------------------------------------------- formataÃ§Ãµes de rodapÃ© css ------------------------------------------------------------------------- */
@@ -325,7 +324,7 @@ section {
     font-family: Glacial Indifference;
     font-size: 15pt;
     font-weight: bold;
-    padding: 100px;
+    padding: 10px 100px;
     display:inline-block;
 }
 /* ---------------------------------------------- formataÃ§Ãµes de rodapÃ© css ------------------------------------------------------------------------- */
