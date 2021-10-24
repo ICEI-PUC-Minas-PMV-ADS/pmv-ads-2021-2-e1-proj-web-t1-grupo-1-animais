@@ -15,6 +15,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Vitoria Gabriella Maffei Corrêa 
 * Joao Gabriel Müller Gonçalves
 * Gabriel Leite Soares Ramos 
+* Rafael Pacheco Leite
 
 
 ## Orientador
