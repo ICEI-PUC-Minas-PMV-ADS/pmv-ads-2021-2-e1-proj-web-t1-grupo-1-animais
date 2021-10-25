@@ -5,45 +5,6 @@
     font-weight: bold;
     src: url("../fonts/glacial-indifference/GlacialIndifference-Regular.woff") format("woff"), url("../fonts/glacial-indifference/GlacialIndifference-Regular.ttf") format("truetype");
 }
-@media screen and (max-width: 320px) {
-    
-    .container {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 150px 200px 200px 200px 100px;
-        grid-template-areas: "menu"
-                            "imagem"
-                            "artigos"
-                            "objetivos"
-                            "rodape";
-    }
-
-    .menu-caixa{
-        grid-area: menu;
-
-    }
-
-    
-
-    .imagem-banner{
-        grid-area: imagem;
-    }
-
-    .artigos{
-        grid-area: artigos;
-    }
-
-    .texto-destaque{
-        grid-area: objetivos;
-    }
-
-    .rodape{
-        grid-area: rodape;
-    }
-        img.logosite {display: block; margin: 0 auto;}
-        main,aside {width: 100%;}
-}
-
 
  @media (  max-width: 600px) {
     
@@ -61,170 +22,209 @@ html,body {
     
 }
 
-.container {
-    display:grid;
-    width: 100%;
-    height: 100%;
-    padding:0;
-    margin: 0 auto;
-}
+@media ( min-width: 720px ){
 
-.menu-caixa {
-    padding: 14px;
-    display: flex;    
-    background-color: #c5cec3;
-    height: 87px;
-    margin-top: 1px;
-    border-top: 1px solid #080807;
-    border-bottom: 65px solid #76ad5e;
-}
-    /* ---------------------------------------------- formataÃ§Ãµes de logo css ------------------------------------------------------------------------- */
+    .container {
+        display:grid;
+        width: 100%;
+        height: 100%;
+        padding:0;
+        margin: 0 auto;
+    }
 
-.logo {
-    display: flex;
-    float: left;
-}
-.logo>img {
-    display: flex;
-    margin: 0 auto;
-    height: 120px;
-    width: 200px;
-    padding-left: 80%;
-}
-/* ---------------------------------------------- formataÃ§Ãµes de menu css ------------------------------------------------------------------------- */
-.menu-categorias ul {   
-    padding-left: 25%;
-    width:100%;      
-}
-.menu-categorias li {
-    height: 60%;
-    border-left: 1px solid #cce0c8;
-    margin-top: 68px;  
-}
-.menu-categorias ul li {
-    display: inline-block;    
-    padding: 16px;
-    text-decoration: none;
-    list-style-type: none;
-}
-.menu-categorias a {
-    color: #000000;
-    font-family: Glacial Indifference;
-    font-size: 15pt;
-    font-weight: bold;
-    text-decoration: none;
-    vertical-align:center;  
-}
-.menu-categorias a:hover {
-    color: #000;
-    border-bottom: 1px solid #000; 
-    font-weight: bolder;
-    font-size: 16pt;  
-}
-.busca {
-    padding: 32px;
-    margin-top: 1px;
-    text-align: center;
-}
-.busca input {
-    margin-top: 2px;
-    background-image: url("../img/lupabusca.png");
-    background-repeat: no-repeat;
-    background-position: right;
-    border: 1px solid #78966c;
-    height: 20px;
-    padding: 20px; 
-}  
-.imagem-banner{
-    width: 250%;          
-}
+    .menu-caixa {
+        padding: 14px;
+        display: flex;    
+        background-color: #c5cec3;
+        height: 87px;
+        margin-top: 1px;
+        border-top: 1px solid #080807;
+        border-bottom: 65px solid #76ad5e;
+    }
+        /* ---------------------------------------------- formataÃ§Ãµes de logo css ------------------------------------------------------------------------- */
 
-/* ---------- ARTIGOS & BARRA LATERAL ---------- */
+    .logo {
+        display: flex;
+        float: left;
+    }
+    .logo>img {
+        display: flex;
+        margin: 0 auto;
+        height: 120px;
+        width: 200px;
+        padding-left: 80%;
+    }
+    /* ---------------------------------------------- formataÃ§Ãµes de menu css ------------------------------------------------------------------------- */
+    .menu-categorias ul {   
+        padding-left: 25%;
+        width:100%;      
+    }
+    .menu-categorias li {
+        height: 60%;
+        border-left: 1px solid #cce0c8;
+        margin-top: 68px;  
+    }
+    .menu-categorias ul li {
+        display: inline-block;    
+        padding: 16px;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    .menu-categorias a {
+        color: #000000;
+        font-family: Glacial Indifference;
+        font-size: 15pt;
+        font-weight: bold;
+        text-decoration: none;
+        vertical-align:center;  
+    }
+    .menu-categorias a:hover {
+        color: #000;
+        border-bottom: 1px solid #000; 
+        font-weight: bolder;
+        font-size: 16pt;  
+    }
+    .busca {
+        padding: 32px;
+        margin-top: 1px;
+        text-align: center;
+    }
+    .busca input {
+        margin-top: 2px;
+        background-image: url("../img/lupabusca.png");
+        background-repeat: no-repeat;
+        background-position: right;
+        border: 1px solid #78966c;
+        height: 20px;
+        padding: 20px; 
+    }  
+    .imagem-banner{
+        width: 250%;          
+    }
 
-.artigos_barra_lateral{
-    background-color: #78966c;
-}
+    /* ---------- ARTIGOS & BARRA LATERAL ---------- */
 
-.wrapper{
-    display: grid;
-    width: 80%;
-    margin: auto;
-    grid-template-columns: 1fr 300px;
-    grid-template-rows: auto;
-    grid-template-areas: "artigo aside";
+    .artigos_barra_lateral{
+        background-color: #78966c;
+    }
 
-    padding-top: 10px;
-    background-color: gray;
-}
+    .wrapper{
+        display: grid;
+        width: 80%;
+        margin: auto;
+        grid-template-columns: 1fr 300px;
+        grid-template-rows: auto;
+        grid-template-areas: "artigo aside";
 
-.artigos{
-    grid-area: artigo;
-    margin-left: 5px;
-    color: white;
-}
+        padding-top: 10px;
+        background-color: gray;
+    }
 
-.artigo{
-    border: 2px black solid;
-    border-radius: 8px;
-    margin: 2px;
-    display: flex;
-}
+    .artigos{
+        grid-area: artigo;
+        margin-left: 5px;
+        color: white;
+    }
 
-.artigo p{
-    font-family: "Glacial Indifference";
-    margin: 20px;
-}
+    .artigo{
+        border: 2px black solid;
+        border-radius: 8px;
+        margin: 2px;
+        display: flex;
+    }
 
-.artigo img{
-    margin: 4px;
-}
+    .artigo p{
+        font-family: "Glacial Indifference";
+        margin: 20px;
+    }
 
-.barra_pesquisa{
-    grid-area: aside;
-    border: 2px black solid;
-    margin: 5px;
-    border-radius: 8px;
-    font-family: "Glacial Indifference";
-    color: white
-}
+    .artigo img{
+        margin: 4px;
+    }
 
-.barra_pesquisa h1{
-    margin-left: 90px;
-}
+    .barra_pesquisa{
+        grid-area: aside;
+        border: 2px black solid;
+        margin: 5px;
+        border-radius: 8px;
+        font-family: "Glacial Indifference";
+        color: white
+    }
 
-.campo_pesquisa{
-    margin-left: 60px;
-    margin-top: 30px;
-}
+    .barra_pesquisa h1{
+        margin-left: 90px;
+    }
 
-.buscador{
-    color: lightgray;
-}
+    .campo_pesquisa{
+        margin-left: 60px;
+        margin-top: 30px;
+    }
+
+    .buscador{
+        color: lightgray;
+    }
 
 
-/* --------- TEXTO COM OBJETIVO -------- */
+    /* --------- TEXTO COM OBJETIVO -------- */
 
-section {
-    display: grid;
-    width: 100%;
-} 
-.texto-destaque {
-    width: 50%;
-    float: left;
-    float: right;
-    padding: 12px;
-    position: relative;
-    color: #0f100e;
-    font-family: Glacial Indifference;
-    font-size: 15pt;
-    font-weight: bold;
-    display:inline-block;
-}
+    section {
+        display: grid;
+        width: 100%;
+    } 
+    .texto-destaque {
+        width: 50%;
+        float: left;
+        float: right;
+        padding: 12px;
+        position: relative;
+        color: #0f100e;
+        font-family: Glacial Indifference;
+        font-size: 15pt;
+        font-weight: bold;
+        display:inline-block;
+    }
 /* ---------------------------------------------- formataÃ§Ãµes de rodapÃ© css ------------------------------------------------------------------------- */
-footer {
-    padding: 14px;
-    display: flex;    
-    height: 87px;
-    margin-top: 1px;
-    border-bottom: 150px solid #76ad5e;
-} 
+    footer {
+        padding: 14px;
+        display: flex;    
+        height: 87px;
+        margin-top: 1px;
+        border-bottom: 150px solid #76ad5e;
+    } 
+}
+
+@media (max-width: 320px) {
+    
+    .container {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 400px 150px 650px 400px 150px;
+        grid-template-areas: "menu_superior"
+                            "imagem"
+                            "artigos"
+                            "objetivos"
+                            "rodape";
+    }
+
+    header{
+        grid-area: menu_superior;
+    }
+
+    .banner{
+        grid-area: imagem;
+        width: 300px;
+    }
+
+    .artigos_barra_lateral{
+        grid-area: artigos;
+    }
+
+    .texto-destaque{
+        grid-area: objetivos;
+    }
+
+    footer{
+        grid-area: rodape;
+    }
+}
