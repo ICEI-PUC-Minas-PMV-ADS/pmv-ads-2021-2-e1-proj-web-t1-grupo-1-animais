@@ -200,7 +200,7 @@ html,body {
         display: grid;
         width: 100%;
         grid-template-columns: 1fr;
-        grid-template-rows: 400px 150px 650px 400px 150px;
+        grid-template-rows: 400px 150px 680px 400px 150px;
         grid-template-areas: "menu_superior"
                             "imagem"
                             "artigos"
@@ -224,8 +224,27 @@ html,body {
     }
 
     .artigo{
+        border: 2px black solid;
+        border-radius: 8px;
+        margin: 2px;
         display: flex;
-        vertical-align: top;
+    }
+
+    .artigos p{
+        padding: 8px;
+        margin-top: -10px;
+    }
+
+    .artigos img{
+        margin: 5px;
+    }
+
+    .barra_pesquisa h1{
+        text-align: right;
+    }
+
+    .campo_pesquisa{
+        text-align: right;
     }
 
     .texto-destaque{
