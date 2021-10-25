@@ -220,6 +220,10 @@ html,body {
         grid-area: artigos;
     }
 
+    .artigo{
+        display: flex;
+    }
+
     .texto-destaque{
         grid-area: objetivos;
     }
