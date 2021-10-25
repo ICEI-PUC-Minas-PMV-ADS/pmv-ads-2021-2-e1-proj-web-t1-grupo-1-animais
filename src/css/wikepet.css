@@ -196,6 +196,7 @@ html,body {
 @media (max-width: 320px) {
     
     .container {
+        font-family: "Glacial Indifference";
         display: grid;
         width: 100%;
         grid-template-columns: 1fr;
