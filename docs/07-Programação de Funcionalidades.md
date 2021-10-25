@@ -13,3 +13,9 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 > - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
 > - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
 > - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+
+##Apresentação e Pesquisa de categorias de animais (RF-01, RF-02)
+
+A tela inicial do site apresenta um menu por onde o usuário pode buscar um categoria específica:
+
+![menu wikipets](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t1-grupo-1-animais/blob/main/src/img/menu%20wikipet.jpg)
