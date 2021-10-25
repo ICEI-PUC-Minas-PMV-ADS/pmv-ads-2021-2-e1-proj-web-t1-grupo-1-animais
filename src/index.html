@@ -47,18 +47,17 @@
                     </ul>
                 </div>
             </nav>
+            <div class="busca">
+                <input placeholder="Pesquisar na Wikipet" type="text" />
+            </div>
         </header>
 
-        <section>
-<<<<<<< HEAD
-            <div class="artigos_barra_lateral">
-                <div class="col-100">
-                    <img src="./img/banner.png" class="imagem-banner" />
-                </div>
-=======
+        <section class="banner">
             <div class="col-100">
-                <img src="./img/banner.jpg" class="imagem-banner" />
->>>>>>> origin/main
+                <picture>
+                    <source media="(max-width: 320px)" srcset="./img/banner-300.jpg" type="image/jpg">
+                    <img src="./img/banner.jpg" class="imagem-banner" />
+                </picture>
             </div>
         </section>
 
@@ -66,13 +65,25 @@
             <div class="wrapper">
                 <div class="artigos">
                     <article class="artigo criacao">
-                        <img src="img/pig-250.jpg" alt="foto-criacao">
+                        <picture>
+                            <source media="(max-width: 320px)" srcset="./img/pig-100.jpg" type="image/jpg">
+                            <img src="img/pig-250.jpg" alt="foto-criacao">
+                        </picture>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor magnam architecto beatae esse perferendis quis.</p>
                     </article>
                     <article class="artigo estimacao">
-                        <img src="img/dog-250.jpg" alt="foto-estimacao">
+                        <picture>
+                            <source media="(max-width: 320px)" srcset="./img/dog-100.jpg" type="image/jpg">
+                            <img src="img/dog-250.jpg" alt="foto-estimacao">
+                        </picture>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit velit corrupti exercitationem consequuntur quidem reprehenderit.</p>
                     </article>
                     <article class="artigo peconhento">
-                        <img src="img/snake-250.jpg" alt="foto-peconhento">
+                        <picture>
+                            <source media="(max-width: 320px)" srcset="./img/snake-100.jpg" type="image/jpg">
+                            <img src="img/snake-250.jpg" alt="foto-peconhento">
+                        </picture>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure numquam necessitatibus accusamus qui asperiores corrupti?</p>
                     </article>
                 </div>
                 <aside class="barra_pesquisa">
@@ -106,7 +117,7 @@
                 animais domésticos a e até mesmo animais peçonhentos.</p>
         </section>
 
-        <footer>
+        <footer class="rodape">
 
         </footer>
     </div>
