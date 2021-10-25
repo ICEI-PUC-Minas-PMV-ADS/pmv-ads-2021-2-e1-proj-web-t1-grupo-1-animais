@@ -1,4 +1,4 @@
-/* ---------------------------------------------- formataÃ§Ãµes fontes e mÃ©dia css ------------------------------------------------------------------------- */
+/* ---------------------------------------------- fontes css ------------------------------------------------------------------------- */
 
 @font-face {
     font-family: "Glacial Indifference";
@@ -31,7 +31,7 @@
         img.logosite {display: block; margin: 0 auto;}
         main,aside {width: 100%;}
 }
-/* ---------------------------------------------- formataÃ§Ãµes de textos css ------------------------------------------------------------------------- */
+/* ---------------------------------------------- textos css ------------------------------------------------------------------------- */
 html,body {
   
   padding:0;
@@ -56,7 +56,7 @@ html,body {
     border-top: 1px solid #080807;
     border-bottom: 65px solid #76ad5e;
 }
-    /* ---------------------------------------------- formataÃ§Ãµes de logo css ------------------------------------------------------------------------- */
+    /* ---------------------------------------------- logo css ------------------------------------------------------------------------- */
 
 .logo {
     display: flex;
@@ -69,7 +69,7 @@ html,body {
     width: 200px;
     padding-left: 80%;
 }
-/* ---------------------------------------------- formataÃ§Ãµes de menu css ------------------------------------------------------------------------- */
+/* -------------------------------------------- menu css ------------------------------------------------------------------------- */
 .menu-categorias ul {   
     padding-left: 25%;
     width:100%;      
@@ -99,40 +99,36 @@ html,body {
     font-weight: bolder;
     font-size: 16pt;  
 }
-.busca {
-    padding: 32px;
-    margin-top: 1px;
-    text-align: center;
-}
-.busca input {
+.barra_pesquisa input {
     margin-top: 2px;
     background-image: url("../img/lupabusca.png");
     background-repeat: no-repeat;
     background-position: right;
-    border: 1px solid #78966c;
+    border: 1px solid #55993a;
     height: 20px;
     padding: 20px; 
 }  
 .imagem-banner{
-    width: 250%;          
+    width: 225%;  
+    margin-left: 130px;
+    
+   
 }
 
 /* ---------- ARTIGOS & BARRA LATERAL ---------- */
 
 .artigos_barra_lateral{
-    background-color: #78966c;
+    background-color: #6fb952;
 }
 
 .wrapper{
     display: grid;
-    width: 80%;
+    width: 90%;
     margin: auto;
-    grid-template-columns: 1fr 300px;
+    grid-template-columns: 2fr 300px;
     grid-template-rows: auto;
     grid-template-areas: "artigo aside";
-
-    padding-top: 10px;
-    background-color: gray;
+    background-color: #a2a2a2;
 }
 
 .artigos{
@@ -142,15 +138,10 @@ html,body {
 }
 
 .artigo{
-    border: 2px black solid;
+    border: 2px #cce0c8 solid;
     border-radius: 8px;
     margin: 2px;
     display: flex;
-}
-
-.artigo p{
-    font-family: "Glacial Indifference";
-    margin: 20px;
 }
 
 .artigo img{
@@ -159,11 +150,11 @@ html,body {
 
 .barra_pesquisa{
     grid-area: aside;
-    border: 2px black solid;
-    margin: 5px;
-    border-radius: 8px;
+    border: 2px #cce0c8 solid;
+    margin: 3px;
+    border-radius: 20px;
     font-family: "Glacial Indifference";
-    color: white
+    color: #0f100e
 }
 
 .barra_pesquisa h1{
@@ -171,12 +162,12 @@ html,body {
 }
 
 .campo_pesquisa{
-    margin-left: 60px;
-    margin-top: 30px;
+    margin-left: 45px;
+    margin-top: 40px;
 }
 
 .buscador{
-    color: lightgray;
+    color: #cce0c8;
 }
 
 
@@ -198,7 +189,7 @@ section {
     font-weight: bold;
     display:inline-block;
 }
-/* ---------------------------------------------- formataÃ§Ãµes de rodapÃ© css ------------------------------------------------------------------------- */
+/* ---------------------------------------------- rodapÃ© css ------------------------------------------------------------------------- */
 footer {
     padding: 14px;
     display: flex;    
