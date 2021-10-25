@@ -3,33 +3,55 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
+Na atenção à montagem da interface do sistema, nos concentramos em questões como agilidade, acessibilidade e usabilidade. Dessa forma, o projeto possui uma identidade visual padronizada em todas as telas projetadas para desktops e dispositivos móveis.
 
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+ Apresenta as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
 
 ## User Flow
+O diagrama da figura X mostra o fluxo da interação do usuário nas telas do sistema. Cada tela neste processo é descrita em detalhes na seção wireframes a seguir. 
+Para visualizar o fluxo total interativo visite o link: 
 
-![Exemplo de UserFlow](img/userflow.jpg)
+https://www.figma.com/proto/RVVY9vUzOz2UAcDXo3sfMQ/Wireframe-Animais
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
-
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
-
+<img src="../src/img/fluxodousuario.png" /> 
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+De acordo com o fluxo da tela do projeto introduzido no item anterior, a tela do sistema será descrita detalhadamente nos itens a seguir. 
+A tela do sistema possui uma estrutura geral conforme mostrado na Figura. Nessa estrutura, existem 3 grandes blocos, conforme descrito a seguir. Eles são:
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
+● Cabeçalho - local onde são exibidos os elementos fixos de identificação (logotipo) e a navegação no site principal (menu de navegação);
+
+● Conteúdo - exibe o conteúdo da tela relevante ao centro, e na lateral esquerda imagens;
+
+● Barra lateral - exibe elementos de pesquisa, elementos de navegação secundários, geralmente associados a elementos de bloco de conteúdo.
+
+<img src="../src/img/wfcabecalho.png" />
+
+**Tela - Home Page**
+
+<img src="../src/img/hometela.png" /> 
+
+Nesta página iniciamos nosso projeto, nela encontramos a logo e alguns menus que servem de atalho para os usuários encontrarem da melhor forma possível seus objetivos.
+
+● No rodapé podemos observar um **menu** com os tipos de animais. facilitando a busca do usuário;
+
+● Na lateral esquerda temos **imagens ilustrativas** de animais juntamente com **texto** geral sobre um tópico;
+
+● No canto direito encontramos uma **barra de pesquisa** juntamente com sugestões de animais aleatoriamente facilitando a experiência do usuário;
+
+**Tela - Página de apresentação/Conteúdo**
+
+<img src="../src/img/pagapresentacao.png" />
+
+Nesta tela encontramos as funções superiores igual as da home page, com um acréscimo de uma **barra de pesquisa** juntamente com um bloco com um texto sobre o animal selecionado e uma foto ilustrativa do animal  escolhido pelo usuário.
+
+**Tela - Página de pesquisa**
+
+<img src="../src/img/pagpesquisa.png">
+
+Nesta tela temos o mesmo layout da Homepage, retirando apenas a sugestão para o usuário. Essa página será utilizada para apresentar pesquisas feitas pelo usuário. 
+
+**Tela - Lista de Animais**
  
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+Após escolher a categoria de animais desejadas, o usuário será direcionado para essa tela, onde poderá selecionar qual animal deseja se informar.

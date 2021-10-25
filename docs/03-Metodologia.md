@@ -3,7 +3,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+A Metodologia apresenta as ferramentas e recursos utilizados pelo time para auxílio no desenvolvimento do projeto. Além disso, também apresentamos o modelo de processo utilizado.
 
 ## Controle de Versão
 
@@ -26,52 +26,56 @@ etiquetas:
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
-
 ## Gerenciamento de Projeto
+Para o processo de desenvolvimento do projeto, a equipe escolheu o método SCRUM como modelo. 
 
-### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+### Divisão de Papéis 
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+A organização do time é a seguinte:
+Product Owner:
+
+• João Gabriel Müller Gonçalves
+
+Equipe de Desenvolvimento:
+
+• Ciro Hideki Artiga Watanabe
+
+• Gabriel Leite Soares Ramos
+
+• João Gabriel Müller Gonçalves
+
+• Vitória Gabriella Maffei Corrêa
+
+• Nayra Alessandra Simão Reis
+
+• Rafael Pacheco
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+As tarefas do projeto são gerenciadas através do Projects do GitHub. Essa ferramenta possibilita a atribuição de tarefas a membros do time, separação de acordo com o estágio em que se encontram no ciclo de desenvolvimento (se está em progresso, pronta, precisa de revisão etc.), dentre outros recursos.
+
+**Backlog do produto:** contém os artefatos que deverão ser obtidos ao longo do processo de desenvolvimento, desde o seu início até a implementação completa do website.
+
+**To do:** representa o ciclo atual do desenvolvimento do projeto, que deve durar de 2 a 4 semanas. Corresponde à etapa sprint do método SCRUM.
+
+**In progress:** reúne as tarefas que estão sendo realizadas pelo time no momento.
+
+**Checking:** contém as tarefas que foram finalizadas e precisam passar por avaliação do time.
+
+**Done:** são as tarefas que foram finalizadas e aprovadas pelo time.
+
+ A figura 3.1 apresenta a visão geral da ferramenta. As colunas que dividem as tarefas são descritas a seguir:
+
+<img src="../src/img/metodologiaprocesso.png" />
+
 
 ### Ferramentas
 
-As ferramentas empregadas no projeto são:
-
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
-
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
-
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
+| Ambiente | Plataforma | Links de Acesso |
+|----------|------------|-----------------|
+|Repositório de código fonte|GitHub|https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t1-grupo-1-animais | 
+|Documentos do projeto|Google Drive|https://docs.google.com/document/d/1wC5yLWQpPcvxorXTY3Je7Qb0yQPxPekNlh5i8OsFOYc/edit# |
+|Projeto de Interface e  Wireframes|Figma|https://www.figma.com/file/RVVY9vUzOz2UAcDXo3sfMQ/Wireframe-Animais?node-id=0%3A1 |
+|Gerenciamento do Projeto|Projects (GitHub)|https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t1-grupo-1-animais/projects/1 |
  
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)

@@ -9,11 +9,11 @@
 Site desenvolvido com o intuito de ser um informativo acerca dos cuidados e como proceder com animais domésticos, pecuarios e peçonhentos (insetos).
 
 ## Integrantes
-
-* Nayra Alessandra Simão Reis 
 * Ciro Hideki Artiga Watanabe
-* Vitoria Gabriella Maffei Corrêa 
 * Gabriel Leite Soares Ramos
+* Nayra Alessandra Simão Reis 
+* Vitoria Gabriella Maffei Corrêa 
+=======
 
 ## Orientador
 
