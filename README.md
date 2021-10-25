@@ -6,7 +6,8 @@
 
 `Segundo Semestre 2021`
 
-Site desenvolvido com o intuito de ser um informativo acerca dos cuidados e como proceder com animais domésticos, pecuarios e peçonhentos (insetos).
+Site desenvolvido com o intuito de ser um informativo acerca dos cuidados e como proceder com animais domésticos, pecuarios e peçonhentos (insetos). 
+Esperamos, através de um layout claro e objetivo, que o usuário possa acessar as informações de forma fácil e bem completas.
 
 ## Integrantes
 * Ciro Hideki Artiga Watanabe
