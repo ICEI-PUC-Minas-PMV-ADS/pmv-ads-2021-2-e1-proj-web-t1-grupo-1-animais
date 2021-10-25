@@ -8,21 +8,43 @@
 @media screen and (max-width: 320px) {
     
     .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px 200px 200px 200px 100px;
+        grid-template-areas: "menu"
+                            "imagem"
+                            "artigos"
+                            "objetivos"
+                            "rodape";
+    }
+
+    .menu-caixa{
+        grid-area: menu;
 
     }
-        img.logosite {display: block; margin: 0 auto;}
-        main,aside {width: 100%;}
-}
 
-
-@media screen and (max-width: 320px) {
     
-    .container {
 
+    .imagem-banner{
+        grid-area: imagem;
+    }
+
+    .artigos{
+        grid-area: artigos;
+    }
+
+    .texto-destaque{
+        grid-area: objetivos;
+    }
+
+    .rodape{
+        grid-area: rodape;
     }
         img.logosite {display: block; margin: 0 auto;}
         main,aside {width: 100%;}
 }
+
+
  @media (  max-width: 600px) {
     
     .container {
