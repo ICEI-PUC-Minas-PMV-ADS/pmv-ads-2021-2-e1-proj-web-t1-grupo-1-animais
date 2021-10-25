@@ -6,17 +6,14 @@
 
 `Segundo Semestre 2021`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Site desenvolvido com o intuito de ser um informativo acerca dos cuidados e como proceder com animais domésticos, pecuarios e peçonhentos (insetos). 
+Esperamos, através de um layout claro e objetivo, que o usuário possa acessar as informações de forma fácil e bem completas.
 
 ## Integrantes
-
-
-* Vitória Gabriella Maffei Corrêa
-* Nayra Alessandra Simão Reis 
 * Ciro Hideki Artiga Watanabe
-* Joao Gabriel Müller Gonçalves
-* Gabriel Leite Soares Ramos 
-
+* Gabriel Leite Soares Ramos
+* Nayra Alessandra Simão Reis 
+* Vitoria Gabriella Maffei Corrêa 
 
 ## Orientador
 
