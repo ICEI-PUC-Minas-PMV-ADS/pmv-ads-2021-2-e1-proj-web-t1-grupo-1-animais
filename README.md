@@ -13,7 +13,6 @@ Site desenvolvido com o intuito de ser um informativo acerca dos cuidados e como
 * Gabriel Leite Soares Ramos
 * Nayra Alessandra Simão Reis 
 * Vitoria Gabriella Maffei Corrêa 
-=======
 
 ## Orientador
 
