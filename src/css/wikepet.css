@@ -219,10 +219,13 @@ html,body {
 
     .artigos_barra_lateral{
         grid-area: artigos;
+        padding: 10px;
+        background-color: #76ad5e;
     }
 
     .artigo{
         display: flex;
+        vertical-align: top;
     }
 
     .texto-destaque{
