@@ -10,6 +10,10 @@ A tela inicial do site apresenta um menu por onde o usuário pode buscar um cate
 
 ![menu wikipets](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t1-grupo-1-animais/blob/main/src/img/menu%20wikipet.jpg)
 
+Além disso, o site contém uma seção que mostra uma imagem ilustrativa de cada categoria, junto a um texto que a descreve de maneira resumida. Ao lado, há uma barra de pesquisa com sugestões de espécies aleatórias que o usuário pode buscar.
+
+![artigos wikipets](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t1-grupo-1-animais/blob/main/src/img/artigos%20wikipet.jpg)
+
 ### Requisitos atendidos
 
 * RF-01
@@ -43,6 +47,47 @@ A tela inicial do site apresenta um menu por onde o usuário pode buscar um cate
                 <input placeholder="Pesquisar na Wikipet" type="text" />
             </div>
         </header>
+```
+
+```
+<div class="artigos_barra_lateral">
+            <div class="wrapper">
+                <div class="artigos">
+                    <article class="artigo criacao">
+                        <picture>
+                            <source media="(max-width: 320px)" srcset="./img/pig-100.jpg" type="image/jpg">
+                            <img src="img/pig-250.jpg" alt="foto-criacao">
+                        </picture>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor magnam architecto beatae esse perferendis quis.</p>
+                    </article>
+                    <article class="artigo estimacao">
+                        <picture>
+                            <source media="(max-width: 320px)" srcset="./img/dog-100.jpg" type="image/jpg">
+                            <img src="img/dog-250.jpg" alt="foto-estimacao">
+                        </picture>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit velit corrupti exercitationem consequuntur quidem reprehenderit.</p>
+                    </article>
+                    <article class="artigo peconhento">
+                        <picture>
+                            <source media="(max-width: 320px)" srcset="./img/snake-100.jpg" type="image/jpg">
+                            <img src="img/snake-250.jpg" alt="foto-peconhento">
+                        </picture>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure numquam necessitatibus accusamus qui asperiores corrupti?</p>
+                    </article>
+                </div>
+                <aside class="barra_pesquisa">
+                    <h1>Pesquisa</h1>
+                    <div class="campo_pesquisa">
+                        <input placeholder="Pesquisar na Wikipet" type="text" />
+                    </div>
+                    <ul>
+                        <li>Sugestão Aleatória</li>
+                        <li>Sugestão Aleatória</li>
+                        <li>Sugestão Aleatória</li>
+                    </ul>
+                </aside>
+            </div>
+        </div>
 ```
 
 ### Instruções de acesso
