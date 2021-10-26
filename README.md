@@ -14,6 +14,9 @@ Esperamos, através de um layout claro e objetivo, que o usuário possa acessar 
 * Gabriel Leite Soares Ramos
 * Nayra Alessandra Simão Reis 
 * Vitoria Gabriella Maffei Corrêa 
+* Joao Gabriel Müller Gonçalves
+* Rafael Pacheco Leite
+
 
 ## Orientador
 
