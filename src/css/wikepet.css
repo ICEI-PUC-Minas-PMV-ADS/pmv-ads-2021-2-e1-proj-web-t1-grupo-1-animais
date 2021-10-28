@@ -173,8 +173,6 @@ html,body {
     } 
     .texto-destaque {
         width: 50%;
-        float: left;
-        float: right;
         padding: 12px;
         position: relative;
         color: #0f100e;
@@ -194,6 +192,8 @@ html,body {
     } 
 }
 
+/* ------------------------------------------------ FORMATAÇÃO 320px ----------------- */
+
 @media (max-width: 320px) {
     
     .container {
@@ -201,7 +201,7 @@ html,body {
         display: grid;
         width: 100%;
         grid-template-columns: 1fr;
-        grid-template-rows: 400px 150px 680px 400px 150px;
+        grid-template-rows: 400px 150px 950px 1050px 100px;
         grid-template-areas: "menu_superior"
                             "imagem"
                             "artigos"
@@ -209,14 +209,58 @@ html,body {
                             "rodape";
     }
 
+    /* --------------- MENU SUPERIOR --------------- */
+
     header{
         grid-area: menu_superior;
+        background-color: lightgray;
+    }
+
+    header li{
+        text-align: center;
+        list-style: none;
+        background-color: #76ad5e;
+        border: 1px lightgray solid;
+        padding: 5px;
+
+    }
+
+    header li a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .logo{
+        text-align: center;
+    }
+
+    .col-100{
+        width: 100%;
+        float: none;
+    }
+
+    .menu-categorias ul{
+        padding-left: 0%;
+    }
+
+    .busca{
+        text-align: right;
+        padding-right: 10px;
+    }
+
+    .busca input{
+        background-image: url("../img/lupabusca.png");
+        background-repeat: no-repeat;
+        background-position: right;
     }
 
     .banner{
         grid-area: imagem;
         width: 300px;
     }
+
+
+    /* --------------- ARTIGOS --------------- */
 
     .artigos_barra_lateral{
         grid-area: artigos;
@@ -248,12 +292,25 @@ html,body {
         text-align: right;
     }
 
+    .campo_pesquisa input{
+        background-image: url("../img/lupabusca.png");
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
+    /* --------------- TEXTO DESTAQUE --------------- */
+
     .texto-destaque{
         grid-area: objetivos;
+        width: 90%;
+        padding: 10px;
     }
+
+    /* --------------- RODAPÉ --------------- */
 
     footer{
         grid-area: rodape;
+        background-color: #76ad5e;
     }
 }
 
