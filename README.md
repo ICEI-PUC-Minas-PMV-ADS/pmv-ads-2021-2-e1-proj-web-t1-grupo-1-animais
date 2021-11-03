@@ -7,6 +7,7 @@
 `Segundo Semestre 2021`
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Site desenvolvido com o intuito de ser um informativo acerca dos cuidados e como proceder com animais domésticos, pecuarios e peçonhentos (insetos). 
 Esperamos, através de um layout claro e objetivo, que o usuário possa acessar as informações de forma fácil e bem completas.
 
@@ -18,17 +19,21 @@ Esperamos, através de um layout claro e objetivo, que o usuário possa acessar 
 * Vitória Gabriella Maffei Corrêa 
 =======
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+=======
+Site desenvolvido com o intuito de ser um informativo acerca dos cuidados e como proceder com animais domésticos, pecuarios e peçonhentos (insetos). 
+Esperamos, através de um layout claro e objetivo, que o usuário possa acessar as informações de forma fácil e bem completas.
+>>>>>>> ffd08ff21caa89e902320f84b289ee9a28f1bf08
 
 ## Integrantes
-
-
-* Vitória Gabriella Maffei Corrêa
-* Nayra Alessandra Simão Reis 
 * Ciro Hideki Artiga Watanabe
-* Joao Gabriel Müller Gonçalves
-* Gabriel Leite Soares Ramos 
+* Gabriel Leite Soares Ramos
+* Nayra Alessandra Simão Reis 
 * Rafael Pacheco Leite
+<<<<<<< HEAD
 >>>>>>> 99ccc456776ddd8b9e0e86b0943306459c3faa0a
+=======
+* Vitória Gabriella Maffei Corrêa 
+>>>>>>> ffd08ff21caa89e902320f84b289ee9a28f1bf08
 
 
 ## Orientador
