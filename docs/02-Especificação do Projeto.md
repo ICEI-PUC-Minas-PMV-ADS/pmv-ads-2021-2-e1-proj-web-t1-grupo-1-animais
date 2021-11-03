@@ -48,19 +48,20 @@ acompanhar documentários de construção e de aprender sobre negócios.
 A partir do entendimento do cotidiano das personas determinadas pelo projeto, são registradas as seguintes histórias de usuários.
 
 
-| EU COMO... `PERSONA` | QUERO/PRECISO ... `FUNCIONALIDADE`                         | PARA ... `MOTIVO/VALOR`                                            |
-| -------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------ |
-| Cris da Silva        | Me informar a respeito de animais domésticos.              | Cuidar do meu gato                                                 |
-| Cris da Silva        | Material em português.                                     | Compreensão mais rápida e melhor.                                  |
-| Carlos Gomes         | Ter ciência das espécies peçonhentas da região onde vivo.  | Poder tomar as decisões corretas para um eventual aparecimento.    |
-| Amanda Alves         | Quero a fonte das informações                              | Confiar no conteúdo passado.                                       | Confiar no conteúdo passado. |
-| Amanda Alves         | Poder realizar uma pesquisa acerca de espécies específicas | Localizar espécies específicas e ter mais objetividade na pesquisa |
-| Roberto Santana      | Ter acesso tanto no desktop, quanto no celular.            | Passar tempo enquanto espero algo (ex: filas do banco).            |
-| Roberto Santana      | Ler a respeito da avicultura.                              | Posterior investimento.                                            |
-| Cris da Silva        | Ilustrações (imagens, gráficos e textos).                  | Melhor interpretação.                                              |
-| Roberto Santana      | Saber as doenças mais comuns num rebanho.                  | Prevenção e tratamento adequado.                                   |
-| Amanda Alves         | Indicações de sites de adoção de animais.                  | Pretendo adotar um animal de estimação.                            |
-| Carlos Gomes         | Um site com informações claras, sem poluição visual.       | Para ficar fácil a navegação e entendimento do conteúdo.           |
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`|  PARA ... `MOTIVO/VALOR`|
+|--------------------|----------------------------------------|-------------------------|
+|   Cris da Silva    |Me informar a respeito de animais domésticos.|Cuidar do meu gato|
+|   Cris da Silva    |Material em português.|Compreensão mais rápida e melhor.|
+|   Amanda Alves     |Quero a fonte das informações|Confiar no conteúdo passado.|Confiar no conteúdo passado.|
+|   Amanda Alves     |Poder realizar uma pesquisa acerca de espécies específicas|Localizar espécies específicas e ter mais objetividade na pesquisa|
+|   Roberto Santana  |Ter acesso tanto no desktop, quanto no celular.|Passar tempo enquanto espero algo (ex: filas do banco).|
+|   Roberto Santana  |Ler a respeito da avicultura.|Posterior investimento.|
+|   Cris da Silva    |Ilustrações (imagens, gráficos e textos).|Melhor interpretação.|
+|   Roberto Santana  |Saber as doenças mais comuns num rebanho.|Prevenção e tratamento adequado.|
+|   Amanda Alves     |Indicações de sites de adoção de animais.|Pretendo adotar um animal de estimação.|
+|   Carlos Gomes     |Um site com informações claras, sem poluição visual.|Para ficar fácil a navegação e entendimento do conteúdo.|
+=======
+
 
 ## Requisitos
 
@@ -69,14 +70,15 @@ Os requisitos do projeto são divididos em dois grupos, os funcionais e os não 
 ### Requisitos Funcionais
 A tabela a seguir apresenta os requisitos funcionais do projeto, identificando a prioridade em que os mesmos devem ser entregues.
 
-| ID    | Descrição do Requisito                                                                                                | Prioridade |
-| ----- | --------------------------------------------------------------------------------------------------------------------- | ---------- |
-| RF-01 | O site deve apresentar informações sobre três grandes categorias de animais (silvestres, domésticos e de criação).    | ALTA       |
-| RF-02 | O site deve possibilitar a pesquisa por categoria de animais e, no caso de animais silvestres, a pesquisa por região. | ALTA       |
-| RF-03 | O site deve apresentar as fontes de onde as informações foram retiradas.                                              | BAIXA      |
-| RF-04 | O site deve oferecer a função de pesquisa para o usuário buscar informações sobre espécies específicas.               | ALTA       |
-| RF-05 | O site deve fornecer imagens e gráficos junto ao conteúdo informativo sobre as espécies.                              | MÉDIO      |
-| RF-06 | O site deve fornecer informações a respeito de ongs de adoção de animais.                                             | BAIXO      |
+
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RF-01|O site deve apresentar informações sobre três grandes categorias de animais (silvestres, domésticos e de criação).| ALTA | 
+|RF-02|O site deve apresentar as fontes de onde as informações foram retiradas.| BAIXA |
+|RF-03|O site deve oferecer a função de pesquisa para o usuário buscar informações sobre espécies específicas.| ALTA |
+|RF-04|O site deve fornecer imagens e gráficos junto ao conteúdo informativo sobre as espécies.| MÉDIO |
+|RF-05|O site deve fornecer informações a respeito de ongs de adoção de animais.| BAIXO |
+
 
 ### Requisitos não Funcionais
 A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender:
