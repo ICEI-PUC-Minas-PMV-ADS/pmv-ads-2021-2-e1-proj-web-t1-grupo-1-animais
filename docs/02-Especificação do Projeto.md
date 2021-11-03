@@ -2,12 +2,21 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
+<<<<<<< HEAD
+=======
+A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários em um trabalho de imersão feito pelos membros da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
+
+>>>>>>> 99ccc456776ddd8b9e0e86b0943306459c3faa0a
 ## Personas
 
 As personas levantadas durante o processo de entendimento do problema são apresentadas nas figuras que se seguem:	
 
   |**Amanda Alves**
   |----------------
+<<<<<<< HEAD
+=======
+  | <img src="../src/img/amandaalves.png" />|
+>>>>>>> 99ccc456776ddd8b9e0e86b0943306459c3faa0a
   |28 anos. Biomédica, atua no campo de análises clínicas na cidade de Cuiabá, onde mora há 5 anos depois de se mudar de São Paulo. Utiliza aplicativos como: Instagram, Facebook, Whatsapp, Linkedin, Aplicativos de Bancos, 
   Entrega de comida. Mora em Cuiabá, MT. Gosta de Vôlei, Cinema, Viagens, Leitura e ajudar cães abandonados. Seus interesses são: Ter reconhecimento, Ajudar pessoas, Construir uma família, Deus. Suas frustações são: Não 
   poder ajudar todos os animais abandonados. Não ter tempo suficiente para viagens. Não poder visitar a mãe, que mora em São Paulo, com frequência. Não conseguir comprar a casa dos sonhos. Católica, nascida em São Paulo, 
@@ -48,6 +57,7 @@ acompanhar documentários de construção e de aprender sobre negócios.
 A partir do entendimento do cotidiano das personas determinadas pelo projeto, são registradas as seguintes histórias de usuários.
 
 
+<<<<<<< HEAD
 | EU COMO... `PERSONA` | QUERO/PRECISO ... `FUNCIONALIDADE`                         | PARA ... `MOTIVO/VALOR`                                      |
 | -------------------- | ---------------------------------------------------------- | ------------------------------------------------------------ |
 | Cris da Silva        | Me informar a respeito de animais domésticos.              | Cuidar do meu gato                                           |
@@ -60,6 +70,21 @@ A partir do entendimento do cotidiano das personas determinadas pelo projeto, s�
 | Roberto Santana      | Saber as doenças mais comuns num rebanho.                  | Prevenção e tratamento adequado.                             |
 | Amanda Alves         | Indicações de sites de adoção de animais.                  | Pretendo adotar um animal de estimação.                      |
 | Carlos Gomes         | Um site com informações claras, sem poluição visual.       | Para ficar fácil a navegação e entendimento do conteúdo.     |
+=======
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`|  PARA ... `MOTIVO/VALOR`|
+|--------------------|----------------------------------------|-------------------------|
+|   Cris da Silva    |Me informar a respeito de animais domésticos.|Cuidar do meu gato|
+|   Cris da Silva    |Material em português.|Compreensão mais rápida e melhor.|
+|   Carlos Gomes     |Ter ciência das espécies peçonhentas da região onde vivo. |Poder tomar as decisões corretas para um eventual aparecimento.|
+|   Amanda Alves     |Quero a fonte das informações|Confiar no conteúdo passado.|Confiar no conteúdo passado.|
+|   Amanda Alves     |Poder realizar uma pesquisa acerca de espécies específicas|Localizar espécies específicas e ter mais objetividade na pesquisa|
+|   Roberto Santana  |Ter acesso tanto no desktop, quanto no celular.|Passar tempo enquanto espero algo (ex: filas do banco).|
+|   Roberto Santana  |Ler a respeito da avicultura.|Posterior investimento.|
+|   Cris da Silva    |Ilustrações (imagens, gráficos e textos).|Melhor interpretação.|
+|   Roberto Santana  |Saber as doenças mais comuns num rebanho.|Prevenção e tratamento adequado.|
+|   Amanda Alves     |Indicações de sites de adoção de animais.|Pretendo adotar um animal de estimação.|
+|   Carlos Gomes     |Um site com informações claras, sem poluição visual.|Para ficar fácil a navegação e entendimento do conteúdo.|
+>>>>>>> 99ccc456776ddd8b9e0e86b0943306459c3faa0a
 
 ## Requisitos
 
@@ -68,6 +93,7 @@ Os requisitos do projeto são divididos em dois grupos, os funcionais e os não 
 ### Requisitos Funcionais
 A tabela a seguir apresenta os requisitos funcionais do projeto, identificando a prioridade em que os mesmos devem ser entregues.
 
+<<<<<<< HEAD
 | ID    | Descrição do Requisito                                       | Prioridade |
 | ----- | ------------------------------------------------------------ | ---------- |
 | RF-01 | O site deve apresentar informações sobre três grandes categorias de animais (silvestres, domésticos e de criação). | ALTA       |
@@ -75,10 +101,21 @@ A tabela a seguir apresenta os requisitos funcionais do projeto, identificando a
 | RF-04 | O site deve oferecer a função de pesquisa para o usuário buscar informações sobre espécies específicas. | ALTA       |
 | RF-05 | O site deve fornecer imagens e gráficos junto ao conteúdo informativo sobre as espécies. | MÉDIO      |
 | RF-06 | O site deve fornecer informações a respeito de ongs de adoção de animais. | BAIXO      |
+=======
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RF-01|O site deve apresentar informações sobre três grandes categorias de animais (silvestres, domésticos e de criação).| ALTA | 
+|RF-02|O site deve possibilitar a pesquisa por categoria de animais e, no caso de animais silvestres, a pesquisa por região.| ALTA |
+|RF-03|O site deve apresentar as fontes de onde as informações foram retiradas.| BAIXA |
+|RF-04|O site deve oferecer a função de pesquisa para o usuário buscar informações sobre espécies específicas.| ALTA |
+|RF-05|O site deve fornecer imagens e gráficos junto ao conteúdo informativo sobre as espécies.| MÉDIO |
+|RF-06|O site deve fornecer informações a respeito de ongs de adoção de animais.| BAIXO |
+>>>>>>> 99ccc456776ddd8b9e0e86b0943306459c3faa0a
 
 ### Requisitos não Funcionais
 A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender:
 
+<<<<<<< HEAD
 | ID     | Descrição do Requisito                                                                                        | Prioridade |
 | ------ | ------------------------------------------------------------------------------------------------------------- | ---------- |
 | RNF-01 | O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku).  | ALTA       |
@@ -86,13 +123,30 @@ A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá 
 | RNF-03 | O site deve apresentar conteúdo em português.                                                                 | BAIXA      |
 | RNF-04 | O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). | ALTA       |
 | RNF-05 | O site deve ser desenvolvido com layout clean e organizado para o usuário.                                    | MÉDIO      |
+=======
+|ID     | Descrição do Requisito  |Prioridade |
+|-------|-------------------------|----|
+|RNF-01|O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku).| ALTA |
+|RNF-02|O site deverá ser responsivo, permitindo a visualização em um celular de forma adequada.| MÉDIO |
+|RNF-03|O site deve apresentar conteúdo em português.| BAIXA|
+|RNF-04|O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge).|ALTA|
+|RNF-05|O site deve ser desenvolvido com layout clean e organizado para o usuário.|MÉDIO|
+>>>>>>> 99ccc456776ddd8b9e0e86b0943306459c3faa0a
 
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
+<<<<<<< HEAD
 | ID    | Restrição                                                                 |
 | ----- | ------------------------------------------------------------------------- |
 | RE-01 | O projeto deverá ser entregue até o final do semestre                     |
 | RE-02 | O aplicativo deve se restringir às tecnologias básicas da Web no Frontend |
 | RE-03 | A equipe não pode subcontratar o desenvolvimento do trabalho.             |
+=======
+|ID| Restrição                                             |
+|--|-------------------------------------------------------|
+|RE-01|O projeto deverá ser entregue até o final do semestre |
+|RE-02|O aplicativo deve se restringir às tecnologias básicas da Web no Frontend |
+|RE-03|A equipe não pode subcontratar o desenvolvimento do trabalho.|
+>>>>>>> 99ccc456776ddd8b9e0e86b0943306459c3faa0a
