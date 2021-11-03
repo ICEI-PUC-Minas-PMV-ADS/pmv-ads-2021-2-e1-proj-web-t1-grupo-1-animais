@@ -1,0 +1,126 @@
+<!DOCTYPE htm>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/wikepet.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>WikiPet's</title>
+    <style>
+        header {
+            height: 150px
+        }
+
+        nav {
+            width: 60%;
+            float: left;
+            padding: 20px
+        }
+
+        section {
+            width: 40%;
+            float: left;
+        }
+
+        footer {
+            clear: both
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="menu-caixa">
+            <div class="logo">
+                <img src="img/logosite.png" />
+            </div>
+            <nav class="col-100">
+                <div class="menu-categorias">
+                    <ul>
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/domesticos.html">Domésticos</a></li>
+                        <li><a href="/agropecuarios.html">Pecuários</a></li>
+                        <li><a href="/insetos.html">Insetos</a></li>
+                        <li><a href="/peconhentos.html">Peçonhentos</a></li>
+                        <li><a href="/vacinacao.html">Vacinação</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="busca">
+                <input placeholder="Pesquisar na Wikipet" type="text" />
+            </div>
+        </header>
+
+        <section class="banner">
+            <div class="col-100">
+                <picture>
+                    <source media="(max-width: 320px)" srcset="./img/banner-300.jpg" type="image/jpg">
+                    <img src="./img/banner.jpg" class="imagem-banner" />
+                </picture>
+            </div>
+        </section>
+
+        <div class="artigos_barra_lateral">
+            <div class="wrapper">
+                <div class="artigos">
+                    <article class="artigo criacao">
+                        <picture>
+                            <source media="(max-width: 320px)" srcset="./img/pig-100.jpg" type="image/jpg">
+                            <img src="img/pig-250.jpg" alt="foto-criacao">
+                        </picture>
+                        <p>Pecuária: é uma atividade econômica voltada para a criação de animais. As atividades pecuárias correspondem à criação e comercialização de animais diversos, como frangos, porcos [...]</p>
+                    </article>
+                    <article class="artigo estimacao">
+                        <picture>
+                            <source media="(max-width: 320px)" srcset="./img/dog-100.jpg" type="image/jpg">
+                            <img src="img/dog-250.jpg" alt="foto-estimacao">
+                        </picture>
+                        <p>Domésticos: antes de o cão se tornar nosso melhor amigo, o homem só enxergava os outros seres vivos com um objetivo: comê-los. A domesticação de animais, que começou há 12 mil anos, só tinha o princípio da fonte [...]</p>
+                    </article>
+                    <article class="artigo peconhento">
+                        <picture>
+                            <source media="(max-width: 320px)" srcset="./img/snake-100.jpg" type="image/jpg">
+                            <img src="img/snake-250.jpg" alt="foto-peconhento">
+                        </picture>
+                        <p>Peçonhentos: os peçonhentos são os que têm a capacidade de injetar substâncias tóxicas por meio das presas. Já os venenosos são aqueles que causam envenenamento passivo por ingestão ou contato, como as lagartas ou [...]</p>
+                    </article>
+                </div>
+                <aside class="barra_pesquisa">
+                    <h1>Pesquisa</h1>
+                    <div class="campo_pesquisa">
+                        <input placeholder="Pesquisar na Wikipet" type="text" />
+                    </div>
+                    <ul>
+                        <li>Sugestão Aleatória</li>
+                        <li>Sugestão Aleatória</li>
+                        <li>Sugestão Aleatória</li>
+                    </ul>
+                </aside>
+            </div>
+        </div>
+        <section class="texto-destaque">
+            <h1> Nosso objetivo: </h1>
+            <img src="img/nossoobjetivo.png" />
+            <p>O nosso objetivo é fornecer e propagar informações sobre animais, com foco nos animais domésticos,
+                insetos e alguns peçonhentos encontrados em residências além daqueles do grupo de criação em cativeiro.
+                Como objetivos específicos para cada um destas espécies temos: </p>
+            <p>Animais Domésticos: características da raça, primeiros cuidados, importância de vacinação,
+                informações de alimentação e precauções para casos de emergências.</p>
+            <p>Animais Peçonhentos e Insetos: identificação, como proceder quando encontrados, como evitar (casos
+                de infestação de pragas urbanas) números úteis e o que fazer caso haja algum acidente envolvendo-os.</p>
+            <p>Animais Pecuários: Criação, cuidados, curiosidades e importância de criação.</p>
+            <h2> Quem somos? </h2>
+            <img src="img/quemsomos.png" />
+            <p>Somos um grupo de estudantes da Instituição Puc Minas. Nosso site irá sanar suas dúvidas a respeito de
+                animais domésticos a e até mesmo animais peçonhentos.</p>
+        </section>
+
+        <footer class="rodape">
+
+        </footer>
+    </div>
+
+</body>
+
+</html>
