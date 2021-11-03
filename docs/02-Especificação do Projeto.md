@@ -55,7 +55,6 @@ A partir do entendimento do cotidiano das personas determinadas pelo projeto, s�
 |--------------------|----------------------------------------|-------------------------|
 |   Cris da Silva    |Me informar a respeito de animais domésticos.|Cuidar do meu gato|
 |   Cris da Silva    |Material em português.|Compreensão mais rápida e melhor.|
-|   Carlos Gomes     |Ter ciência das espécies peçonhentas da região onde vivo. |Poder tomar as decisões corretas para um eventual aparecimento.|
 |   Amanda Alves     |Quero a fonte das informações|Confiar no conteúdo passado.|Confiar no conteúdo passado.|
 |   Amanda Alves     |Poder realizar uma pesquisa acerca de espécies específicas|Localizar espécies específicas e ter mais objetividade na pesquisa|
 |   Roberto Santana  |Ter acesso tanto no desktop, quanto no celular.|Passar tempo enquanto espero algo (ex: filas do banco).|
@@ -75,7 +74,6 @@ A tabela a seguir apresenta os requisitos funcionais do projeto, identificando a
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-01|O site deve apresentar informações sobre três grandes categorias de animais (silvestres, domésticos e de criação).| ALTA | 
-|RF-02|O site deve possibilitar a pesquisa por categoria de animais e, no caso de animais silvestres, a pesquisa por região.| ALTA |
 |RF-03|O site deve apresentar as fontes de onde as informações foram retiradas.| BAIXA |
 |RF-04|O site deve oferecer a função de pesquisa para o usuário buscar informações sobre espécies específicas.| ALTA |
 |RF-05|O site deve fornecer imagens e gráficos junto ao conteúdo informativo sobre as espécies.| MÉDIO |
