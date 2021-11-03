@@ -2,15 +2,12 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários em um trabalho de imersão feito pelos membros da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
-
 ## Personas
 
 As personas levantadas durante o processo de entendimento do problema são apresentadas nas figuras que se seguem:	
 
   |**Amanda Alves**
   |----------------
-  | <img src="../src/img/amandaalves.png" />|
   |28 anos. Biomédica, atua no campo de análises clínicas na cidade de Cuiabá, onde mora há 5 anos depois de se mudar de São Paulo. Utiliza aplicativos como: Instagram, Facebook, Whatsapp, Linkedin, Aplicativos de Bancos, 
   Entrega de comida. Mora em Cuiabá, MT. Gosta de Vôlei, Cinema, Viagens, Leitura e ajudar cães abandonados. Seus interesses são: Ter reconhecimento, Ajudar pessoas, Construir uma família, Deus. Suas frustações são: Não 
   poder ajudar todos os animais abandonados. Não ter tempo suficiente para viagens. Não poder visitar a mãe, que mora em São Paulo, com frequência. Não conseguir comprar a casa dos sonhos. Católica, nascida em São Paulo, 
@@ -63,6 +60,8 @@ A partir do entendimento do cotidiano das personas determinadas pelo projeto, s�
 |   Roberto Santana  |Saber as doenças mais comuns num rebanho.|Prevenção e tratamento adequado.|
 |   Amanda Alves     |Indicações de sites de adoção de animais.|Pretendo adotar um animal de estimação.|
 |   Carlos Gomes     |Um site com informações claras, sem poluição visual.|Para ficar fácil a navegação e entendimento do conteúdo.|
+=======
+
 
 ## Requisitos
 
@@ -71,31 +70,33 @@ Os requisitos do projeto são divididos em dois grupos, os funcionais e os não 
 ### Requisitos Funcionais
 A tabela a seguir apresenta os requisitos funcionais do projeto, identificando a prioridade em que os mesmos devem ser entregues.
 
+
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-01|O site deve apresentar informações sobre três grandes categorias de animais (silvestres, domésticos e de criação).| ALTA | 
-|RF-03|O site deve apresentar as fontes de onde as informações foram retiradas.| BAIXA |
-|RF-04|O site deve oferecer a função de pesquisa para o usuário buscar informações sobre espécies específicas.| ALTA |
-|RF-05|O site deve fornecer imagens e gráficos junto ao conteúdo informativo sobre as espécies.| MÉDIO |
-|RF-06|O site deve fornecer informações a respeito de ongs de adoção de animais.| BAIXO |
+|RF-02|O site deve apresentar as fontes de onde as informações foram retiradas.| BAIXA |
+|RF-03|O site deve oferecer a função de pesquisa para o usuário buscar informações sobre espécies específicas.| ALTA |
+|RF-04|O site deve fornecer imagens e gráficos junto ao conteúdo informativo sobre as espécies.| MÉDIO |
+|RF-05|O site deve fornecer informações a respeito de ongs de adoção de animais.| BAIXO |
+
 
 ### Requisitos não Funcionais
 A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender:
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-01|O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku).| ALTA |
-|RNF-02|O site deverá ser responsivo, permitindo a visualização em um celular de forma adequada.| MÉDIO |
-|RNF-03|O site deve apresentar conteúdo em português.| BAIXA|
-|RNF-04|O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge).|ALTA|
-|RNF-05|O site deve ser desenvolvido com layout clean e organizado para o usuário.|MÉDIO|
+| ID     | Descrição do Requisito                                                                                        | Prioridade |
+| ------ | ------------------------------------------------------------------------------------------------------------- | ---------- |
+| RNF-01 | O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku).  | ALTA       |
+| RNF-02 | O site deverá ser responsivo, permitindo a visualização em um celular de forma adequada.                      | MÉDIO      |
+| RNF-03 | O site deve apresentar conteúdo em português.                                                                 | BAIXA      |
+| RNF-04 | O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). | ALTA       |
+| RNF-05 | O site deve ser desenvolvido com layout clean e organizado para o usuário.                                    | MÉDIO      |
 
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|RE-01|O projeto deverá ser entregue até o final do semestre |
-|RE-02|O aplicativo deve se restringir às tecnologias básicas da Web no Frontend |
-|RE-03|A equipe não pode subcontratar o desenvolvimento do trabalho.|
+| ID    | Restrição                                                                 |
+| ----- | ------------------------------------------------------------------------- |
+| RE-01 | O projeto deverá ser entregue até o final do semestre                     |
+| RE-02 | O aplicativo deve se restringir às tecnologias básicas da Web no Frontend |
+| RE-03 | A equipe não pode subcontratar o desenvolvimento do trabalho.             |
