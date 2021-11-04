@@ -101,7 +101,7 @@ html,body {
 
     .artigos_barra_lateral{
         background-color: #78966c;
-        font-family: "Exo", sans-serif;
+        font-family: "Glacial Indifference", sans-serif;
     }
 
     .wrapper{
@@ -119,8 +119,8 @@ html,body {
         grid-area: curiosidade;
         width: 80%;
         text-align: center;
-        font-family: 'Exo', sans-serif;
         color: white;
+        font-size: 1.1em;
         padding-left: 110px;
         margin-bottom: 0px;
     }
@@ -139,6 +139,7 @@ html,body {
         grid-area: artigo;
         margin-left: 5px;
         color: white;
+        font-size: 1.1em;
     }
 
     .artigo{
@@ -209,7 +210,7 @@ html,body {
 
 /* ------------------------------------------------ FORMATAÇÃO 320px ----------------- */
 
-@media (min-width: 320px) {
+@media (max-width: 600px) {
     
     .container {
         font-family: "Glacial Indifference";
