@@ -209,14 +209,14 @@ html,body {
 
 /* ------------------------------------------------ FORMATAÇÃO 320px ----------------- */
 
-@media (max-width: 320px) {
+@media (min-width: 320px) {
     
     .container {
         font-family: "Glacial Indifference";
         display: grid;
         width: 100%;
         grid-template-columns: 1fr;
-        grid-template-rows: 370px 150px 1550px 1050px 100px;
+        grid-template-rows: 370px 150px 1600px 1050px 100px;
         grid-template-areas: "menu_superior"
                             "imagem"
                             "artigos"
@@ -281,7 +281,15 @@ html,body {
     .artigos_barra_lateral{
         grid-area: artigos;
         padding: 10px;
+        color: black;
         background-color: #76ad5e;
+    }
+
+    .curiosidades{
+        float: none;
+        width: 80%;
+        text-align: center;
+        padding-left: 12%;
     }
 
     .artigos_barra_lateral > p{
