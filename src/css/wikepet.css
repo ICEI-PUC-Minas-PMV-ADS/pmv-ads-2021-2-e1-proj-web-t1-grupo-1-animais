@@ -6,6 +6,9 @@
     src: url("../fonts/glacial-indifference/GlacialIndifference-Regular.woff") format("woff"), url("../fonts/glacial-indifference/GlacialIndifference-Regular.ttf") format("truetype");
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Exo', sans-serif; */
+
 /* ---------------------------------------------- formataÃƒÂ§ÃƒÂµes de textos css ------------------------------------------------------------------------- */
 html,body {
   
@@ -98,7 +101,7 @@ html,body {
 
     .artigos_barra_lateral{
         background-color: #78966c;
-        font-family: "Glacial Indifference";
+        font-family: "Exo", sans-serif;
     }
 
     .wrapper{
@@ -106,7 +109,7 @@ html,body {
         width: 80%;
         margin: auto;
         grid-template-columns: 1fr 300px;
-        grid-template-rows: 80px 730px;
+        grid-template-rows: 110px 730px;
         grid-template-areas: "curiosidade curiosidade"
                     "artigo aside";
         background-color: gray;
@@ -116,8 +119,20 @@ html,body {
         grid-area: curiosidade;
         width: 80%;
         text-align: center;
+        font-family: 'Exo', sans-serif;
+        color: white;
         padding-left: 110px;
         margin-bottom: 0px;
+    }
+
+    .curiosidades > h2{
+        padding: 15px 0px 0px 0px;
+        margin: 0px;
+    }
+
+    .curiosidades > p{
+        padding: 0px 0px 15px 0px;
+        margin: 0px;
     }
 
     .artigos{
@@ -134,7 +149,7 @@ html,body {
     }
 
     .artigo p{
-        font-family: "Glacial Indifference";
+        font-family: "Glacial Indifference", sans-serif;
         margin: 20px;
     }
 
@@ -201,7 +216,7 @@ html,body {
         display: grid;
         width: 100%;
         grid-template-columns: 1fr;
-        grid-template-rows: 370px 150px 1000px 1050px 100px;
+        grid-template-rows: 370px 150px 1550px 1050px 100px;
         grid-template-areas: "menu_superior"
                             "imagem"
                             "artigos"
@@ -267,6 +282,10 @@ html,body {
         grid-area: artigos;
         padding: 10px;
         background-color: #76ad5e;
+    }
+
+    .artigos_barra_lateral > p{
+        text-align: center;
     }
 
     .artigo{
