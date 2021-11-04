@@ -6,14 +6,6 @@
     src: url("../fonts/glacial-indifference/GlacialIndifference-Regular.woff") format("woff"), url("../fonts/glacial-indifference/GlacialIndifference-Regular.ttf") format("truetype");
 }
 
- @media (  max-width: 600px) {
-    
-    .container {
-
-    }
-        img.logosite {display: block; margin: 0 auto;}
-        main,aside {width: 100%;}
-}
 /* ---------------------------------------------- formataÃƒÂ§ÃƒÂµes de textos css ------------------------------------------------------------------------- */
 html,body {
   
@@ -22,7 +14,7 @@ html,body {
     
 }
 
-@media ( min-width: 720px ){
+@media ( min-width: 1200px ){
 
     .container {
         display:grid;
@@ -106,6 +98,7 @@ html,body {
 
     .artigos_barra_lateral{
         background-color: #78966c;
+        font-family: "Glacial Indifference";
     }
 
     .wrapper{
@@ -113,11 +106,18 @@ html,body {
         width: 80%;
         margin: auto;
         grid-template-columns: 1fr 300px;
-        grid-template-rows: auto;
-        grid-template-areas: "artigo aside";
-
-        padding-top: 10px;
+        grid-template-rows: 80px 730px;
+        grid-template-areas: "curiosidade curiosidade"
+                    "artigo aside";
         background-color: gray;
+    }
+
+    .curiosidades{
+        grid-area: curiosidade;
+        width: 80%;
+        text-align: center;
+        padding-left: 110px;
+        margin-bottom: 0px;
     }
 
     .artigos{
@@ -201,7 +201,7 @@ html,body {
         display: grid;
         width: 100%;
         grid-template-columns: 1fr;
-        grid-template-rows: 400px 150px 1000px 1050px 100px;
+        grid-template-rows: 370px 150px 1000px 1050px 100px;
         grid-template-areas: "menu_superior"
                             "imagem"
                             "artigos"
@@ -313,5 +313,15 @@ html,body {
         grid-area: rodape;
         background-color: #76ad5e;
     }
+}
+
+@media (  max-width: 600px) {
+    
+    .container {
+        display: grid;
+        grid-template-columns: ;
+    }
+        img.logosite {display: block; margin: 0 auto;}
+        main,aside {width: 100%;}
 }
 
