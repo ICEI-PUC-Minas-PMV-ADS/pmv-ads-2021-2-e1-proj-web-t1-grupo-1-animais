@@ -10,6 +10,12 @@
 /* font-family: 'Exo', sans-serif; */
 
 /* ---------------------------------------------- formataÃƒÂ§ÃƒÂµes de textos css ------------------------------------------------------------------------- */
+
+:root{
+    --verde: #76ad5e;
+    --cinza: #c5cec3;
+}
+
 html,body {
   
   padding:0;
@@ -30,11 +36,9 @@ html,body {
     .menu-caixa {
         padding: 14px;
         display: flex;    
-        background-color: #c5cec3;
-        height: 87px;
-        margin-top: 1px;
-        border-top: 1px solid #080807;
-        border-bottom: 65px solid #76ad5e;
+        background-color: var(--cinza);
+        height: 100px;
+        border-bottom: 30px solid var(--verde);
     }
         /* ---------------------------------------------- formataÃƒÂ§ÃƒÂµes de logo css ------------------------------------------------------------------------- */
 
@@ -45,23 +49,23 @@ html,body {
     .logo>img {
         display: flex;
         margin: 0 auto;
-        height: 120px;
-        width: 200px;
-        padding-left: 80%;
+        height: 100px;
+        width: 150px;
+        margin-left: 30%;
     }
     /* ---------------------------------------------- formataÃƒÂ§ÃƒÂµes de menu css ------------------------------------------------------------------------- */
     .menu-categorias ul {   
-        padding-left: 25%;
+        padding-left: 35%;
         width:100%;      
     }
     .menu-categorias li {
-        height: 60%;
-        border-left: 1px solid #cce0c8;
-        margin-top: 68px;  
+        border-left: 2px solid #cce0c8;
+        padding-left: 10px;
+        margin-top: 20px;  
+        margin-left: 10px;
     }
     .menu-categorias ul li {
         display: inline-block;    
-        padding: 16px;
         text-decoration: none;
         list-style-type: none;
     }
@@ -81,7 +85,7 @@ html,body {
     }
     .busca {
         padding: 32px;
-        margin-top: 1px;
+        margin-left: 25%;
         text-align: center;
     }
     .busca input {
@@ -93,9 +97,7 @@ html,body {
         height: 20px;
         padding: 20px; 
     }  
-    .imagem-banner{
-        width: 250%;          
-    }
+    
 
     /* ---------- ARTIGOS & BARRA LATERAL ---------- */
 
@@ -202,9 +204,8 @@ html,body {
     footer {
         padding: 14px;
         display: flex;    
-        height: 87px;
-        margin-top: 1px;
-        border-bottom: 150px solid #76ad5e;
+        height: 50px;
+        background-color: var(--verde);
     } 
 }
 
