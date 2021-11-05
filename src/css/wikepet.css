@@ -227,7 +227,7 @@ html,body {
         display: grid;
         width: 100%;
         grid-template-columns: 1fr;
-        grid-template-rows: 370px 150px 1900px 1050px 100px;
+        grid-template-rows: 370px 150px 1900px 1180px 100px;
         grid-template-areas: "menu_superior"
                             "imagem"
                             "artigos"
@@ -254,6 +254,10 @@ html,body {
     header li a{
         text-decoration: none;
         color: black;
+    }
+
+    header li a:hover{
+        text-decoration: underline;
     }
 
     .logo{
@@ -345,6 +349,7 @@ html,body {
         grid-area: objetivos;
         width: 90%;
         padding: 10px;
+        font-size: 1.1em;
     }
 
     /* --------------- RODAPÉ --------------- */
