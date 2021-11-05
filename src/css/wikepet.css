@@ -350,7 +350,7 @@ html,body {
     
     .container {
         display: grid;
-        grid-template-columns: ;
+        grid-template-columns:1px;
     }
         img.logosite {display: block; margin: 0 auto;}
         main,aside {width: 100%;}
