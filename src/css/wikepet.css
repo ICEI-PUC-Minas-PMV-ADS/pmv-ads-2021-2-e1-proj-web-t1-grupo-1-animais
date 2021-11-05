@@ -208,7 +208,7 @@ html,body {
     } 
 }
 
-/* ------------------------------------------------ FORMATAÇÃO 320px ----------------- */
+/* ------------------------------------------------ FORMATAÇÃO < 600px ----------------- */
 
 @media (max-width: 600px) {
     
@@ -217,7 +217,7 @@ html,body {
         display: grid;
         width: 100%;
         grid-template-columns: 1fr;
-        grid-template-rows: 370px 150px 1600px 1050px 100px;
+        grid-template-rows: 370px 150px 1900px 1050px 100px;
         grid-template-areas: "menu_superior"
                             "imagem"
                             "artigos"
