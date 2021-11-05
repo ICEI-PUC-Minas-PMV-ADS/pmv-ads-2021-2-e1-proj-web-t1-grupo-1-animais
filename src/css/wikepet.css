@@ -99,12 +99,9 @@ html,body {
         padding: 20px; 
     }  
 
-    .banner{
-        background-color: var(--verde);
-    }
 
-    .col-100{
-        margin: auto;
+    .imagem-banner{
+        width: 100%;
     }
     
 
@@ -148,7 +145,6 @@ html,body {
 
     .artigos{
         grid-area: artigo;
-        margin-left: 5px;
         color: white;
         font-size: 1.1em;
     }
@@ -172,10 +168,11 @@ html,body {
     .barra_pesquisa{
         grid-area: aside;
         border: 2px black solid;
-        margin: 5px;
         border-radius: 8px;
         font-family: "Glacial Indifference";
-        color: white
+        color: white;
+        width: 97%;
+        height: 98.55%;
     }
 
     .barra_pesquisa h1{
@@ -264,7 +261,7 @@ html,body {
         text-align: center;
     }
 
-    .col-100{
+    .banner{
         width: 100%;
         float: none;
         padding: 0;
@@ -320,6 +317,7 @@ html,body {
     }
 
     .artigos p{
+        display: inline-block;
         padding: 8px;
         margin-top: -10px;
         font-size: 1.1em;
@@ -327,6 +325,7 @@ html,body {
 
     .artigos img{
         margin: 5px;
+        display: inline-block;
     }
 
     .barra_pesquisa h1{
@@ -360,7 +359,7 @@ html,body {
     }
 }
 
-@media (  max-width: 600px) {
+@media (  min-width: 600px) {
     
     .container {
         display: grid;
