@@ -291,6 +291,7 @@ html,body {
         width: 80%;
         text-align: center;
         padding-left: 12%;
+        font-size: 1.1em;
     }
 
     .artigos_barra_lateral > p{
@@ -307,6 +308,7 @@ html,body {
     .artigos p{
         padding: 8px;
         margin-top: -10px;
+        font-size: 1.1em;
     }
 
     .artigos img{
