@@ -13,6 +13,7 @@
 
 :root{
     --verde: #76ad5e;
+    --verde-escuro: #78966c;
     --cinza: #c5cec3;
 }
 
@@ -93,16 +94,24 @@ html,body {
         background-image: url("../img/lupabusca.png");
         background-repeat: no-repeat;
         background-position: right;
-        border: 1px solid #78966c;
+        border: 1px solid var(--verde-escuro);
         height: 20px;
         padding: 20px; 
     }  
+
+    .banner{
+        background-color: var(--verde);
+    }
+
+    .col-100{
+        margin: auto;
+    }
     
 
     /* ---------- ARTIGOS & BARRA LATERAL ---------- */
 
     .artigos_barra_lateral{
-        background-color: #78966c;
+        background-color: var(--verde-escuro);
         font-family: "Glacial Indifference", sans-serif;
     }
 
@@ -236,7 +245,7 @@ html,body {
     header li{
         text-align: center;
         list-style: none;
-        background-color: #76ad5e;
+        background-color: var(--verde);
         border: 1px lightgray solid;
         padding: 5px;
 
@@ -284,7 +293,7 @@ html,body {
         grid-area: artigos;
         padding: 10px;
         color: black;
-        background-color: #76ad5e;
+        background-color: var(--verde-escuro);
     }
 
     .curiosidades{
@@ -342,7 +351,7 @@ html,body {
 
     footer{
         grid-area: rodape;
-        background-color: #76ad5e;
+        background-color: var(--verde);
     }
 }
 
