@@ -7,26 +7,7 @@
     <link rel="stylesheet" href="css/wikepet.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>WikiPet's</title>
-    <style>
-        header {
-            height: 150px
-        }
-
-        nav {
-            width: 60%;
-            float: left;
-            padding: 20px
-        }
-
-        section {
-            width: 40%;
-            float: left;
-        }
-
-        footer {
-            clear: both
-        }
-    </style>
+    
 </head>
 
 <body>
@@ -43,7 +24,6 @@
                         <li><a href="/agropecuarios.html">Pecuários</a></li>
                         <li><a href="/insetos.html">Insetos</a></li>
                         <li><a href="/peconhentos.html">Peçonhentos</a></li>
-                        <li><a href="/vacinacao.html">Vacinação</a></li>
                     </ul>
                 </div>
             </nav>
@@ -54,15 +34,16 @@
 
         <section class="banner">
             <div class="col-100">
-                <picture>
-                    <source media="(max-width: 320px)" srcset="./img/banner-300.jpg" type="image/jpg">
-                    <img src="./img/banner.jpg" class="imagem-banner" />
-                </picture>
+                <img src="./img/banner.jpg" class="imagem-banner" />
             </div>
         </section>
 
         <div class="artigos_barra_lateral">
             <div class="wrapper">
+                <section class="curiosidades">
+                    <h2>[Curiosidade]</h2>
+                    <p>Gatos passam, em média, 2/3 do dia dormindo. Isso significa que em 9 anos de vida, eles passam apenas 3 anos acordados...</p>
+                </section>
                 <div class="artigos">
                     <article class="artigo criacao">
                         <picture>
@@ -84,6 +65,13 @@
                             <img src="img/snake-250.jpg" alt="foto-peconhento">
                         </picture>
                         <p>Peçonhentos: os peçonhentos são os que têm a capacidade de injetar substâncias tóxicas por meio das presas. Já os venenosos são aqueles que causam envenenamento passivo por ingestão ou contato, como as lagartas ou [...]</p>
+                    </article>
+                    <article class="artigo peconhento">
+                        <picture>
+                            <source media="(max-width: 320px)" srcset="./img/insect-100.jpg" type="image/jpg">
+                            <img src="img/insect-250.jpg" alt="foto-peconhento">
+                        </picture>
+                        <p>Insetos: são o grupo de animais mais diversificado existente na Terra. Como o maior e mais largamente distribuído grupo de animais artrópodes do planeta, os insetos representam mais que 70% de todas espécies de seres vivos descritos. Embora não haja um consenso entre os entomologistas, estima-se que existam de 5 a 30 milhões de espécies viventes [...]</p>
                     </article>
                 </div>
                 <aside class="barra_pesquisa">
