@@ -6,15 +6,17 @@
     src: url("../fonts/glacial-indifference/GlacialIndifference-Regular.woff") format("woff"), url("../fonts/glacial-indifference/GlacialIndifference-Regular.ttf") format("truetype");
 }
 
- @media (  max-width: 600px) {
-    
-    .container {
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Exo', sans-serif; */
 
-    }
-        img.logosite {display: block; margin: 0 auto;}
-        main,aside {width: 100%;}
-}
 /* ---------------------------------------------- formataÃƒÂ§ÃƒÂµes de textos css ------------------------------------------------------------------------- */
+
+:root{
+    --verde: #76ad5e;
+    --verde-escuro: #78966c;
+    --cinza: #c5cec3;
+}
+
 html,body {
   
   padding:0;
@@ -22,7 +24,7 @@ html,body {
     
 }
 
-@media ( min-width: 720px ){
+@media ( min-width: 1200px ){
 
     .container {
         display:grid;
@@ -35,11 +37,9 @@ html,body {
     .menu-caixa {
         padding: 14px;
         display: flex;    
-        background-color: #c5cec3;
-        height: 87px;
-        margin-top: 1px;
-        border-top: 1px solid #080807;
-        border-bottom: 65px solid #76ad5e;
+        background-color: var(--cinza);
+        height: 100px;
+        border-bottom: 30px solid var(--verde);
     }
         /* ---------------------------------------------- formataÃƒÂ§ÃƒÂµes de logo css ------------------------------------------------------------------------- */
 
@@ -50,23 +50,23 @@ html,body {
     .logo>img {
         display: flex;
         margin: 0 auto;
-        height: 120px;
-        width: 200px;
-        padding-left: 80%;
+        height: 100px;
+        width: 150px;
+        margin-left: 30%;
     }
     /* ---------------------------------------------- formataÃƒÂ§ÃƒÂµes de menu css ------------------------------------------------------------------------- */
     .menu-categorias ul {   
-        padding-left: 25%;
+        padding-left: 35%;
         width:100%;      
     }
     .menu-categorias li {
-        height: 60%;
-        border-left: 1px solid #cce0c8;
-        margin-top: 68px;  
+        border-left: 2px solid #cce0c8;
+        padding-left: 10px;
+        margin-top: 20px;  
+        margin-left: 10px;
     }
     .menu-categorias ul li {
         display: inline-block;    
-        padding: 16px;
         text-decoration: none;
         list-style-type: none;
     }
@@ -86,7 +86,7 @@ html,body {
     }
     .busca {
         padding: 32px;
-        margin-top: 1px;
+        margin-left: 25%;
         text-align: center;
     }
     .busca input {
@@ -94,18 +94,25 @@ html,body {
         background-image: url("../img/lupabusca.png");
         background-repeat: no-repeat;
         background-position: right;
-        border: 1px solid #78966c;
+        border: 1px solid var(--verde-escuro);
         height: 20px;
         padding: 20px; 
     }  
-    .imagem-banner{
-        width: 250%;          
+
+    .banner{
+        background-color: var(--verde);
     }
+
+    .col-100{
+        margin: auto;
+    }
+    
 
     /* ---------- ARTIGOS & BARRA LATERAL ---------- */
 
     .artigos_barra_lateral{
-        background-color: #78966c;
+        background-color: var(--verde-escuro);
+        font-family: "Glacial Indifference", sans-serif;
     }
 
     .wrapper{
@@ -113,17 +120,37 @@ html,body {
         width: 80%;
         margin: auto;
         grid-template-columns: 1fr 300px;
-        grid-template-rows: auto;
-        grid-template-areas: "artigo aside";
-
-        padding-top: 10px;
+        grid-template-rows: 110px 730px;
+        grid-template-areas: "curiosidade curiosidade"
+                    "artigo aside";
         background-color: gray;
+    }
+
+    .curiosidades{
+        grid-area: curiosidade;
+        width: 80%;
+        text-align: center;
+        color: white;
+        font-size: 1.1em;
+        padding-left: 110px;
+        margin-bottom: 0px;
+    }
+
+    .curiosidades > h2{
+        padding: 15px 0px 0px 0px;
+        margin: 0px;
+    }
+
+    .curiosidades > p{
+        padding: 0px 0px 15px 0px;
+        margin: 0px;
     }
 
     .artigos{
         grid-area: artigo;
         margin-left: 5px;
         color: white;
+        font-size: 1.1em;
     }
 
     .artigo{
@@ -134,7 +161,7 @@ html,body {
     }
 
     .artigo p{
-        font-family: "Glacial Indifference";
+        font-family: "Glacial Indifference", sans-serif;
         margin: 20px;
     }
 
@@ -186,22 +213,21 @@ html,body {
     footer {
         padding: 14px;
         display: flex;    
-        height: 87px;
-        margin-top: 1px;
-        border-bottom: 150px solid #76ad5e;
+        height: 50px;
+        background-color: var(--verde);
     } 
 }
 
-/* ------------------------------------------------ FORMATAÇÃO 320px ----------------- */
+/* ------------------------------------------------ FORMATAÇÃO < 600px ----------------- */
 
-@media (max-width: 320px) {
+@media (max-width: 600px) {
     
     .container {
         font-family: "Glacial Indifference";
         display: grid;
         width: 100%;
         grid-template-columns: 1fr;
-        grid-template-rows: 400px 150px 1000px 1050px 100px;
+        grid-template-rows: 370px 150px 1900px 1180px 100px;
         grid-template-areas: "menu_superior"
                             "imagem"
                             "artigos"
@@ -219,7 +245,7 @@ html,body {
     header li{
         text-align: center;
         list-style: none;
-        background-color: #76ad5e;
+        background-color: var(--verde);
         border: 1px lightgray solid;
         padding: 5px;
 
@@ -228,6 +254,10 @@ html,body {
     header li a{
         text-decoration: none;
         color: black;
+    }
+
+    header li a:hover{
+        text-decoration: underline;
     }
 
     .logo{
@@ -266,7 +296,20 @@ html,body {
     .artigos_barra_lateral{
         grid-area: artigos;
         padding: 10px;
-        background-color: #76ad5e;
+        color: black;
+        background-color: var(--verde-escuro);
+    }
+
+    .curiosidades{
+        float: none;
+        width: 80%;
+        text-align: center;
+        padding-left: 12%;
+        font-size: 1.1em;
+    }
+
+    .artigos_barra_lateral > p{
+        text-align: center;
     }
 
     .artigo{
@@ -279,6 +322,7 @@ html,body {
     .artigos p{
         padding: 8px;
         margin-top: -10px;
+        font-size: 1.1em;
     }
 
     .artigos img{
@@ -305,13 +349,24 @@ html,body {
         grid-area: objetivos;
         width: 90%;
         padding: 10px;
+        font-size: 1.1em;
     }
 
     /* --------------- RODAPÉ --------------- */
 
     footer{
         grid-area: rodape;
-        background-color: #76ad5e;
+        background-color: var(--verde);
     }
+}
+
+@media (  max-width: 600px) {
+    
+    .container {
+        display: grid;
+        grid-template-columns: ;
+    }
+        img.logosite {display: block; margin: 0 auto;}
+        main,aside {width: 100%;}
 }
 
