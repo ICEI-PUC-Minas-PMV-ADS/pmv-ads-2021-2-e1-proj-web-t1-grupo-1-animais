@@ -1,4 +1,4 @@
-/* ---------------------------------------------- fontes css ------------------------------------------------------------------------- */
+/* ---------------------------------------------- formataÃƒÂ§ÃƒÂµes fontes e mÃƒÂ©dia css ------------------------------------------------------------------------- */
 
 @font-face {
     font-family: "Glacial Indifference";
@@ -14,7 +14,7 @@
         img.logosite {display: block; margin: 0 auto;}
         main,aside {width: 100%;}
 }
-/* ---------------------------------------------- textos css ------------------------------------------------------------------------- */
+/* ---------------------------------------------- formataÃƒÂ§ÃƒÂµes de textos css ------------------------------------------------------------------------- */
 html,body {
   
   padding:0;
@@ -41,7 +41,7 @@ html,body {
         border-top: 1px solid #080807;
         border-bottom: 65px solid #76ad5e;
     }
-        /* ---------------------------------------------- formataÃ§Ãµes de logo css ------------------------------------------------------------------------- */
+        /* ---------------------------------------------- formataÃƒÂ§ÃƒÂµes de logo css ------------------------------------------------------------------------- */
 
     .logo {
         display: flex;
@@ -54,7 +54,7 @@ html,body {
         width: 200px;
         padding-left: 80%;
     }
-    /* ---------------------------------------------- formataÃ§Ãµes de menu css ------------------------------------------------------------------------- */
+    /* ---------------------------------------------- formataÃƒÂ§ÃƒÂµes de menu css ------------------------------------------------------------------------- */
     .menu-categorias ul {   
         padding-left: 25%;
         width:100%;      
@@ -173,8 +173,6 @@ html,body {
     } 
     .texto-destaque {
         width: 50%;
-        float: left;
-        float: right;
         padding: 12px;
         position: relative;
         color: #0f100e;
@@ -182,8 +180,9 @@ html,body {
         font-size: 15pt;
         font-weight: bold;
         display:inline-block;
+        margin-left: 250;
     }
-/* ---------------------------------------------- formataÃ§Ãµes de rodapÃ© css ------------------------------------------------------------------------- */
+/* ---------------------------------------------- formataÃƒÂ§ÃƒÂµes de rodapÃƒÂ© css ------------------------------------------------------------------------- */
     footer {
         padding: 14px;
         display: flex;    
@@ -193,6 +192,8 @@ html,body {
     } 
 }
 
+/* ------------------------------------------------ FORMATAÇÃO 320px ----------------- */
+
 @media (max-width: 320px) {
     
     .container {
@@ -200,7 +201,7 @@ html,body {
         display: grid;
         width: 100%;
         grid-template-columns: 1fr;
-        grid-template-rows: 400px 150px 650px 400px 150px;
+        grid-template-rows: 400px 150px 1000px 1050px 100px;
         grid-template-areas: "menu_superior"
                             "imagem"
                             "artigos"
@@ -208,8 +209,50 @@ html,body {
                             "rodape";
     }
 
+    /* --------------- MENU SUPERIOR --------------- */
+
     header{
         grid-area: menu_superior;
+        background-color: lightgray;
+    }
+
+    header li{
+        text-align: center;
+        list-style: none;
+        background-color: #76ad5e;
+        border: 1px lightgray solid;
+        padding: 5px;
+
+    }
+
+    header li a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .logo{
+        text-align: center;
+    }
+
+    .col-100{
+        width: 100%;
+        float: none;
+        padding: 0;
+    }
+
+    .menu-categorias ul{
+        padding-left: 0%;
+    }
+
+    .busca{
+        text-align: right;
+        padding-right: 10px;
+    }
+
+    .busca input{
+        background-image: url("../img/lupabusca.png");
+        background-repeat: no-repeat;
+        background-position: right;
     }
 
     .banner{
@@ -217,19 +260,58 @@ html,body {
         width: 300px;
     }
 
+
+    /* --------------- ARTIGOS --------------- */
+
     .artigos_barra_lateral{
         grid-area: artigos;
+        padding: 10px;
+        background-color: #76ad5e;
     }
 
     .artigo{
+        border: 2px black solid;
+        border-radius: 8px;
+        margin: 2px;
         display: flex;
     }
 
+    .artigos p{
+        padding: 8px;
+        margin-top: -10px;
+    }
+
+    .artigos img{
+        margin: 5px;
+    }
+
+    .barra_pesquisa h1{
+        text-align: right;
+    }
+
+    .campo_pesquisa{
+        text-align: right;
+    }
+
+    .campo_pesquisa input{
+        background-image: url("../img/lupabusca.png");
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
+    /* --------------- TEXTO DESTAQUE --------------- */
+
     .texto-destaque{
         grid-area: objetivos;
+        width: 90%;
+        padding: 10px;
     }
+
+    /* --------------- RODAPÉ --------------- */
 
     footer{
         grid-area: rodape;
+        background-color: #76ad5e;
     }
 }
+
