@@ -1,0 +1,96 @@
+.logo {
+    display: flex;
+    float: left;
+}
+
+.logo>img {
+    display: flex;
+    margin: 0 auto;
+    height: 100px;
+    width: 150px;
+    margin-left: 30%;
+}
+
+:root {
+    --verde: #76ad5e;
+    --verde-escuro: #78966c;
+    --cinza: #c5cec3;
+}
+
+.menu-categorias {
+    width: 100%;
+}
+
+.menu-categorias ul {
+    margin-left: 35%;
+}
+
+.menu-categorias li {
+    border-left: 2px solid #cce0c8;
+    margin: 20px;
+    padding-left: 20px;
+}
+
+.menu-categorias ul li {
+    display: inline-flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.menu-categorias a {
+    color: #000000;
+    font-family: Glacial Indifference;
+    font-size: 15pt;
+    font-weight: bold;
+    text-decoration: none;
+    vertical-align: center;
+}
+
+.menu-categorias a:hover {
+    color: #000;
+    border-bottom: 1px solid #000;
+    font-weight: bolder;
+    font-size: 16pt;
+}
+
+.menu-caixa {
+    display: inline-flexbox;
+    padding: 14px;
+    background-color: var(--cinza);
+    height: 100px;
+    border-bottom: 30px solid var(--verde);
+}
+
+.main{
+    width: 80%;
+    margin: auto;
+}
+
+.galery{
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.galery .fotos{
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.galery .fotos img{
+    width: 19.9%;
+}
+
+@keyframes animacao{
+    0% {margin-left: 0;}
+    20%{margin-left: 0;}
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+    75%{margin-left: -300%;}
+    95%{margin-left: -300%;}
+    100%{margin-left: -400%;}
+}
