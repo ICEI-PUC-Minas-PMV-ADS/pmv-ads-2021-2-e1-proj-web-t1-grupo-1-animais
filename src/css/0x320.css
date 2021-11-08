@@ -1,0 +1,161 @@
+@media only screen and ( max-width: 320px) {
+    @font-face {
+        font-family: "Glacial Indifference";
+        font-weight: bold;
+        src: url("../fonts/glacial-indifference/GlacialIndifference-Regular.woff") format("woff"), url("../fonts/glacial-indifference/GlacialIndifference-Regular.ttf") format("truetype");
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    /* font-family: 'Exo', sans-serif; */
+    /* ---------------------------------------------- FORMATO HTML ------------------------------------------------------------------------------ */
+    html, body {
+        padding: 0;
+        margin: 0;
+    }
+
+    :root {
+        --verde: #76ad5e;
+        --verde-escuro: #78966c;
+        --cinza: #c5cec3;
+    }
+
+ 
+
+    /* ---------------------------------------------- FORMATO DE MENU --------------------------------------------------------------------------- */
+    img.logo {
+        color: #c5cec3;     
+        width: 80px;
+        left: 5px;
+    }
+
+    .menu-categorias {
+        background-color: #c5cec3;
+    }
+    .menu-categorias ul li {
+        display: inline-block;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    .menu-categorias a {
+        color: #000;
+        font-family: "Glacial Indifference";
+        font-size: 15pt;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .menu-categorias a:hover {
+        color: #000;
+        border-bottom: 1px solid #000;
+        font-weight: bolder;
+        font-size: 16pt;
+    }
+    .menu-caixa {
+        background-color: var(--cinza);
+        color: var(--verde-escuro);
+        border-bottom: 30px solid var(--verde);
+    }
+    /* ------------------------------------------------------------- @MEDIA MENU HAMBURGER ----------------------------------------------------------- */
+    .topnav {
+        overflow: hidden;
+        background-color: var(--cinza);
+        position: relative;
+    }
+    .topnav #links {
+        display: none;
+    }
+   
+    .topnav a {       
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    .topnav a.icon {
+        background: var(--verde);
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav a:hover {
+        background-color: var(--cinza);
+        color: #000;
+    }
+
+    .topnav ul li {     
+        color: #000; 
+        list-style-type: none;
+        text-decoration: none;
+    }
+
+    .active {
+        background-color: var(--verde);
+        color: white;
+    }
+
+   
+}
+
+/* ------------------------------------------------------------- IMAGEM BANNER ----------------------------------------------------------- */
+
+.imagem-banner {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    background-color: #fff;
+}
+
+/* ------------------------------------------------------------- FUNDO CONTAINER --------------------------------------------------------- */
+
+.fundo_container {
+    background-color: #fff;
+}
+
+/* ------------------------------------------------------------ CURIOSIDADES ------------------------------------------------------------- */
+
+.curiosidades {
+    grid-area: curiosidade;
+    font-family: "Glacial Indifference", sans-serif;
+    text-align: center;
+    color: #111211;
+    font-size: 12pt;
+}
+
+.curiosidades>h2 {
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+.curiosidades>p {
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+}
+
+/* ------------------------------------------------------------ CURIOSIDADES ------------------------------------------------------------- */
+
+.texto-destaque {
+    width: 60%;
+    padding: 13px;
+    position: relative;
+    color: #0f100e;
+    font-family: "Glacial Indifference";
+    font-size: 15pt;
+    font-weight: bold;
+    display: inline-table;
+    margin-left: 15%;
+    margin-top: 190px;
+}
+
+/* ------------------------------------------------------------ RODAPE -------------------------------------------------------------- */
+
+footer {
+    padding: 14px;
+    display: flex;
+    height: 50px;
+    background-color: var(--verde);
+}

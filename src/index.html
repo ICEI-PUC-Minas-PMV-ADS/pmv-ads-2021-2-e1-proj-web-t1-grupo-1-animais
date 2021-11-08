@@ -1,48 +1,55 @@
-<!DOCTYPE htm>
-<html>
+<!DOCTYPE html>
+<html lang="pt">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/wikepet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/0x320.css">
+    <!--  <link rel="stylesheet" href="css/321x480.css">
+    <!--<link rel="stylesheet" href="css/768x1024.css">
+    <link rel="stylesheet" href="css/1224x1823.css">
+    <link rel="stylesheet" href="css/min1824.css">
+    <link rel="stylesheet" href="css/site.css"> -->
+
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>WikiPet's</title>
-    
+
 </head>
 
 <body>
-    <div class="container">
-        <header class="menu-caixa">
-            <div class="logo">
-                <img src="img/logosite.png" />
-            </div>
-            <nav class="col-100">
-                <div class="menu-categorias">
-                    <ul>
+    <div class="container">     
+        <nav role=""  class="menu-caixa">
+            <div class="topnav" >              
+                  
+                        <a href="#home" ><img src="img/logosite.png" class="logo"/></a>
+                                 
+                <div id="links">
+                    <ul >
                         <li><a href="/index.html">Home</a></li>
-                        <li><a href="/domesticos.html">Domésticos</a></li>
-                        <li><a href="/agropecuarios.html">Pecuários</a></li>
-                        <li><a href="/insetos.html">Insetos</a></li>
-                        <li><a href="/peconhentos.html">Peçonhentos</a></li>
-                    </ul>
+                        <li><a href="domesticos.html">Domésticos</a></li>
+                        <li><a href="pecuarios.html">Pecuários</a></li>
+                        <li><a href="insetos.html">Insetos</a></li>
+                        <li><a href="peconhentos.html">Peçonhentos</a></li>
+                     </ul>
                 </div>
-            </nav>
-            <div class="busca">
-                <input placeholder="Pesquisar na Wikipet" type="text" />
-            </div>
-        </header>
+                <a href="javascript:void(-1);" class="icon active" onclick="toggleMenu()">
+                    <i class="fa fa-bars"></i>                  
+                </a>
+        </nav>
 
-        <section class="banner">
-            <div class="col-100">
-                <img src="./img/banner.jpg" class="imagem-banner" />
-            </div>
+
+
+        <section class="banner"></section>
+        <img src="./img/banner.jpg" class="imagem-banner" />
         </section>
 
-        <div class="artigos_barra_lateral">
+        <div class="fundo_container">
             <div class="wrapper">
                 <section class="curiosidades">
                     <h2>[Curiosidade]</h2>
-                    <p>Gatos passam, em média, 2/3 do dia dormindo. Isso significa que em 9 anos de vida, eles passam apenas 3 anos acordados...</p>
+                    <p>Gatos passam, em média, 2/3 horas do dia dormindo. Isso significa que em 9 anos de vida, eles
+                        passam apenas 3 anos acordados...</p>
                 </section>
                 <div class="artigos">
                     <article class="artigo criacao">
@@ -50,28 +57,37 @@
                             <source media="(max-width: 320px)" srcset="./img/pig-100.jpg" type="image/jpg">
                             <img src="img/pig-250.jpg" alt="foto-criacao">
                         </picture>
-                        <p>Pecuária: é uma atividade econômica voltada para a criação de animais. As atividades pecuárias correspondem à criação e comercialização de animais diversos, como frangos, porcos [...]</p>
+                        <p>Pecuária: é uma atividade econômica voltada para a criação de animais. As atividades
+                            pecuárias correspondem à criação e comercialização de animais diversos, como frangos, porcos
+                            [...]</p>
                     </article>
                     <article class="artigo estimacao">
                         <picture>
                             <source media="(max-width: 320px)" srcset="./img/dog-100.jpg" type="image/jpg">
                             <img src="img/dog-250.jpg" alt="foto-estimacao">
                         </picture>
-                        <p>Domésticos: antes de o cão se tornar nosso melhor amigo, o homem só enxergava os outros seres vivos com um objetivo: comê-los. A domesticação de animais, que começou há 12 mil anos, só tinha o princípio da fonte [...]</p>
+                        <p>Domésticos: antes de o cão se tornar nosso melhor amigo, o homem só enxergava os outros seres
+                            vivos com um objetivo: comê-los. A domesticação de animais, que começou há 12 mil anos, só
+                            tinha o princípio da fonte [...]</p>
                     </article>
                     <article class="artigo peconhento">
                         <picture>
                             <source media="(max-width: 320px)" srcset="./img/snake-100.jpg" type="image/jpg">
                             <img src="img/snake-250.jpg" alt="foto-peconhento">
                         </picture>
-                        <p>Peçonhentos: os peçonhentos são os que têm a capacidade de injetar substâncias tóxicas por meio das presas. Já os venenosos são aqueles que causam envenenamento passivo por ingestão ou contato, como as lagartas ou [...]</p>
+                        <p>Peçonhentos: os peçonhentos são os que têm a capacidade de injetar substâncias tóxicas por
+                            meio das presas. Já os venenosos são aqueles que causam envenenamento passivo por ingestão
+                            ou contato, como as lagartas ou [...]</p>
                     </article>
                     <article class="artigo peconhento">
                         <picture>
                             <source media="(max-width: 320px)" srcset="./img/insect-220.jpg" type="image/jpg">
                             <img src="img/insect-250.jpg" alt="foto-peconhento">
                         </picture>
-                        <p>Insetos: são o grupo de animais mais diversificado existente na Terra. Como o maior e mais largamente distribuído grupo de animais artrópodes do planeta, os insetos representam mais que 70% de todas espécies de seres vivos descritos. Embora não haja um consenso entre os entomologistas, estima-se que existam de 5 a 30 milhões de espécies viventes [...]</p>
+                        <p>Insetos: são o grupo de animais mais diversificado existente na Terra. Como o maior e mais
+                            largamente distribuído grupo de animais artrópodes do planeta, os insetos representam mais
+                            que 70% de todas espécies de seres vivos descritos. Embora não haja um consenso entre os
+                            entomologistas, estima-se que existam de 5 a 30 milhões de espécies viventes [...]</p>
                     </article>
                 </div>
                 <aside class="barra_pesquisa">
@@ -105,10 +121,20 @@
         </section>
 
         <footer class="rodape">
-            
+
         </footer>
     </div>
+    <script>
 
+        function toggleMenu() {
+            var x = document.getElementById("links");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
 </body>
 
 </html>
