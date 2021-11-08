@@ -33,7 +33,7 @@ body{
 }
 
 #links ul {
-    margin-left: 35%;
+    margin-left: 20%;
 }
 
 #links li {
@@ -64,6 +64,11 @@ body{
     font-size: 16pt;
 }
 
+.busca{
+    float: right;
+    margin-top: -4.5%;
+}
+
 .menu-caixa {
     display: inline-flexbox;
     padding: 14px;
@@ -92,6 +97,7 @@ body{
 
 .galery .fotos img{
     width: 19.9%;
+    border-right: 2px solid rgba(0, 0, 0, 0.562);
 }
 
 @keyframes animacao{
