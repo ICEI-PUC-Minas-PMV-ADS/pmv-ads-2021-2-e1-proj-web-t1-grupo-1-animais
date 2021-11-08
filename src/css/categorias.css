@@ -15,16 +15,15 @@ body{
     font-family: "Glacial Indifference", sans-serif;
 }
 
+/* ------------------------ MENU SUPERIOR ------------------------*/
+
 .logo {
-    display: flex;
     float: left;
+    width: 12%;
 }
 
-.logo>img {
+.topnav > img {
     display: flex;
-    margin: 0 auto;
-    height: 100px;
-    width: 150px;
     margin-left: 30%;
 }
 
@@ -77,41 +76,48 @@ body{
     border-bottom: 30px solid var(--verde);
 }
 
+/* ------------------------ CARROSSEL ------------------------*/
+
 .main{
     width: 80%;
     margin: auto;
+    background-color: white;
 }
 
 .galery{
-    width: 100%;
     overflow: hidden;
-    margin: auto;
 }
 
 .galery .fotos{
-    width: 500%;
+    width: 250%;
     animation-name: animacao;
     animation-duration: 20s;
     animation-iteration-count: infinite;
 }
 
 .galery .fotos img{
-    width: 19.9%;
+    width: 9.9%;
     border-right: 2px solid rgba(0, 0, 0, 0.562);
 }
 
 @keyframes animacao{
     0% {margin-left: 0;}
     20%{margin-left: 0;}
-    25%{margin-left: -100%;}
-    45%{margin-left: -100%;}
-    50%{margin-left: -200%;}
-    70%{margin-left: -200%;}
-    75%{margin-left: -300%;}
-    95%{margin-left: -300%;}
-    100%{margin-left: -400%;}
+    25%{margin-left: -50%;}
+    45%{margin-left: -50%;}
+    50%{margin-left: -100%;}
+    70%{margin-left: -100%;}
+    75%{margin-left: -150%;}
+    95%{margin-left: -150%;}
+    100%{margin-left: -200%;}
 }
 
-main p{
+/* ------------------------ CONTEÚDO CATEGORIA ------------------------*/
+
+.texto{
+    margin: 5%;
+}
+
+.texto p{
     font-size: 1.1em;
 }
