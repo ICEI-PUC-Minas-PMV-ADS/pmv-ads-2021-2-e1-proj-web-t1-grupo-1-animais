@@ -11,7 +11,9 @@
 }
 
 body{
-    background-image: linear-gradient(var(--verde-escuro), white);
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(circle, var(--verde), white);
     font-family: "Glacial Indifference", sans-serif;
 }
 
@@ -20,6 +22,8 @@ body{
 .logo {
     float: left;
     width: 12%;
+    margin-left: 5%;
+    margin-top: -1%;
 }
 
 .topnav > img {
@@ -66,12 +70,14 @@ body{
 .busca{
     float: right;
     margin-top: -4.5%;
+    border: 1px solid rgba(0, 0, 0, 0.623);
+    border-radius: 8px;
 }
 
 .menu-caixa {
     display: inline-flexbox;
     padding: 14px;
-    background-color: var(--verde-escuro);
+    background-color:  var(--verde-escuro);
     height: 100px;
     border-bottom: 30px solid var(--verde);
 }
@@ -82,34 +88,41 @@ body{
     width: 80%;
     margin: auto;
     background-color: white;
+    border: 2px solid rgba(46, 45, 45, 0.432);
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px rgba(83, 83, 83, 0.5);
 }
 
 .galery{
+    width: 640px;
+    height: 360px;
     overflow: hidden;
+    margin: auto;
+    padding-top: 20px;
 }
 
 .galery .fotos{
-    width: 250%;
+    width: 500%;
     animation-name: animacao;
     animation-duration: 20s;
     animation-iteration-count: infinite;
 }
 
 .galery .fotos img{
-    width: 9.9%;
-    border-right: 2px solid rgba(0, 0, 0, 0.562);
+    width: 19.9%;
+    
 }
 
 @keyframes animacao{
     0% {margin-left: 0;}
     20%{margin-left: 0;}
-    25%{margin-left: -50%;}
-    45%{margin-left: -50%;}
-    50%{margin-left: -100%;}
-    70%{margin-left: -100%;}
-    75%{margin-left: -150%;}
-    95%{margin-left: -150%;}
-    100%{margin-left: -200%;}
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+    75%{margin-left: -300%;}
+    95%{margin-left: -300%;}
+    100%{margin-left: -400%;}
 }
 
 /* ------------------------ CONTEÚDO CATEGORIA ------------------------*/
