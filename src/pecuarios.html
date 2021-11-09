@@ -6,28 +6,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/pecuarios.css">
-    <title>Wikipet's - Animais Pecuários</title>
+    <link rel="stylesheet" href="css/categorias_teste.css">
+    <title>Wikipet's - Insetos</title>
 </head>
 
 <body>
     <div class="container">
-        <header class="menu-caixa">
-            <div class="logo">
-                <img src="img/logosite.png" />
+        <nav role=""  class="menu-caixa">
+            <div class="topnav" >              
+                  
+                        <a href="index.html" ><img src="img/logosite.png" class="logo"/></a>
+                                 
+                <div id="links">
+                    <ul >
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="domesticos.html">Domésticos</a></li>
+                        <li><a href="pecuarios.html">Pecuários</a></li>
+                        <li><a href="insetos.html">Insetos</a></li>
+                        <li><a href="peconhentos.html">Peçonhentos</a></li>
+                     </ul>
+                </div>
+                <div class="busca">
+                    <input placeholder="Pesquisar na Wikipet" type="text" />
+                </div>
             </div>
-            <nav class="col-100">
-                <div class="animais-pecuarios">
-                    <div class="wrapper">
-              
-                  <h1> Animais Pecuários: </h1>
+        </nav>
 
+        <main class="main">
+            <section class="galery">
+                <div class="fotos">
 
+                    <input type="radio" name="slide" id="slide1" checked>
+                    <input type="radio" name="slide" id="slide2">
+                    <input type="radio" name="slide" id="slide3">
+                    <input type="radio" name="slide" id="slide4">
+
+                    <div class="slide s1">
+                        <img src="img/categorias/insetos/ant-750.jpg" alt="foto formiga">
+                    </div>
+                    <div class="slide">
+                        <img src="img/categorias/insetos/bee-750.jpg" alt="foto abelha">
+                    </div>
+                    <div class="slide">
+                        <img src="img/categorias/insetos/cockroach-750.jpg" alt="foto barata">
+                    </div>
+                    <div class="slide">
+                        <img src="img/categorias/insetos/mosquito-750.jpg" alt="foto mosquito">
+                    </div>
+
+                    <div class="navigation">
+                        <label for="slide1"></label>
+                        <label for="slide2"></label>
+                        <label for="slide3"></label>
+                        <label for="slide4"></label>
+                    </div>
+                </div>
 
                 
+            </section>
+
+            <div class="texto">
+                <h1>Insetos</h1>
+                <p>Os insetos, animais do filo dos artrópodes, constituem o grupo de animais com maior número de espécies existentes. Alguns representantes são muitos conhecidos, tais como os besouros, borboletas, mosquitos, abelhas, vespas, moscas, entre outros. Eles têm um papel muito importante pois são polinizadores, ou seja atuam transferindo o grão de pólen de uma planta para outra, garantindo sua fecundação. Estima-se que esses animais sejam responsáveis pela polinização de cerca de dois terços do total de angiospermas (plantas cujas sementes são protegidas por uma estrutura denominada "fruto").</p>
+            </div>
+        </main>
     </div>
-    </nav>
-    </header>
 
 </body>
 
