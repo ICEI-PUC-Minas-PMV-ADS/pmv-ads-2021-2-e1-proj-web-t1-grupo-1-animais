@@ -1,0 +1,195 @@
+@media screen and (max-width: 480px){
+    :root {
+        --verde: #76ad5e;
+        --verde-escuro: #78966c;
+        --cinza: #c5cec3;
+    }
+    
+    @font-face {
+        font-family: "Glacial Indifference";
+        font-weight: bold;
+        src: url("../fonts/glacial-indifference/GlacialIndifference-Regular.woff") format("woff"), url("../fonts/glacial-indifference/GlacialIndifference-Regular.ttf") format("truetype");
+    }
+    
+    body{
+        margin: 0;
+        padding: 0;
+        background-image: radial-gradient(circle, var(--verde), white);
+        font-family: "Glacial Indifference", sans-serif;
+    }
+    
+    /* ------------------------ MENU SUPERIOR ------------------------*/
+    
+    .logo {
+        float: left;
+        width: 12%;
+        margin-left: 5%;
+        margin-top: -1%;
+    }
+    
+    .topnav > img {
+        display: flex;
+        margin-left: 30%;
+    }
+    
+    #links {
+        width: 100%;
+    }
+    
+    #links ul {
+        margin-left: 20%;
+    }
+    
+    #links li {
+        border-left: 2px solid #8ba186;
+        margin: 20px;
+        padding-left: 20px;
+    }
+    
+    #links ul li {
+        display: inline-flex;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    
+    #links a {
+        color: #000000;
+        font-family: Glacial Indifference;
+        font-size: 15pt;
+        font-weight: bold;
+        text-decoration: none;
+        vertical-align: center;
+    }
+    
+    #links a:hover {
+        color: #000;
+        border-bottom: 1px solid #000;
+        font-weight: bolder;
+        font-size: 16pt;
+    }
+    
+    .busca{
+        float: right;
+        margin-top: -4.5%;
+        border: 1px solid rgba(0, 0, 0, 0.623);
+        border-radius: 8px;
+    }
+    
+    .menu-caixa {
+        display: inline-flexbox;
+        padding: 14px;
+        background-color:  var(--verde-escuro);
+        height: 500px;
+        border-bottom: 30px solid var(--verde);
+    }
+    
+    /* ------------------------ CARROSSEL ------------------------*/
+    
+    .main{
+        width: 80%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px 1fr;
+        grid-template-areas: "carrossel"
+                            "texto";
+
+        margin: auto;
+        background-color: white;
+        border: 2px solid rgba(46, 45, 45, 0.432);
+        border-radius: 8px;
+        box-shadow: 2px 2px 2px rgba(83, 83, 83, 0.5);
+    }
+    
+    .galery{
+        grid-area: carrossel;
+        width: 240px;
+        height: 135px;
+        overflow: hidden;
+        position: inherit;
+        margin: auto;
+        margin-top: 10%;
+        bottom: 0%;
+        left: 0%;
+        box-shadow: 3px 3px 10px rgba(85, 84, 84, 0.493);
+        border-radius: 10px;
+    }
+    
+    .fotos{
+        display: flex;
+        width: 500%;
+    }
+    
+    .slide{
+        width: 25%;
+        transition: .6s;
+    }
+    
+    .navigation{
+        position: absolute;
+        display: flex;
+        bottom: -8%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    
+    label{
+        width: 25px;
+        height: 8px;
+        border: 2px solid rgba(255, 255, 255, 0.808);
+        border-radius: 5px;
+        margin: 10px;
+        cursor: pointer;
+        transition: .3s;
+    }
+    
+    label:hover{
+        background-color:lightgray;
+    }
+    
+    input{
+        display: none;
+    }
+    
+    #slide1:checked ~ .s1{
+        margin-left: 0;
+    }
+    
+    #slide2:checked ~ .s1{
+        margin-left: -25%;
+    }
+    
+    #slide3:checked ~ .s1{
+        margin-left: -50%;
+    }
+    
+    #slide4:checked ~ .s1{
+        margin-left: -75%;
+    }
+    
+    /* ------------------------ CONTEÚDO CATEGORIA ------------------------*/
+    
+    .texto{
+        grid-area: texto;
+        margin: 5%;
+        margin-top: 5%;
+    }
+    
+    .texto p{
+        font-size: 1.15em;
+    }
+    
+    .texto h1{
+        color: darkgreen;
+        text-align: center;
+        text-shadow: 1px 1px 1px rgba(68, 67, 67, 0.432);
+    }
+    
+    .texto h2{
+        color: green;
+        text-shadow: 1px 1px 1px rgba(77, 76, 76, 0.253);
+    }
+    
+    .texto li{
+        font-size: 1.1em;
+    }
+}
