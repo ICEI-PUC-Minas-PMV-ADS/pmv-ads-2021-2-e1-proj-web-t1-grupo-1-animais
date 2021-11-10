@@ -100,6 +100,7 @@ body{
     position: absolute;
     bottom: 10%;
     left: 27%;
+    box-shadow: 3px 3px 10px rgba(85, 84, 84, 0.493);
 }
 
 .fotos{
@@ -182,10 +183,12 @@ input{
 .texto h1{
     color: darkgreen;
     text-align: center;
+    text-shadow: 1px 1px 1px rgba(68, 67, 67, 0.432);
 }
 
 .texto h2{
     color: green;
+    text-shadow: 1px 1px 1px rgba(77, 76, 76, 0.432);
 }
 
 .texto li{
