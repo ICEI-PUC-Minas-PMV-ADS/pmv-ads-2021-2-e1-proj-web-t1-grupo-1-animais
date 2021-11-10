@@ -176,5 +176,18 @@ input{
 }
 
 .texto p{
+    font-size: 1.15em;
+}
+
+.texto h1{
+    color: darkgreen;
+    text-align: center;
+}
+
+.texto h2{
+    color: green;
+}
+
+.texto li{
     font-size: 1.1em;
 }
