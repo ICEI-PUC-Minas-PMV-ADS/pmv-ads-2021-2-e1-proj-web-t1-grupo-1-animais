@@ -11,38 +11,30 @@
         padding: 0;
         margin: 0;
     }
-
     :root {
         --verde: #76ad5e;
         --verde-escuro: #78966c;
         --cinza: #c5cec3;
     }
-
- 
-
     /* ---------------------------------------------- FORMATO DE MENU --------------------------------------------------------------------------- */
     img.logo {
-        color: #c5cec3;     
+        color: #c5cec3;
         width: 80px;
         left: 5px;
     }
-
-    .menu-categorias {
+    .menu-caixa {
         background-color: #c5cec3;
     }
-    .menu-categorias ul li {
-        display: inline-block;
+    .menu-caixa ul li {
+        display: grid;
         text-decoration: none;
         list-style-type: none;
     }
-    .menu-categorias a {
+    .menu-caixa a {
         color: #000;
         font-family: "Glacial Indifference";
-        font-size: 15pt;
-        font-weight: bold;
-        text-decoration: none;
     }
-    .menu-categorias a:hover {
+    .menu-caixa a:hover {
         color: #000;
         border-bottom: 1px solid #000;
         font-weight: bolder;
@@ -51,19 +43,64 @@
     .menu-caixa {
         background-color: var(--cinza);
         color: var(--verde-escuro);
-        border-bottom: 30px solid var(--verde);
+        border-bottom: 20px solid var(--verde);
     }
-    /* ------------------------------------------------------------- @MEDIA MENU HAMBURGER ----------------------------------------------------------- */
+    /* ------------------------------------------------------------ BOTAO BUSCAR ------------------------------------------------------------- */
+    #divBusca {
+        background-color: #E0EEEE;
+        border: solid 1.5px #709471;
+        border-radius: 16px;
+        margin-left: 18px;
+        margin-bottom: 20px;
+        width: 250px;
+        height: 30px;
+    }
+    #txtBusca {
+        float: left;
+        background-color: #330e0e00;
+        padding-left: 5pt;
+        font-size: 12px;
+        border: none;
+        height: 30px;
+        width: 191px;
+        font-family: "Glacial Indifference";
+    }
+    /* ----------------------------------------------------------------- ARTIGOS ------------------------------------------------------------ */
+    .artigos {
+        grid-area: artigo;
+        color: #141212;
+        font-size: 15px;
+        background-color: var(--verde);
+    }
+    .artigo {
+        border: 2px black solid;
+        border-radius: 8px;
+        margin: 3px;
+        background-color: rgb(255 255 255);
+    }
+    .artigo p {
+        font-family: "Glacial Indifference", sans-serif;
+        margin: 10px;
+        margin-bottom: 20px;
+        margin-left: 5%;
+        text-align: left;
+    }
+    .artigo img {
+        margin: 20px;
+        margin-left: 20pt;
+    }
+    /* ------------------------------------------------------------- MENU HAMBURGER ----------------------------------------------------------- */
     .topnav {
         overflow: hidden;
         background-color: var(--cinza);
         position: relative;
+        color: #000;
+        font-family: "Glacial Indifference";
     }
     .topnav #links {
         display: none;
     }
-   
-    .topnav a {       
+    .topnav a {
         padding: 14px 16px;
         text-decoration: none;
         font-size: 17px;
@@ -80,81 +117,59 @@
         background-color: var(--cinza);
         color: #000;
     }
-
-    .topnav ul li {     
-        color: #000; 
+    .topnav ul li {
+        color: #000;
         list-style-type: none;
         text-decoration: none;
     }
-
     .active {
         background-color: var(--verde);
         color: white;
     }
-
-   
-
-/* ------------------------------------------------------------- IMAGEM BANNER ----------------------------------------------------------- */
-
-.imagem-banner {
-    display: inline-block;
-    width: 100%;
-    margin: 0;
-    background-color: #fff;
-}
-
-/* ------------------------------------------------------------- FUNDO CONTAINER --------------------------------------------------------- */
-
-.fundo_container {
-    background-color: #fff;
-}
-
-/* ------------------------------------------------------------ CURIOSIDADES ------------------------------------------------------------- */
-
-.curiosidades {
-    grid-area: curiosidade;
-    font-family: "Glacial Indifference", sans-serif;
-    text-align: center;
-    color: #111211;
-    font-size: 12pt;
-}
-
-.curiosidades>h2 {
-    display: inline-block;
-    width: 100%;
-    padding: 0;
-    margin: 10px 0 0 0;
-}
-
-.curiosidades>p {
-    display: inline-block;
-    width: 100%;
-    padding: 0;
-    margin: 0 0 10px 0;
-}
-
-
-/* ------------------------------------------------------------ CURIOSIDADES ------------------------------------------------------------- */
-
-.texto-destaque {
-    width: 60%;
-    padding: 13px;
-    position: relative;
-    color: #0f100e;
-    font-family: "Glacial Indifference";
-    font-size: 15pt;
-    font-weight: bold;
-    display: inline-table;
-    margin-left: 15%;
-    margin-top: 190px;
-}
-
-/* ------------------------------------------------------------ RODAPE -------------------------------------------------------------- */
-
-footer {
-    padding: 14px;
-    display: flex;
-    height: 50px;
-    background-color: var(--verde);
-}
+    /* ------------------------------------------------------------- IMAGEM BANNER ----------------------------------------------------------- */
+    .imagem-banner {
+        display: grid;
+        width: 100%;
+        background-color: var(--verde);
+        margin-bottom: 20px;
+    }
+    /* ------------------------------------------------------------- FUNDO CONTAINER --------------------------------------------------------- */
+    .fundo_container {
+        background-color: var(--verde);
+    }
+    /* ------------------------------------------------------------ CURIOSIDADES ------------------------------------------------------------- */
+    .curiosidades {
+        display: grid;
+        width: 90%;
+        grid-area: curiosidade;
+        font-family: "Glacial Indifference", sans-serif;
+        color: #111211;
+        background-color: var(--cinza);
+        font-size: 6pt;
+    }
+    .curiosidades>h2 {
+        display: grid;
+        margin: -4px;
+        text-align: center;
+    }
+    .curiosidades>p {
+        display: grid;
+        font-size: 15px;
+    }
+    /* ------------------------------------------------------------ TEXTO DESTAQUE ------------------------------------------------------------- */
+    .texto-destaque {
+        display: table-cell;
+        color: #0f100e;
+        font-family: "Glacial Indifference";
+        font-size: 15px;
+        font-weight: bold;
+        padding: 20px;
+    }
+    /* ------------------------------------------------------------ RODAPE -------------------------------------------------------------- */
+    footer {
+        padding: 14px;
+        display: grid;
+        height: 50px;
+        background-color: var(--verde);
+    }
 }
