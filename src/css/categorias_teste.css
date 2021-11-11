@@ -236,12 +236,16 @@ footer{
         border-radius: 10px;
     }
     
-    .navigation{
+    .fotos{
+        position: relative;
+    }
+
+    .navigation {
         position: absolute;
         display: flex;
-        bottom: -8%;
-        left: 50%;
-        transform: translate(-50%);
+        bottom: 10%;
+        left: 2%;
+        transform: translate(0%);
     }
 
     /* ------------------------ TEXTO ------------------------*/
@@ -253,8 +257,9 @@ footer{
     }
 }
 
-                /* ------------------------------ Max Width 680px ------------------------------*/
+ 
 
+                /* ------------------------------ Max Width 680px ------------------------------*/
 @media screen and (min-width: 481px) and (max-width: 680px){
     
     .menu-caixa {
@@ -296,132 +301,18 @@ footer{
         border-radius: 10px;
     }
     
-    .navigation{
+    .fotos{
+        position: relative;
+    }
+
+    .navigation {
         position: absolute;
         display: flex;
-        bottom: -21%;
-        left: 50%;
-        transform: translate(-50%);
-    }
-
-    /* ------------------------ TEXTO ------------------------*/
-
-    .texto{
-        grid-area: texto;
-        margin: 5%;
-        margin-top: 25%;
-    }
-}
-
-                /* ------------------------------ Max Width 680px ------------------------------*/
-
-@media screen and (min-width: 481px) and (max-width: 680px){
-    
-    .menu-caixa {
-        display: inline-flexbox;
-        padding: 14px;
-        background-color:  var(--verde-escuro);
-        height: 500px;
-        border-bottom: 30px solid var(--verde);
-    }
-    
-    /* ------------------------ CARROSSEL ------------------------*/
-    
-    .main{
-        width: 80%;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 150px 1fr;
-        grid-template-areas: "carrossel"
-                            "texto";
-
-        margin: auto;
-        background-color: white;
-        border: 2px solid rgba(46, 45, 45, 0.432);
-        border-radius: 8px;
-        box-shadow: 2px 2px 2px rgba(83, 83, 83, 0.5);
-    }
-    
-    .galery{
-        grid-area: carrossel;
-        width: 360px;
-        height: 210px;
-        overflow: hidden;
-        position: inherit;
-        margin: auto;
-        margin-top: 10%;
         bottom: 0%;
-        left: 0%;
-        box-shadow: 3px 3px 10px rgba(85, 84, 84, 0.493);
-        border-radius: 10px;
-    }
-    
-    .navigation{
-        position: absolute;
-        display: flex;
-        bottom: -21%;
-        left: 50%;
-        transform: translate(-50%);
-    }
-
-    /* ------------------------ TEXTO ------------------------*/
-
-    .texto{
-        grid-area: texto;
-        margin: 5%;
-        margin-top: 25%;
-    }
-}
-
-                /* ------------------------------ Max Width 680px ------------------------------*/
-
-@media screen and (min-width: 481px) and (max-width: 680px){
-    
-    .menu-caixa {
-        display: inline-flexbox;
-        padding: 14px;
-        background-color:  var(--verde-escuro);
-        height: 500px;
-        border-bottom: 30px solid var(--verde);
-    }
-    
-    /* ------------------------ CARROSSEL ------------------------*/
-    
-    .main{
-        width: 80%;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 150px 1fr;
-        grid-template-areas: "carrossel"
-                            "texto";
-
-        margin: auto;
-        background-color: white;
-        border: 2px solid rgba(46, 45, 45, 0.432);
-        border-radius: 8px;
-        box-shadow: 2px 2px 2px rgba(83, 83, 83, 0.5);
-    }
-    
-    .galery{
-        grid-area: carrossel;
-        width: 360px;
-        height: 210px;
-        overflow: hidden;
-        position: inherit;
-        margin: auto;
-        margin-top: 10%;
-        bottom: 0%;
-        left: 0%;
-        box-shadow: 3px 3px 10px rgba(85, 84, 84, 0.493);
-        border-radius: 10px;
-    }
-    
-    .navigation{
-        position: absolute;
-        display: flex;
-        bottom: -21%;
-        left: 50%;
-        transform: translate(-50%);
+        left: 5%;
+        transform: translate(0%);
+        top: 35%;
+        right: 0%;
     }
 
     /* ------------------------ TEXTO ------------------------*/
@@ -478,12 +369,16 @@ footer{
         border-radius: 10px;
     }
     
+    .fotos{
+        position: relative;
+    }
+
     .navigation{
         position: absolute;
         display: flex;
-        bottom: -41%;
-        left: 50%;
-        transform: translate(-50%);
+        bottom: 33%;
+        left: 7%;
+        transform: translate(0%);
     }
 
     /* ------------------------ TEXTO ------------------------*/
@@ -539,12 +434,16 @@ footer{
         border-radius: 10px;
     }
     
+    .fotos{
+        position: relative;
+    }
+
     .navigation{
         position: absolute;
         display: flex;
-        bottom: -51%;
-        left: 50%;
-        transform: translate(-50%);
+        bottom: 25%;
+        left: 7%;
+        transform: translate(0%);
     }
 
     /* ------------------------ TEXTO ------------------------*/
