@@ -311,7 +311,7 @@ footer{
         bottom: 0%;
         left: 5%;
         transform: translate(0%);
-        top: 35%;
+        top: 45%;
         right: 0%;
     }
 
@@ -376,7 +376,7 @@ footer{
     .navigation{
         position: absolute;
         display: flex;
-        bottom: 33%;
+        bottom: 17%;
         left: 7%;
         transform: translate(0%);
     }
@@ -441,7 +441,7 @@ footer{
     .navigation{
         position: absolute;
         display: flex;
-        bottom: 25%;
+        bottom: 5%;
         left: 7%;
         transform: translate(0%);
     }
