@@ -1,4 +1,4 @@
-@media only screen and ( min-width: 321px) and ( max-width: 480px) {
+@media only screen and ( min-width: 481px) and ( max-width: 766px) {
     @font-face {
         font-family: "Glacial Indifference";
         font-weight: bold;
@@ -19,7 +19,7 @@
     /* ---------------------------------------------- FORMATO DE MENU --------------------------------------------------------------------------- */
     img.logo {
         color: #c5cec3;
-        width: 120px;
+        width: 80px;
         left: 5px;
     }
     .menu-caixa {
@@ -38,7 +38,7 @@
         color: #000;
         border-bottom: 1px solid #000;
         font-weight: bolder;
-        font-size: 16pt;
+        font-size: 15pt;
     }
     .menu-caixa {
         background-color: var(--cinza);
@@ -50,11 +50,10 @@
         background-color: #E0EEEE;
         border: solid 1.5px #709471;
         border-radius: 16px;
-        margin-left: 35px;
+        margin-left: 150px;
         margin-bottom: 20px;
         width: 300px;
-        height: 31px;
-        text-align: right;
+        height: 30px;
     }
     #txtBusca {
         float: left;
@@ -64,7 +63,7 @@
         border: none;
         height: 32px;
         width: 191px;
-        font-family: "Glacial Indifference", sans-serif, arial;
+        font-family: "Glacial Indifference";
     }
     /* ----------------------------------------------------------------- ARTIGOS ------------------------------------------------------------ */
     .artigos {
@@ -80,7 +79,7 @@
         background-color: rgb(255 255 255);
     }
     .artigo p {
-        font-family: "Glacial Indifference", sans-serif, arial;
+        font-family: "Glacial Indifference", sans-serif;
         margin: 10px;
         margin-bottom: 20px;
         margin-left: 5%;
@@ -88,7 +87,7 @@
     }
     .artigo img {
         margin: 30px;
-        margin-left: 55px;
+        margin-left: 125pt;
     }
     /* ------------------------------------------------------------- @MEDIA MENU HAMBURGER ----------------------------------------------------------- */
     .topnav {
@@ -104,7 +103,7 @@
     .topnav a {
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 16pt;
         display: block;
     }
     .topnav a.icon {
@@ -147,23 +146,25 @@
 /* ------------------------------------------------------------ CURIOSIDADES ------------------------------------------------------------- */
 
 .curiosidades {
-    grid-area: curiosidade;
+    display: grid;
+    width: 90%;
+    grid-area: curiosidades;
     font-family: "Glacial Indifference", sans-serif;
     color: #111211;
     background-color: var(--cinza);
-    font-size: 6pt;
-    margin: 5%;
+    font-size: 12pt;
 }
 
 .curiosidades>h2 {
     display: grid;
     width: 100%;
+    margin-bottom: 40px;
     text-align: left;
 }
 
 .curiosidades>p {
-    display: grid;
-    font-size: 15px;
+    text-align: left;
+    margin-bottom: 20px;
 }
 
 /* ------------------------------------------------------------ TEXTO DESTAQUE ------------------------------------------------------------- */

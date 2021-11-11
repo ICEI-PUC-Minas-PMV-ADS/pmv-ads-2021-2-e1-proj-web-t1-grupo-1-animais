@@ -43,27 +43,27 @@ html, body {
     --cinza: #c5cec3;
 }
 
-#links {
+.menu-caixa {
     width: 100%;
 }
 
-.links ul {
+.menu-caixa ul {
     margin-left: 35%;
 }
 
-#links li {
+.menu-caixa li {
     border-left: 2px solid #cce0c8;
     margin: 20px;
     padding-left: 20px;
 }
 
-#links ul li {
+.menu-caixa ul li {
     display: inline-flex;
     text-decoration: none;
     list-style-type: none;
 }
 
-#links a {
+.menu-caixa a {
     color: #000000;
     font-family: Glacial Indifference;
     font-size: 15pt;
@@ -72,7 +72,7 @@ html, body {
     vertical-align: center;
 }
 
-#links a:hover {
+.menu-caixa a:hover {
     color: #000;
     border-bottom: 1px solid #000;
     font-weight: bolder;
@@ -165,27 +165,38 @@ html, body {
 
 /* ------------------------------------------------------------ BARRA DE PESQUISA ------------------------------------------------ */
 
-.barra_pesquisa {
-    grid-area: aside;
-    border: 2px black solid;
-    margin: 1px;
+#divBusca {
+    background-color: #E0EEEE;
+    border: solid 2px #000;
     border-radius: 8px;
+    margin-top: 4px;
+    margin-left: 8px;
+    width: 300px;
+    height: 30px;
+    
+
+
+}
+#txtBusca {
+    float: left;
+    background-color: #330e0e00;
+    padding-left: 5pt;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 191px;
     font-family: "Glacial Indifference";
-    color: #161515;
-    background-color: rgb(255 255 255);
-}
 
-.barra_pesquisa h1 {
-    margin-left: 35%;
 }
-
-.campo_pesquisa {
-    margin-left: 25%;
-    margin-top: 30px;
-}
-
-.buscador {
-    color: lightgray;
+#btnBusca {
+    border: none;
+    float: left;
+    height: 30px;
+    border-radius: 0 7px 7px 0;
+    width: 100px;
+    font-weight: bold;
+    background: #b5bdb3;
+    font-family: "Glacial Indifference";
 }
 
 /* ------------------------------------------------------------ TEXTO DESTAQUE ------------------------------------------------------ */
