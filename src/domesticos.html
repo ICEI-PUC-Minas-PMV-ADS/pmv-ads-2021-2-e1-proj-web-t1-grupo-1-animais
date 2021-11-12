@@ -7,30 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/categorias_teste.css">
+    <script src="menu.js"></script>
     <title>Wikipet's - Animais domésticos</title>
 </head>
 
 <body>
     <div class="container">
-        <nav role=""  class="menu-caixa">
-            <div class="topnav" >              
-                  
-                        <a href="index.html" ><img src="img/logosite.png" class="logo"/></a>
-                                 
-                <div id="links">
-                    <ul >
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="domesticos.html">Domésticos</a></li>
-                        <li><a href="pecuarios.html">Pecuários</a></li>
-                        <li><a href="insetos.html">Insetos</a></li>
-                        <li><a href="peconhentos.html">Peçonhentos</a></li>
-                     </ul>
+        <nav class="menu-superior">     <!-- FAIXA VERDE -->
+            <a href="#home"><img src="img/logosite.png" class="logo" /></a>
+            <div id="divBusca">
+                <input type="text" id="txtBusca" placeholder="Pesquisar!" />
+            </div>
+            <div id="menu">
+                <div id="menu-bar" onclick="abrirMenu()">      <!-- MENU HAMBURGUER -->
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
                 </div>
-                <div class="busca">
-                    <input placeholder="Pesquisar na Wikipet" type="text" />
+                <div class="nav" id="nav">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Domésticos</a></li>
+                        <li><a href="#">Peçonhentos</a></li>
+                        <li><a href="#">Pecuários</a></li>
+                        <li><a href="#">Insetos</a></li>
+                    </ul>
                 </div>
             </div>
         </nav>
+        <div class="menu-bg" id="menu-bg"></div>
 
         <main class="main">
             <section class="galery">

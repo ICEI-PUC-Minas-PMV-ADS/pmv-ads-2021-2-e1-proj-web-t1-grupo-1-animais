@@ -19,68 +19,143 @@ body{
 
     /* ------------------------ MENU SUPERIOR ------------------------*/
 
-.logo {
-    float: left;
-    width: 12%;
-    margin-left: 5%;
-    margin-top: -1%;
-}
-
-.topnav > img {
-    display: flex;
-    margin-left: 30%;
-}
-
-#links {
+.menu-superior{
     width: 100%;
-}
-
-#links ul {
-    margin-left: 20%;
-}
-
-#links li {
-    border-left: 2px solid #8ba186;
-    margin: 20px;
-    padding-left: 20px;
-}
-
-#links ul li {
-    display: inline-flex;
-    text-decoration: none;
-    list-style-type: none;
-}
-
-#links a {
-    color: #000000;
-    font-family: Glacial Indifference;
-    font-size: 15pt;
-    font-weight: bold;
-    text-decoration: none;
-    vertical-align: center;
-}
-
-#links a:hover {
-    color: #000;
-    border-bottom: 1px solid #000;
-    font-weight: bolder;
-    font-size: 16pt;
-}
-
-.busca{
-    float: right;
-    margin-top: -4.5%;
-    border: 1px solid rgba(0, 0, 0, 0.623);
-    border-radius: 8px;
-}
-
-.menu-caixa {
-    display: inline-flexbox;
-    padding: 14px;
-    background-color:  var(--verde-escuro);
     height: 100px;
-    border-bottom: 30px solid var(--verde);
+    background-color: var(--verde);
+    border-bottom: 20px solid var(--verde-escuro);
 }
+
+.logo{
+    margin-left: 45%;
+    margin-top: 1%;
+    width: 150px;
+}
+
+    /* ------------------------ BARRA PESQUISA ------------------------*/
+
+#divBusca {
+    background-color: #E0EEEE;
+    border: solid 1.5px #709471;
+    border-radius: 16px;
+    margin-left: 75%;
+    margin-top: -6%;
+    width: 300px;
+    height: 30px;
+}
+#txtBusca {
+    float: left;
+    background-color: #330e0e00;
+    padding-left: 10pt;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 191px;
+    font-family: "Glacial Indifference";
+    display: inline;    /* Esse display está setado aqui porque em outro lugar o display para input está como "none" (pros botões de radio não aparecerem) */
+}
+
+/* ------------------------ MENU HAMBURGUER ------------------------*/
+
+#menu{
+    z-index: 2;
+}
+
+#menu-bar{
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.bar{
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    border-radius: 5px;
+    transition: .3s ease;
+}
+
+#bar1{
+    transform: translateY(5px);
+}
+
+#bar2{
+    transform: translateY(10px);
+}
+
+#bar3{
+    transform: translateY(15px);
+}
+
+.nav{
+    transition: .3s ease;
+    display: none;
+}
+
+.nav ul{
+    padding: 0 22px;
+}
+
+.nav ul li{
+    list-style: none;
+    padding: 12px 0;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+}
+
+.nav a:hover{
+    font-size: bold;
+}
+
+#menu, #menu-bg{
+    top: 0;
+    left: 0 ;
+    position: absolute;
+}
+
+.menu-bg{
+    z-index: 1;
+    width: 0;
+    height: 0;
+    margin: 30px 0 20px 20px;
+    background: radial-gradient(circle, var(--verde), var(--verde-escuro));
+    border-radius: 100%;
+    transition: .3s ease;
+}
+
+.change{
+    display: block;
+}
+
+.change .bar{
+    background-color: white;
+}
+
+.change #bar1{
+    transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar2{
+    opacity: 0;
+}
+
+.change #bar3{
+    transform: translateY(-6px) rotateZ(45deg);
+}
+
+.change-bg{
+    width: 460px;
+    height: 460px;
+    transform: translate(-60%, -30%);
+}
+
 
     /* ------------------------ CARROSSEL ------------------------*/
 
@@ -204,6 +279,10 @@ footer{
         height: 500px;
         border-bottom: 30px solid var(--verde);
     }
+
+    #divBusca{
+        display: none;
+    }
     
     /* ------------------------ CARROSSEL ------------------------*/
     
@@ -269,6 +348,11 @@ footer{
         height: 500px;
         border-bottom: 30px solid var(--verde);
     }
+
+    #divBusca{
+        display: none;
+    }
+
     
     /* ------------------------ CARROSSEL ------------------------*/
     
@@ -337,6 +421,10 @@ footer{
         height: 500px;
         border-bottom: 30px solid var(--verde);
     }
+
+    #divBusca{
+        display: none;
+    }
     
     /* ------------------------ CARROSSEL ------------------------*/
     
@@ -401,6 +489,10 @@ footer{
         background-color:  var(--verde-escuro);
         height: 500px;
         border-bottom: 30px solid var(--verde);
+    }
+
+    #divBusca{
+        display: none;
     }
     
     /* ------------------------ CARROSSEL ------------------------*/
