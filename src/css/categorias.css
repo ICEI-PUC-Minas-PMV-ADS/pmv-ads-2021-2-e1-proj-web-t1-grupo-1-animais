@@ -17,72 +17,147 @@ body{
     font-family: "Glacial Indifference", sans-serif;
 }
 
-/* ------------------------ MENU SUPERIOR ------------------------*/
+    /* ------------------------ MENU SUPERIOR ------------------------*/
 
-.logo {
-    float: left;
-    width: 12%;
-    margin-left: 5%;
-    margin-top: -1%;
-}
-
-.topnav > img {
-    display: flex;
-    margin-left: 30%;
-}
-
-#links {
+.menu-superior{
     width: 100%;
-}
-
-#links ul {
-    margin-left: 20%;
-}
-
-#links li {
-    border-left: 2px solid #8ba186;
-    margin: 20px;
-    padding-left: 20px;
-}
-
-#links ul li {
-    display: inline-flex;
-    text-decoration: none;
-    list-style-type: none;
-}
-
-#links a {
-    color: #000000;
-    font-family: Glacial Indifference;
-    font-size: 15pt;
-    font-weight: bold;
-    text-decoration: none;
-    vertical-align: center;
-}
-
-#links a:hover {
-    color: #000;
-    border-bottom: 1px solid #000;
-    font-weight: bolder;
-    font-size: 16pt;
-}
-
-.busca{
-    float: right;
-    margin-top: -4.5%;
-    border: 1px solid rgba(0, 0, 0, 0.623);
-    border-radius: 8px;
-}
-
-.menu-caixa {
-    display: inline-flexbox;
-    padding: 14px;
-    background-color:  var(--verde-escuro);
     height: 100px;
-    border-bottom: 30px solid var(--verde);
+    background-color: var(--verde);
+    border-bottom: 20px solid var(--verde-escuro);
 }
 
-/* ------------------------ CARROSSEL ------------------------*/
+.logo{
+    margin-left: 45%;
+    margin-top: 1%;
+    width: 150px;
+}
+
+    /* ------------------------ BARRA PESQUISA ------------------------*/
+
+#divBusca {
+    background-color: #E0EEEE;
+    border: solid 1.5px #709471;
+    border-radius: 16px;
+    margin-left: 75%;
+    margin-top: -6%;
+    width: 300px;
+    height: 30px;
+}
+#txtBusca {
+    float: left;
+    background-color: #330e0e00;
+    padding-left: 10pt;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 191px;
+    font-family: "Glacial Indifference";
+    display: inline;    /* Esse display está setado aqui porque em outro lugar o display para input está como "none" (pros botões de radio não aparecerem) */
+}
+
+/* ------------------------ MENU HAMBURGUER ------------------------*/
+
+#menu{
+    z-index: 2;
+}
+
+#menu-bar{
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.bar{
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    border-radius: 5px;
+    transition: .3s ease;
+}
+
+#bar1{
+    transform: translateY(5px);
+}
+
+#bar2{
+    transform: translateY(10px);
+}
+
+#bar3{
+    transform: translateY(15px);
+}
+
+.nav{
+    transition: .3s ease;
+    display: none;
+}
+
+.nav ul{
+    padding: 0 22px;
+}
+
+.nav ul li{
+    list-style: none;
+    padding: 12px 0;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+}
+
+.nav a:hover{
+    font-size: bold;
+}
+
+#menu, #menu-bg{
+    top: 0;
+    left: 0 ;
+    position: absolute;
+}
+
+.menu-bg{
+    z-index: 1;
+    width: 0;
+    height: 0;
+    margin: 30px 0 20px 20px;
+    background: radial-gradient(circle, var(--verde), var(--verde-escuro));
+    border-radius: 100%;
+    transition: .3s ease;
+}
+
+.change{
+    display: block;
+}
+
+.change .bar{
+    background-color: white;
+}
+
+.change #bar1{
+    transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar2{
+    opacity: 0;
+}
+
+.change #bar3{
+    transform: translateY(-6px) rotateZ(45deg);
+}
+
+.change-bg{
+    width: 460px;
+    height: 460px;
+    transform: translate(-60%, -30%);
+}
+
+
+    /* ------------------------ CARROSSEL ------------------------*/
 
 .main{
     width: 80%;
@@ -97,40 +172,377 @@ body{
     width: 640px;
     height: 360px;
     overflow: hidden;
-    margin: auto;
-    padding-top: 20px;
+    position: absolute;
+    bottom: 10%;
+    left: 27%;
+    box-shadow: 3px 3px 10px rgba(85, 84, 84, 0.493);
+    border-radius: 20px;
 }
 
-.galery .fotos{
+.fotos{
+    display: flex;
     width: 500%;
-    animation-name: animacao;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
 }
 
-.galery .fotos img{
-    width: 19.9%;
-    
+.slide{
+    width: 25%;
+    transition: .6s;
 }
 
-@keyframes animacao{
-    0% {margin-left: 0;}
-    20%{margin-left: 0;}
-    25%{margin-left: -100%;}
-    45%{margin-left: -100%;}
-    50%{margin-left: -200%;}
-    70%{margin-left: -200%;}
-    75%{margin-left: -300%;}
-    95%{margin-left: -300%;}
-    100%{margin-left: -400%;}
+.navigation{
+    position: absolute;
+    display: flex;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
 }
 
-/* ------------------------ CONTEÚDO CATEGORIA ------------------------*/
+label{
+    width: 25px;
+    height: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.808);
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+label:hover{
+    background-color:lightgray;
+}
+
+input{
+    display: none;
+}
+
+#slide1:checked ~ .s1{
+    margin-left: 0;
+}
+
+#slide2:checked ~ .s1{
+    margin-left: -25%;
+}
+
+#slide3:checked ~ .s1{
+    margin-left: -50%;
+}
+
+#slide4:checked ~ .s1{
+    margin-left: -75%;
+}
+
+    /* ------------------------ TEXTO ------------------------*/
 
 .texto{
     margin: 5%;
+    margin-top: 45%;
 }
 
 .texto p{
+    font-size: 1.15em;
+}
+
+.texto h1{
+    color: darkgreen;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(68, 67, 67, 0.432);
+}
+
+.texto h2{
+    color: green;
+    text-shadow: 1px 1px 1px rgba(77, 76, 76, 0.253);
+}
+
+.texto li{
     font-size: 1.1em;
+}
+
+footer{
+    background-color: var(--verde);
+    height: 50px;
+    margin-top: 20px;
+}
+
+
+
+            /* ------------------------------ MEDIA QUERIES ------------------------------*/
+
+            /* ------------------------------ Max Width 480px ------------------------------*/
+
+
+@media screen and (max-width: 480px){
+    
+    .menu-caixa {
+        display: inline-flexbox;
+        padding: 14px;
+        background-color:  var(--verde-escuro);
+        height: 500px;
+        border-bottom: 30px solid var(--verde);
+    }
+
+    #divBusca{
+        display: none;
+    }
+    
+    /* ------------------------ CARROSSEL ------------------------*/
+    
+    .main{
+        width: 80%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px 1fr;
+        grid-template-areas: "carrossel"
+                            "texto";
+
+        margin: auto;
+        background-color: white;
+        border: 2px solid rgba(46, 45, 45, 0.432);
+        border-radius: 8px;
+        box-shadow: 2px 2px 2px rgba(83, 83, 83, 0.5);
+    }
+    
+    .galery{
+        grid-area: carrossel;
+        width: 240px;
+        height: 135px;
+        overflow: hidden;
+        position: inherit;
+        margin: auto;
+        margin-top: 10%;
+        bottom: 0%;
+        left: 0%;
+        box-shadow: 3px 3px 10px rgba(85, 84, 84, 0.493);
+        border-radius: 10px;
+    }
+    
+    .fotos{
+        position: relative;
+    }
+
+    .navigation {
+        position: absolute;
+        display: flex;
+        bottom: 10%;
+        left: 2%;
+        transform: translate(0%);
+    }
+
+    /* ------------------------ TEXTO ------------------------*/
+
+    .texto{
+        grid-area: texto;
+        margin: 5%;
+        margin-top: 5%;
+    }
+}
+
+ 
+
+                /* ------------------------------ Max Width 680px ------------------------------*/
+@media screen and (min-width: 481px) and (max-width: 680px){
+    
+    .menu-caixa {
+        display: inline-flexbox;
+        padding: 14px;
+        background-color:  var(--verde-escuro);
+        height: 500px;
+        border-bottom: 30px solid var(--verde);
+    }
+
+    #divBusca{
+        display: none;
+    }
+
+    
+    /* ------------------------ CARROSSEL ------------------------*/
+    
+    .main{
+        width: 80%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px 1fr;
+        grid-template-areas: "carrossel"
+                            "texto";
+
+        margin: auto;
+        background-color: white;
+        border: 2px solid rgba(46, 45, 45, 0.432);
+        border-radius: 8px;
+        box-shadow: 2px 2px 2px rgba(83, 83, 83, 0.5);
+    }
+    
+    .galery{
+        grid-area: carrossel;
+        width: 360px;
+        height: 210px;
+        overflow: hidden;
+        position: inherit;
+        margin: auto;
+        margin-top: 10%;
+        bottom: 0%;
+        left: 0%;
+        box-shadow: 3px 3px 10px rgba(85, 84, 84, 0.493);
+        border-radius: 10px;
+    }
+    
+    .fotos{
+        position: relative;
+    }
+
+    .navigation {
+        position: absolute;
+        display: flex;
+        bottom: 0%;
+        left: 5%;
+        transform: translate(0%);
+        top: 35%;
+        right: 0%;
+    }
+
+    /* ------------------------ TEXTO ------------------------*/
+
+    .texto{
+        grid-area: texto;
+        margin: 5%;
+        margin-top: 25%;
+    }
+}
+
+
+
+                /* ------------------------------ Max Width 1000px ------------------------------*/
+
+@media screen and (min-width: 681px) and (max-width: 1000px){
+    
+    .menu-caixa {
+        display: inline-flexbox;
+        padding: 14px;
+        background-color:  var(--verde-escuro);
+        height: 500px;
+        border-bottom: 30px solid var(--verde);
+    }
+
+    #divBusca{
+        display: none;
+    }
+    
+    /* ------------------------ CARROSSEL ------------------------*/
+    
+    .main{
+        width: 85%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px 1fr;
+        grid-template-areas: "carrossel"
+                            "texto";
+
+        margin: auto;
+        background-color: white;
+        border: 2px solid rgba(46, 45, 45, 0.432);
+        border-radius: 8px;
+        box-shadow: 2px 2px 2px rgba(83, 83, 83, 0.5);
+    }
+    
+    .galery{
+        grid-area: carrossel;
+        width: 540px;
+        height: 315px;
+        overflow: hidden;
+        position: inherit;
+        margin: auto;
+        margin-top: 10%;
+        bottom: 0%;
+        left: 0%;
+        box-shadow: 3px 3px 10px rgba(85, 84, 84, 0.493);
+        border-radius: 10px;
+    }
+    
+    .fotos{
+        position: relative;
+    }
+
+    .navigation{
+        position: absolute;
+        display: flex;
+        bottom: 30%;
+        left: 7%;
+        transform: translate(0%);
+    }
+
+    /* ------------------------ TEXTO ------------------------*/
+
+    .texto{
+        grid-area: texto;
+        margin: 5%;
+        margin-top: 35%;
+    }
+}
+
+
+                /* ------------------------------ Max Width 1300px ------------------------------*/
+
+@media screen and (min-width: 1001px) and (max-width: 1300px){
+    
+    .menu-caixa {
+        display: inline-flexbox;
+        padding: 14px;
+        background-color:  var(--verde-escuro);
+        height: 500px;
+        border-bottom: 30px solid var(--verde);
+    }
+
+    #divBusca{
+        display: none;
+    }
+    
+    /* ------------------------ CARROSSEL ------------------------*/
+    
+    .main{
+        width: 80%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px 1fr;
+        grid-template-areas: "carrossel"
+                            "texto";
+
+        margin: auto;
+        background-color: white;
+        border: 2px solid rgba(46, 45, 45, 0.432);
+        border-radius: 8px;
+        box-shadow: 2px 2px 2px rgba(83, 83, 83, 0.5);
+    }
+    
+    .galery{
+        grid-area: carrossel;
+        width: 640px;
+        height: 360px;
+        overflow: hidden;
+        position: inherit;
+        margin: auto;
+        margin-top: 10%;
+        bottom: 0%;
+        left: 0%;
+        box-shadow: 3px 3px 10px rgba(85, 84, 84, 0.493);
+        border-radius: 10px;
+    }
+    
+    .fotos{
+        position: relative;
+    }
+
+    .navigation{
+        position: absolute;
+        display: flex;
+        bottom: 22%;
+        left: 7%;
+        transform: translate(0%);
+    }
+
+    /* ------------------------ TEXTO ------------------------*/
+
+    .texto{
+        grid-area: texto;
+        margin: 5%;
+        margin-top: 35%;
+    }
 }
