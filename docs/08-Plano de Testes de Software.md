@@ -9,9 +9,7 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 
 | `Caso de Teste`       |  `CT-01`|
 |-----------------------|-----------------------------------------------------------------|
-|`Requisitos Associados`|RF-01- O site deve apresentar informações sobre três grandes categorias de animais (silvestres, domésticos e de criação); 
-RNF-04- O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge).;
-RNF-05- O site deve ser desenvolvido com layout clean e organizado para o usuário.  |
+|`Requisitos Associados`|RF-01- O site deve apresentar informações sobre três grandes categorias de animais (silvestres, domésticos e de criação); RNF-04- O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge).; RNF-05- O site deve ser desenvolvido com layout clean e organizado para o usuário.  |
 |   `Objetivo do Teste` |Verificar se as informações estão sendo dispostas da forma correta. E como está o layout do site. |
 |   Amanda Alves     |Quero a fonte das informações|Confiar no conteúdo passado.|Confiar no conteúdo passado.|
 |   Amanda Alves     |Poder realizar uma pesquisa acerca de espécies específicas|Localizar espécies específicas e ter mais objetividade na pesquisa|
