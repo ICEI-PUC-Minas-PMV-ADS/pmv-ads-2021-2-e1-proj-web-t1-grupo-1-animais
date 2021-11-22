@@ -11,8 +11,8 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 |----------------------------|-----------------------------------------------------------------|
 | `Requisitos Associados`    |RF-01- O site deve apresentar informações sobre três grandes categorias de animais (silvestres, domésticos e de criação); RNF-04- O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge).; RNF-05- O site deve ser desenvolvido com layout clean e organizado para o usuário.  |
 |   `Objetivo do Teste`      |Verificar se as informações estão sendo dispostas da forma correta. E como está o layout do site. |
-|         `Passos`           |1. Abrir o navegador Web de preferência do usuário; 
-                              2. Informar a URL do site;
+|         `Passos`           |1. Abrir o navegador Web de preferência do usuário; |
+                             |2. Informar a URL do site;|
                               3. Visualizar a página principal bem como seu conteúdo.  |
 |   Amanda Alves     |Poder realizar uma pesquisa acerca de espécies específicas|Localizar espécies específicas e ter mais objetividade na pesquisa|
 |   Roberto Santana  |Ter acesso tanto no desktop, quanto no celular.|Passar tempo enquanto espero algo (ex: filas do banco).|
