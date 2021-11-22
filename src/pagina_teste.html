@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        #menuPesquisa{
+            background-color: lightgray;
+            width: 250px;
+            border: 2px solid gray;
+        }
+        
+        input{
+            margin: 15px;
+        }
+
+        #lista{
+            width: 100%;
+            transition: .3s ease;
+        }
+
+        #lista li{
+            list-style: none;
+            padding: 6px 0;
+            margin-left: -15px;
+            width: 100%;
+        }
+
+        #lista a{
+            color: black;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+
+        #lista li:hover{
+            background-color: white;
+        }
+
+        .clicou{
+            display: none;
+            transition: 0.3s ease;
+            background-color: white;
+        }
+    </style>
+
+    <title>Document</title>
+</head>
+<body>
+    <div id="menuPesquisa">
+        <input type="text" id="filtro" placeholder="Filtrar" onclick="filtro()"> 
+            <ul id="lista" class="clicou">
+                <li><a href="domesticos.html">Cachorro</a></li>
+                <li><a href="domesticos.html">Gato</a></li>
+                <li><a href="domesticos.html">Peixe</a></li>
+                <li><a href="domesticos.html">Canário</a></li>
+                <li><a href="domesticos.html">Aranha</a></li>
+                <li><a href="peconhentos.html">Abelha</a></li>
+            </ul>
+    </div>
+
+    <script>
+        function filtro(){
+            var lista = document.getElementById("lista");
+            lista.classList.toggle("clicou");
+        }
+    </script>
+</body>
+</html>
