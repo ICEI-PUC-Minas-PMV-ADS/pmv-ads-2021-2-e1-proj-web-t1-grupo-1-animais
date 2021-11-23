@@ -11,3 +11,17 @@ function filtro(){
     }
     document.getElementById("itensBusca").classList.toggle("abrirFiltro");
 }
+
+function teclando(){
+    var texto = document.getElementById("txtBusca");
+    var filtro = texto.value.toUpperCase();
+    var lista = document.getElementById("itensBusca");
+    var itens = lista.getElementsByTagName("li");
+    for (var i = 0; i < itens.length; i++){
+        if (itens[i].innerText.toUpperCase().indexOf(filtro) == 0){
+            itens[i].style.display = "";
+        } else{
+            itens[i].style.display = "none";
+        }
+    }
+}
