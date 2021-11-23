@@ -17,6 +17,22 @@ Esperamos, através de um layout claro e objetivo, que o usuário possa acessar 
 * Vitória Gabriella Maffei Corrêa 
 
 
+Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+
+Site desenvolvido com o intuito de ser um informativo acerca dos cuidados e como proceder com animais domésticos, pecuarios e peçonhentos (insetos). 
+Esperamos, através de um layout claro e objetivo, que o usuário possa acessar as informações de forma fácil e bem completas.
+
+
+## Integrantes
+* Ciro Hideki Artiga Watanabe
+* Gabriel Leite Soares Ramos
+* Nayra Alessandra Simão Reis 
+* Rafael Pacheco Leite
+
+* Vitória Gabriella Maffei Corrêa 
+
+
+
 ## Orientador
 
 * Joyce Christina de Paiva Carvalho

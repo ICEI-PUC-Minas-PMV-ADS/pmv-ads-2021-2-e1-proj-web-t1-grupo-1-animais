@@ -5,7 +5,7 @@
 Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
 
 Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
- 
+
 
 |  `Caso de Teste`           |  `CT-01`
 |----------------------------|-----------------------------------------------------------------|
@@ -14,7 +14,6 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 |         `Passos`           |1. Abrir o navegador Web de preferência do usuário; <br> 2. Informar a URL do site;</br> 3. Visualizar a página principal bem como seu conteúdo. |
 |   `Critérios de Êxito`     |• As notícias devem ser dispostas de forma correta no site; <br> • Deve ser apresentado uma imagem central, o menu acima e também um pequeno resumo sobre as categorias;</br> |
 
-=====
 
 ## Ferramentas de Testes (Opcional)
 

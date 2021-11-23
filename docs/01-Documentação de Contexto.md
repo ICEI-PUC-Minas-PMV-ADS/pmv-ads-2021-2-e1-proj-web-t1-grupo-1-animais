@@ -3,11 +3,29 @@ Conforme Harari expõe em sua obra, Sapiens: Uma breve história da humanidade (
  
 
 # Problema
+
 Conforme exposto anteriormente, existe uma necessidade urgente de informar a sociedade acerca dos animais que estão, de forma direta ou indireta, presentes no nosso cotidiano. Muitas pessoas possuem animais de estimação e sequer sabem coisas sobre cuidados básicos sobre esses animais. Também enfrentamos um problema relacionado a disseminação de informações falsas e fantasiosas a respeito de insetos, que, por mais que não sejam animais de estimação (para a maioria das pessoas) ainda estão presentes nas residências e devem ser respeitados como qualquer outro ser vivo.
 
 
 ## Objetivos
 O objetivo do projeto é fornecer e propagar informações sobre animais, com foco nos domésticos, insetos e alguns peçonhentos encontrados em residências e também aqueles do grupo de criação animal. Como objetivos específicos iremos abordar:
+
+Caracterísitcas das raças, primeiros cuidados a serem tomados nos primeiros contatos com os animais, importância da vacinação tanto para a segurança do animal quanto para a segurança de seu tutor, restrições de alimentação e também como proceder em casos de emergencia. Também abordaremos a identificação desses animais, números úteis em casos de acidentes e a importância de preservação de todos eles. 
+
+Conforme exposto anteriormente, existe uma necessidade urgente de informar a sociedade acerca dos animais que estão, de forma direta ou indireta, presentes no nosso cotidiano. Muitas pessoas possuem animais de estimação e sequer sabem coisas sobre cuidados básicos sobre eles. Também enfrentamos um problema relacionado a disseminação de informações falsas e fantasiosas a respeito de insetos, que, por mais que não sejam animais de estimação (para a maioria das pessoas) ainda estão presentes nas residências e devem ser respeitados como qualquer outro ser vivo.
+
+
+
+## Objetivos
+O objetivo do projeto é fornecer e propagar informações sobre animais, com foco nos domésticos, insetos e alguns peçonhentos encontrados em residências e também aqueles do grupo de criação animal. Como objetivos específicos iremos abordar:
+
+
+●   Animais domésticos: características da raça, primeiros cuidados, importância de vacinação, cuidados acerca de alimentação e precauções para casos de emergências. 
+
+●   Animais peçonhentos e insetos: identificação, como proceder quando encontrados, como evitar (casos de pragas urbanas) números úteis e o que fazer caso haja algum acidente envolvendo-os.  
+
+●   Animais de pecuária: Criação, cuidados, curiosidades e importância de criação.  
+
 
 Caracterísitcas das raças, primeiros cuidados a serem tomados nos primeiros contatos com os animais, importância da vacinação tanto para a segurança do animal quanto para a segurança de seu tutor, restrições de alimentação e também como proceder em casos de emergencia. Também abordaremos a identificação desses animais, números úteis em casos de acidentes e a importância de preservação de todos eles. 
 
@@ -17,7 +35,11 @@ Em artigo publicado por Pedro Jacobi na SciELO - Scientific Electronic Library O
 
 ## Público-Alvo
 Mesmo que toda a sociedade se beneficie das informações aqui repassadas, o trabalho possui foco no público que, além de ter animais domésticos, também possuem interesse em se informar mais sobre os demais animais presentes em suas casas ou da vida selvagem. 
+
 Desta forma, o público alvo são pessoas acima de 12 anos, que possuem dúvidas sobre os cuidados a serem tomados. Ressaltamos também que o objetivo desse trabalho é apenas informativo e que, ainda que as informações aqui compiladas sejam retiradas de veículos confiáveis de informação e também de profissionais das áreas, este não exclui nem substitui profissionais das áreas de biologia, medicina veterinária e corpo de bombeiros.
+
+Desta forma, o público alvo foi estabelecido de forma a ser destinado a pessoas acima de 12 anos, que possuem dúvidas sobre os cuidados a serem tomados. Ressaltamos também que o objetivo desse trabalho é apenas informativo e que, ainda que as informações aqui compiladas sejam retiradas de veículos confiáveis de informação e também de profissionais das áreas, este não exclui nem substitui profissionais das áreas de biologia, medicina veterinária e corpo de bombeiros.
+
 
 
 
