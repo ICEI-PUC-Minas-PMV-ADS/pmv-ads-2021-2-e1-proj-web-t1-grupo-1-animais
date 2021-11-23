@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/categorias.css">
+    <script src="menu.js"></script>
+    <title>Wikipet's - Animais de criação</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container">
+            <nav class="menu-superior">     <!-- FAIXA VERDE -->
+                <a href="index.html"><img src="img/logosite.png" class="logo" /></a>
+                <div id="divBusca">
+                    <input type="text" id="txtBusca" placeholder="Pesquisar!" />
+                </div>
+                <div id="menu">
+                    <div id="menu-bar" onclick="abrirMenu()">      <!-- MENU HAMBURGUER -->
+                        <div id="bar1" class="bar"></div>
+                        <div id="bar2" class="bar"></div>
+                        <div id="bar3" class="bar"></div>
+                    </div>
+                    <div class="nav" id="nav">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="domesticos.html">Domésticos</a></li>
+                            <li><a href="peconhentos.html">Peçonhentos</a></li>
+                            <li><a href="pecuarios.html">Pecuários</a></li>
+                            <li><a href="insetos.html">Insetos</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="menu-bg" id="menu-bg"></div>
+
+        <main class="main">
+            <section class="galery">
+                <div class="fotos">
+
+                    <input type="radio" name="slide" id="slide1" checked>
+                    <input type="radio" name="slide" id="slide2">
+                    <input type="radio" name="slide" id="slide3">
+                    <input type="radio" name="slide" id="slide4">
+
+                    <div class="slide s1">
+                        <picture>
+                            <source media="(max-width: 480px)" srcset="img/categorias/criacao/pig-240.jpg">
+                            <source media="(min-width: 481px) and (max-width: 680px)" srcset="img/categorias/criacao/pig-360.jpg">
+                            <source media="(min-width: 681px) and (max-width: 1000px)" srcset="img/categorias/criacao/pig-540.jpg">
+                            <img src="img/categorias/criacao/pig-640.jpg" alt="foto porco">
+                        </picture>
+                    </div>
+                    <div class="slide">
+                        <picture>
+                            <source media="(max-width: 480px)" srcset="img/categorias/criacao/cow-240.jpg">
+                            <source media="(min-width: 481px) and (max-width: 680px)" srcset="img/categorias/criacao/cow-360.jpg">
+                            <source media="(min-width: 681px) and (max-width: 1000px)" srcset="img/categorias/criacao/cow-540.jpg">
+                            <img src="img/categorias/criacao/cow-640.jpg" alt="foto vaca">
+                        </picture>
+                    </div>
+                    <div class="slide">
+                        <picture>
+                            <source media="(max-width: 480px)" srcset="img/categorias/criacao/chicken-240.jpg">
+                            <source media="(min-width: 481px) and (max-width: 680px)" srcset="img/categorias/criacao/chicken-360.jpg">
+                            <source media="(min-width: 681px) and (max-width: 1000px)" srcset="img/categorias/criacao/chicken-540.jpg">
+                            <img src="img/categorias/criacao/chicken-640.jpg" alt="foto galinha">
+                        </picture>
+                    </div>
+                    <div class="slide">
+                        <picture>
+                            <source media="(max-width: 480px)" srcset="img/categorias/criacao/sheep-240.jpg">
+                            <source media="(min-width: 481px) and (max-width: 680px)" srcset="img/categorias/criacao/sheep-360.jpg">
+                            <source media="(min-width: 681px) and (max-width: 1000px)" srcset="img/categorias/criacao/sheep-540.jpg">
+                            <img src="img/categorias/criacao/sheep-640.jpg" alt="foto ovelha">
+                        </picture>
+                    </div>
+
+                    <div class="navigation">
+                        <label for="slide1"></label>
+                        <label for="slide2"></label>
+                        <label for="slide3"></label>
+                        <label for="slide4"></label>
+                    </div>
+                </div>
+
+                
+            </section>
+
+            <div class="texto">
+                <h1>Animais de criação</h1>
+                <p>Animais pecuários são animais de criação cuja sua criação tem fins econômicos e para consumo humano.</p>
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+    </div>
+
+</body>
+
+</html>

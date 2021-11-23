@@ -1,0 +1,229 @@
+/* ---------------------------------------------- FORMATO FONT FACE ------------------------------------------------------------------------ */
+
+@font-face {
+    font-family: "Glacial Indifference";
+    font-weight: bold;
+    src: url("../fonts/glacial-indifference/GlacialIndifference-Regular.woff") format("woff"), url("../fonts/glacial-indifference/GlacialIndifference-Regular.ttf") format("truetype");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Exo', sans-serif; */
+
+/* ---------------------------------------------- FORMATO HTML ------------------------------------------------------------------------------ */
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.col-100 {
+    margin: auto;
+}
+
+/* ---------------------------------------------- FORMATO LOGO ----------------------------------------------------------------------------- */
+
+.logo {
+    display: flex;
+    float: left;
+}
+
+.logo>img {
+    display: flex;
+    margin: 0 auto;
+    height: 100px;
+    width: 150px;
+    margin-left: 30%;
+}
+
+/* ---------------------------------------------- FORMATO DE MENU --------------------------------------------------------------------------- */
+
+:root {
+    --verde: #76ad5e;
+    --verde-escuro: #78966c;
+    --cinza: #c5cec3;
+}
+
+.menu-caixa {
+    width: 100%;
+}
+
+.menu-caixa ul {
+    margin-left: 35%;
+}
+
+.menu-caixa li {
+    border-left: 2px solid #cce0c8;
+    margin: 20px;
+    padding-left: 20px;
+}
+
+.menu-caixa ul li {
+    display: inline-flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.menu-caixa a {
+    color: #000000;
+    font-family: Glacial Indifference;
+    font-size: 15pt;
+    font-weight: bold;
+    text-decoration: none;
+    vertical-align: center;
+}
+
+.menu-caixa a:hover {
+    color: #000;
+    border-bottom: 1px solid #000;
+    font-weight: bolder;
+    font-size: 16pt;
+}
+
+.menu-caixa {
+    display: inline-flexbox;
+    padding: 14px;
+    background-color: var(--cinza);
+    height: 100px;
+    border-bottom: 30px solid var(--verde);
+}
+
+/* ------------------------------------------------------------- IMAGEM BANNER ----------------------------------------------------------- */
+
+.imagem-banner {
+    width: 100%;
+}
+
+/* ------------------------------------------------------------- FUNDO CONTAINER --------------------------------------------------------- */
+
+.fundo_container {
+    background-color: #58a750
+}
+
+/* ------------------------------------------------------------ CURIOSIDADES ------------------------------------------------------------- */
+
+.curiosidades {
+    font-family: "Glacial Indifference", sans-serif;
+    grid-area: curiosidade;
+    width: 80%;
+    text-align: center;
+    color: #111211;
+    font-size: 1.1em;
+    padding-left: 110px;
+    margin-bottom: 0px;
+    display: inline-table;
+}
+
+.curiosidades>h2 {
+    padding: 15px 0px 0px 0px;
+    margin: 0px;
+}
+
+.curiosidades>p {
+    padding: 0px 0px 15px 0px;
+    margin: 0px;
+}
+
+.wrapper {
+    display: grid;
+    width: 90%;
+    margin: auto;
+    grid-area: artigo;
+    margin: auto;
+    grid-template-columns: 1fr 300px;
+    grid-template-rows: 110px 730px;
+    grid-template-areas: "curiosidade curiosidade" "artigo aside";
+    background-color: rgb(199, 188, 188);
+}
+
+/* ----------------------------------------------------------------- ARTIGOS ------------------------------------------------------------ */
+
+.artigos {
+    grid-area: artigo;
+    margin-left: 5px;
+    color: #141212;
+    font-size: 1.1em;
+}
+
+.artigo {
+    border: 2px black solid;
+    border-radius: 8px;
+    margin: 2px;
+    display: flex;
+    background-color: rgb(255 255 255);
+}
+
+.artigo p {
+    font-family: "Glacial Indifference", sans-serif;
+    margin: 60px;
+    margin-bottom: 20px;
+}
+
+.artigo img {
+    margin: 20px;
+    margin-bottom: 30px;
+}
+
+/* ------------------------------------------------------------ BARRA DE PESQUISA ------------------------------------------------ */
+
+#divBusca {
+    background-color: #E0EEEE;
+    border: solid 2px #000;
+    border-radius: 8px;
+    margin-top: 4px;
+    margin-left: 8px;
+    width: 300px;
+    height: 30px;
+    
+
+
+}
+#txtBusca {
+    float: left;
+    background-color: #330e0e00;
+    padding-left: 5pt;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 191px;
+    font-family: "Glacial Indifference";
+
+}
+#btnBusca {
+    border: none;
+    float: left;
+    height: 30px;
+    border-radius: 0 7px 7px 0;
+    width: 100px;
+    font-weight: bold;
+    background: #b5bdb3;
+    font-family: "Glacial Indifference";
+}
+
+/* ------------------------------------------------------------ TEXTO DESTAQUE ------------------------------------------------------ */
+
+section {
+    display: grid;
+    width: 100%;
+}
+
+.texto-destaque {
+    width: 60%;
+    padding: 13px;
+    position: relative;
+    color: #0f100e;
+    font-family: "Glacial Indifference";
+    font-size: 15pt;
+    font-weight: bold;
+    display: inline-table;
+    margin-left: 15%;
+    margin-top: 190px;
+}
+
+/* ------------------------------------------------------------ RODAPE -------------------------------------------------------------- */
+
+footer {
+    padding: 14px;
+    display: flex;
+    height: 50px;
+    background-color: var(--verde);
+}

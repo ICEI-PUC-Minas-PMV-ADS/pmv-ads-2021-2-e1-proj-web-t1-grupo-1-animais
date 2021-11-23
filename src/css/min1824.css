@@ -1,0 +1,202 @@
+@media only screen and ( min-width: 1824px) {
+    @font-face {
+        font-family: "Glacial Indifference";
+        font-weight: bold;
+        src: url("../fonts/glacial-indifference/GlacialIndifference-Regular.woff") format("woff"), url("../fonts/glacial-indifference/GlacialIndifference-Regular.ttf") format("truetype");
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    /* font-family: 'Exo', sans-serif; */
+    /* ---------------------------------------------- FORMATO HTML ------------------------------------------------------------------------------ */
+    html, body {
+        padding: 0;
+        margin: 0;
+    }
+    :root {
+        --verde: #76ad5e;
+        --verde-escuro: #78966c;
+        --cinza: #c5cec3;
+        --font-size: 10pt;
+        --titulos-size: 12pt;
+    }
+    /* ---------------------------------------------- FORMATO DE MENU --------------------------------------------------------------------------- */
+    img.logo {
+        color: #c5cec3;
+        width: 150px;
+        left: 5px;
+    }
+    .menu-caixa {
+        background-color: #c5cec3;
+    }
+    .menu-caixa ul li a {
+        font-size: 15pt;
+    }
+    .menu-caixa ul li {
+        display: inline-flex;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    .menu-caixa a {
+        color: #000;
+        font-family: "Glacial Indifference";
+    }
+    .menu-caixa a:hover {
+        background-color: var(--verde);
+        font-weight: bolder;
+        font-size: 16pt;
+    }
+    .menu-caixa {
+        background-color: var(--cinza);
+        color: var(--verde-escuro);
+        border-bottom: 30px solid var(--verde);
+    }
+    /* ------------------------------------------------------------ BOTAO BUSCAR ------------------------------------------------------------- */
+    #divBusca {
+        background-color: #E0EEEE;
+        border: solid 1.5px #709471;
+        border-radius: 16px;
+        margin-left: 35px;
+        margin-bottom: 20px;
+        margin-top: 40px;
+        width: 350px;
+        height: 35px;
+    }
+    #txtBusca {
+        float: left;
+        background-color: #330e0e00;
+        padding-left: 20pt;
+        font-size: 15px;
+        border: none;
+        height: 32px;
+        width: 191px;
+        font-family: "Glacial Indifference";
+    }
+    /* ----------------------------------------------------------------- ARTIGOS ------------------------------------------------------------ */
+    .artigos {
+        display: inline-flex;
+        grid-area: artigo;
+        color: #141212;
+        font-size: 20px;
+        background-color: var(--verde);
+        margin: 15px 20px 0 20px;
+    }
+    .artigo {
+        border: 2px black solid;
+        border-radius: 8px;
+        margin: 6px;
+        background-color: rgb(255 255 255);
+    }
+    .artigo p {
+        font-family: "Glacial Indifference", sans-serif;
+        margin: 10px;
+        margin-bottom: 20px;
+        margin-left: 5%;
+        text-align: left;
+    }
+    .artigo img {
+        margin: 30px;
+        margin-left: 170px;
+    }
+    /* ------------------------------------------------------------- @MEDIA MENU HAMBURGER ----------------------------------------------------------- */
+    .topnav {
+        overflow: hidden;
+        background-color: var(--cinza);
+        position: relative;
+        color: #000;
+        font-family: "Glacial Indifference";
+    }
+    .topnav #links {
+        display: none;
+    }
+    .topnav a {
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    .topnav a.icon {
+        background: var(--verde);
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav a:hover {
+        background-color: var(--cinza);
+        color: var(--verde-escuro);
+    }
+    .topnav ul li {
+        color: #000;
+        list-style-type: none;
+        text-decoration: none;
+    }
+    .active {
+        background-color: var(--verde);
+        color: white;
+    }
+}
+
+/* ------------------------------------------------------------- IMAGEM BANNER ----------------------------------------------------------- */
+
+.imagem-banner {
+    display: flex;
+    width: 100%;
+    background-color: var(--verde);
+    margin-bottom: 20px;
+}
+
+/* ------------------------------------------------------------- FUNDO CONTAINER --------------------------------------------------------- */
+
+.fundo_container {
+    background-color: var(--verde);
+}
+
+/* ------------------------------------------------------------ CURIOSIDADES ------------------------------------------------------------- */
+
+.curiosidades {
+    display: block;
+    width:85%;
+    margin: 15px auto;    
+    background-color: var(--cinza);            
+    font-family: "Glacial Indifference", sans-serif, Arial;
+    color: #111211;
+    min-height:80px;
+    border: var(--verde-escuro) 3px solid;
+    border-radius: 8px;
+
+}
+
+.curiosidades>h2 {
+    display:block;
+    text-align: left;
+    margin: 10px 0 10px 10px;
+    padding:0px;
+    font-size: 20pt;
+}
+
+.curiosidades>p {
+    text-align: left;
+    margin: 10px 0 10px 10px;
+    font-size: 15pt;
+    padding:0px;
+}
+
+/* ------------------------------------------------------------ TEXTO DESTAQUE ------------------------------------------------------------- */
+
+.texto-destaque {
+    width: 60%;
+    display: table-cell;
+    color: #0f100e;
+    font-family: "Glacial Indifference";
+    font-size: 15pt;
+    font-weight: bold;
+    padding: 40px;
+}
+
+/* ------------------------------------------------------------ RODAPE -------------------------------------------------------------- */
+
+footer {
+    padding: 14px;
+    display: flex;
+    height: 50px;
+    background-color: var(--verde);
+}
