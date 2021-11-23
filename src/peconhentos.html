@@ -15,9 +15,21 @@
     <div class="container">
         <div class="container">
             <nav class="menu-superior">     <!-- FAIXA VERDE -->
-                <a href="index.html"><img src="img/logosite.png" class="logo" /></a>
+                <a href="index.html"><img src="img/logosite.png" class="logo"></a>
                 <div id="divBusca">
-                    <input type="text" id="txtBusca" placeholder="Pesquisar!" />
+                    <input type="text" id="txtBusca" placeholder="Filtrar por espécie" onclick="filtro()">
+                    <ul id="itensBusca" class="abrirFiltro">
+                        <li class="itemBusca abrirFiltro">Cachorro</li>
+                        <li class="itemBusca abrirFiltro">Gato</li>
+                        <li class="itemBusca abrirFiltro">Canário</li>
+                        <li class="itemBusca abrirFiltro">Peixe</li>
+                        <li class="itemBusca abrirFiltro">Aranha</li>
+                        <li class="itemBusca abrirFiltro">Cachorro</li>
+                        <li class="itemBusca abrirFiltro">Gato</li>
+                        <li class="itemBusca abrirFiltro">Canário</li>
+                        <li class="itemBusca abrirFiltro">Peixe</li>
+                        <li class="itemBusca abrirFiltro">Aranha</li>
+                    </ul>
                 </div>
                 <div id="menu">
                     <div id="menu-bar" onclick="abrirMenu()">      <!-- MENU HAMBURGUER -->

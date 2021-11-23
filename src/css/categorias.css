@@ -52,7 +52,34 @@ body{
     height: 32px;
     width: 191px;
     font-family: "Glacial Indifference";
-    display: inline;    /* Esse display está setado aqui porque em outro lugar o display para input está como "none" (pros botões de radio não aparecerem) */
+    display: block;    /* Esse display está setado aqui porque em outro lugar o display para input está como "none" (pros botões de radio não aparecerem) */
+}
+
+#itensBusca{
+    position: relative;
+    z-index: 2;
+    max-height: 200px;
+    width: 90%;
+    overflow-y: scroll;
+    padding-top: 15px;
+    background-color: #e0eeee96;
+    border-radius: 4px;
+}
+
+#itensBusca li{
+    list-style: none;
+    padding: 6px 0;
+    width: 100%;
+}
+
+#itensBusca li:hover{
+    cursor: pointer;
+    background-color: #7974742d;
+    font-size: 1.1em;
+}
+
+.abrirFiltro{
+    display: none;
 }
 
 /* ------------------------ MENU HAMBURGUER ------------------------*/
