@@ -312,6 +312,10 @@ footer{
         border-bottom: 30px solid var(--verde);
     }
 
+    .logo{
+        margin-left: 35%;
+    }
+
     #divBusca{
         display: none;
     }
@@ -379,6 +383,10 @@ footer{
         background-color:  var(--verde-escuro);
         height: 500px;
         border-bottom: 30px solid var(--verde);
+    }
+
+    .logo{
+        margin-left: 38%;
     }
 
     #divBusca{
@@ -454,9 +462,19 @@ footer{
         border-bottom: 30px solid var(--verde);
     }
 
-    #divBusca{
-        display: none;
+    .logo{
+        margin-left: 42%;
     }
+
+    #divBusca{
+        position: absolute;
+        top: 200px;
+        left: -200px;
+        margin-left: 60%;
+        margin-top: -10%;
+    }
+
+    
     
     /* ------------------------ CARROSSEL ------------------------*/
     
