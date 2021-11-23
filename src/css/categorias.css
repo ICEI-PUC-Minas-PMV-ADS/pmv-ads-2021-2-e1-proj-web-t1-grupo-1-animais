@@ -78,6 +78,11 @@ body{
     font-size: 1.1em;
 }
 
+#itensBusca a{
+    text-decoration: none;
+    color: black;
+}
+
 .abrirFiltro{
     display: none;
 }
