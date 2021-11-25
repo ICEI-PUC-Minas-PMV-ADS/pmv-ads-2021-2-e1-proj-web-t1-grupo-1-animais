@@ -187,12 +187,14 @@ body{
     transform: translate(-60%, -30%);
 }
 
+/* ------------------------ SEÇÃO PRINCIPAL ------------------------*/
+
 main{
     width: 80%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 400px;
-    grid-template-rows: 100px 230px 1fr;
+    grid-template-rows: 100px auto 1fr;
     grid-template-areas: 
     "titulo titulo"
     "texto imagem"
@@ -230,4 +232,175 @@ footer{
     width: 100%;
     height: 70px;
     background-color: var(--verde);
+}
+
+/* ------------------------ MEDIA QUERIES ------------------------*/
+
+@media screen and (min-width: 1001px) and (max-width: 1300px){
+    #divBusca{
+        margin-left: 11%;
+        margin-top: auto;
+    }
+
+    #itensBusca{
+        background-color: #e0eeeef6;
+    }
+    
+}
+
+@media screen and (min-width: 881px) and (max-width: 1000px){
+    #divBusca{
+        margin-left: 11%;
+        margin-top: 1%;
+    }
+
+    #itensBusca{
+        background-color: #e0eeeef6;
+    }
+
+}
+
+@media screen and (min-width: 785px) and (max-width: 880px){
+    #divBusca{
+        margin-left: 11%;
+        margin-top: 1%;
+    }
+
+    #itensBusca{
+        background-color: #e0eeeef6;
+    }
+
+    .titulo{
+        text-align: center;
+        font-size: 2em;
+    }
+
+    main{
+        width: 80%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 280px auto auto;
+        grid-template-areas: 
+        "titulo titulo"
+        "imagem imagem"
+        "texto texto"
+        "texto2 texto2";
+    }
+
+    picture{
+        text-align: center;
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 784px){
+    #divBusca{
+        margin-left: 11%;
+        margin-top: 1%;
+    }
+
+    #itensBusca{
+        background-color: #e0eeeef6;
+    }
+
+    .titulo{
+        text-align: center;
+        font-size: 2em;
+    }
+
+    main{
+        width: 80%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 220px auto auto;
+        grid-template-areas: 
+        "titulo titulo"
+        "imagem imagem"
+        "texto texto"
+        "texto2 texto2";
+    }
+
+    picture{
+        text-align: center;
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 599px){
+    #divBusca{
+        margin-left: 11%;
+        margin-top: 2%;
+    }
+
+    #itensBusca{
+        background-color: #e0eeeef6;
+    }
+
+    .titulo{
+        text-align: center;
+        font-size: 1.8em;
+    }
+
+    main{
+        width: 80%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 160px auto auto;
+        grid-template-areas: 
+        "titulo titulo"
+        "imagem imagem"
+        "texto texto"
+        "texto2 texto2";
+    }
+
+    picture{
+        text-align: center;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 399px){
+    #divBusca{
+        margin-left: 11%;
+        margin-top: 2%;
+        width: 230px;
+    }
+
+    #itensBusca{
+        background-color: #e0eeeef6;
+    }
+
+    .titulo{
+        text-align: center;
+        font-size: 1.8em;
+    }
+
+    .subtitulo{
+        font-size: 1.2em;
+    }
+
+    main{
+        width: 80%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 120px auto auto;
+        grid-template-areas: 
+        "titulo titulo"
+        "imagem imagem"
+        "texto texto"
+        "texto2 texto2";
+    }
+
+    picture{
+        text-align: center;
+        width: 100%;
+    }
+
 }
