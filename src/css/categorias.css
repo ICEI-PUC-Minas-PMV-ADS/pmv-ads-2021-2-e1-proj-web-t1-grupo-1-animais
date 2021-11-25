@@ -50,9 +50,41 @@ body{
     font-size: 18px;
     border: none;
     height: 32px;
-    width: 191px;
+    width: 290px;
     font-family: "Glacial Indifference";
-    display: inline;    /* Esse display está setado aqui porque em outro lugar o display para input está como "none" (pros botões de radio não aparecerem) */
+    display: block;    /* Esse display está setado aqui porque em outro lugar o display para input está como "none" (pros botões de radio não aparecerem) */
+}
+
+#itensBusca{
+    position: relative;
+    z-index: 2;
+    max-height: 200px;
+    width: 90%;
+    overflow-y: scroll;
+    padding-top: 15px;
+    background-color: #e0eeee96;
+    border-radius: 4px;
+}
+
+#itensBusca li{
+    list-style: none;
+    padding: 6px 0;
+    width: 100%;
+}
+
+#itensBusca li:hover{
+    cursor: pointer;
+    background-color: #7974742d;
+    font-size: 1.1em;
+}
+
+#itensBusca a{
+    text-decoration: none;
+    color: black;
+}
+
+.abrirFiltro{
+    display: none;
 }
 
 /* ------------------------ MENU HAMBURGUER ------------------------*/
@@ -280,8 +312,16 @@ footer{
         border-bottom: 30px solid var(--verde);
     }
 
+    .logo{
+        margin-left: 35%;
+    }
+
     #divBusca{
-        display: none;
+        position: absolute;
+        top: 165px;
+        left: -192px;
+        margin-left: 60%;
+        margin-top: -10%;
     }
     
     /* ------------------------ CARROSSEL ------------------------*/
@@ -349,8 +389,16 @@ footer{
         border-bottom: 30px solid var(--verde);
     }
 
+    .logo{
+        margin-left: 38%;
+    }
+
     #divBusca{
-        display: none;
+        position: absolute;
+        top: 172px;
+        left: -192px;
+        margin-left: 60%;
+        margin-top: -10%;
     }
 
     
@@ -412,7 +460,7 @@ footer{
 
                 /* ------------------------------ Max Width 1000px ------------------------------*/
 
-@media screen and (min-width: 681px) and (max-width: 1000px){
+@media screen and (min-width: 681px) and (max-width: 800px){
     
     .menu-caixa {
         display: inline-flexbox;
@@ -422,9 +470,95 @@ footer{
         border-bottom: 30px solid var(--verde);
     }
 
-    #divBusca{
-        display: none;
+    .logo{
+        margin-left: 42%;
     }
+
+    #divBusca{
+        position: absolute;
+        top: 200px;
+        left: -200px;
+        margin-left: 60%;
+        margin-top: -10%;
+    }
+
+    
+    
+    /* ------------------------ CARROSSEL ------------------------*/
+    
+    .main{
+        width: 85%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px 1fr;
+        grid-template-areas: "carrossel"
+                            "texto";
+
+        margin: auto;
+        background-color: white;
+        border: 2px solid rgba(46, 45, 45, 0.432);
+        border-radius: 8px;
+        box-shadow: 2px 2px 2px rgba(83, 83, 83, 0.5);
+    }
+    
+    .galery{
+        grid-area: carrossel;
+        width: 540px;
+        height: 315px;
+        overflow: hidden;
+        position: inherit;
+        margin: auto;
+        margin-top: 10%;
+        bottom: 0%;
+        left: 0%;
+        box-shadow: 3px 3px 10px rgba(85, 84, 84, 0.493);
+        border-radius: 10px;
+    }
+    
+    .fotos{
+        position: relative;
+    }
+
+    .navigation{
+        position: absolute;
+        display: flex;
+        bottom: 10%;
+        left: 7%;
+        transform: translate(0%);
+    }
+
+    /* ------------------------ TEXTO ------------------------*/
+
+    .texto{
+        grid-area: texto;
+        margin: 5%;
+        margin-top: 35%;
+    }
+}
+
+
+@media screen and (min-width: 801px) and (max-width: 1000px){
+    .menu-caixa {
+        display: inline-flexbox;
+        padding: 14px;
+        background-color:  var(--verde-escuro);
+        height: 500px;
+        border-bottom: 30px solid var(--verde);
+    }
+
+    .logo{
+        margin-left: 46%;
+    }
+
+    #divBusca{
+        position: absolute;
+        top: 230px;
+        left: -210px;
+        margin-left: 60%;
+        margin-top: -10%;
+    }
+
+    
     
     /* ------------------------ CARROSSEL ------------------------*/
     
@@ -491,8 +625,16 @@ footer{
         border-bottom: 30px solid var(--verde);
     }
 
+    .logo{
+        margin-left: 46%;
+    }
+
     #divBusca{
-        display: none;
+        position: absolute;
+        top: 265px;
+        left: -392px;
+        margin-left: 60%;
+        margin-top: -10%;
     }
     
     /* ------------------------ CARROSSEL ------------------------*/
