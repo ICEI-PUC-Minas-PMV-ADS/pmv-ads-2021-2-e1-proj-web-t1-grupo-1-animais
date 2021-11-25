@@ -30,7 +30,6 @@ A partir do entendimento do cotidiano das personas determinadas pelo projeto, s�
 |   Roberto Santana  |Ler a respeito da avicultura.|Posterior investimento.|
 |   Cris da Silva    |Ilustrações (imagens, gráficos e textos).|Melhor interpretação.|
 |   Roberto Santana  |Saber as doenças mais comuns num rebanho.|Prevenção e tratamento adequado.|
-|   Amanda Alves     |Indicações de sites de adoção de animais.|Pretendo adotar um animal de estimação.|
 |   Carlos Gomes     |Um site com informações claras, sem poluição visual.|Para ficar fácil a navegação e entendimento do conteúdo.|
 =======
 
@@ -48,8 +47,6 @@ A tabela a seguir apresenta os requisitos funcionais do projeto, identificando a
 |RF-01|O site deve apresentar informações sobre três grandes categorias de animais (silvestres, domésticos e de criação).| ALTA | 
 |RF-02|O site deve apresentar as fontes de onde as informações foram retiradas.| BAIXA |
 |RF-03|O site deve oferecer a função de pesquisa para o usuário buscar informações sobre espécies específicas.| ALTA |
-|RF-04|O site deve fornecer imagens e gráficos junto ao conteúdo informativo sobre as espécies.| MÉDIO |
-|RF-05|O site deve fornecer informações a respeito de ongs de adoção de animais.| BAIXO |
 
 
 ### Requisitos não Funcionais
