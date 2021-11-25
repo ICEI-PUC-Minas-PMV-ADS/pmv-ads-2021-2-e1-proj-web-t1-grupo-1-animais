@@ -317,11 +317,9 @@ footer{
     }
 
     #divBusca{
-        position: absolute;
-        top: 165px;
-        left: -192px;
-        margin-left: 60%;
-        margin-top: -10%;
+        position: static;
+        margin-left: 18%;
+        margin-top: auto;
     }
     
     /* ------------------------ CARROSSEL ------------------------*/
@@ -394,11 +392,9 @@ footer{
     }
 
     #divBusca{
-        position: absolute;
-        top: 172px;
-        left: -192px;
-        margin-left: 60%;
-        margin-top: -10%;
+        position: static;
+        margin-left: 25%;
+        margin-top: auto;
     }
 
     
@@ -475,11 +471,9 @@ footer{
     }
 
     #divBusca{
-        position: absolute;
-        top: 200px;
-        left: -200px;
-        margin-left: 60%;
-        margin-top: -10%;
+        position: static;
+        margin-left: 35%;
+        margin-top: auto;
     }
 
     
@@ -551,11 +545,9 @@ footer{
     }
 
     #divBusca{
-        position: absolute;
-        top: 230px;
-        left: -210px;
-        margin-left: 60%;
-        margin-top: -10%;
+        position: static;
+        margin-left: 61%;
+        margin-top: auto;
     }
 
     
@@ -630,11 +622,9 @@ footer{
     }
 
     #divBusca{
-        position: absolute;
-        top: 265px;
-        left: -392px;
-        margin-left: 60%;
-        margin-top: -10%;
+        position: static;
+        margin-left: 10%;
+        margin-top: auto;
     }
     
     /* ------------------------ CARROSSEL ------------------------*/
