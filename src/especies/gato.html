@@ -53,14 +53,21 @@
 
     <main>
         <h1 class="titulo">Gato (Felis catus)</h1>
-        <img class="imagem" src="/src/img/categorias/domesticos/cat-360.jpg" alt="foto-gato">
+        <picture>
+            <source media="(max-width: 400px)" srcset="/src/especies/imagens/gato/cat-250.jpg">
+            <source media="(min-width: 400px) and (max-width: 599px)" srcset="/src/especies/imagens/gato/cat-350.jpg">
+            <source media="(min-width: 600px) and (max-width: 784px)" srcset="/src/especies/imagens/gato/cat-500.jpg">
+            <source media="(min-width: 785px) and (max-width: 880px)" srcset="/src/especies/imagens/gato/cat-700x250.jpg">
+            <source media="(min-width: 881px) and (max-width: 1000px)" srcset="/src/especies/imagens/gato/cat-360x440.jpg">
+            <img class="imagem" src="/src/img/categorias/domesticos/cat-360.jpg" alt="foto-gato">
+        </picture>
         <article class="texto">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem repellendus ex cupiditate eaque, aut ullam accusamus id delectus ut veritatis odit. Incidunt, modi. Incidunt, quibusdam exercitationem cumque, molestias perspiciatis eum fuga similique alias aliquid impedit minima ratione consectetur ducimus assumenda ipsum suscipit itaque tenetur quis maiores quo sapiente eveniet nostrum.</p>
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam saepe explicabo nihil reiciendis! Eum aspernatur odit hic at. Asperiores maiores voluptas consequatur deserunt repellendus impedit nam tempora, cumque veritatis natus voluptatibus, esse rem ea? Non ratione culpa rem earum architecto?</p>
         </article>
         <article class="texto2">
-            <h2>Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
+            <h2 class="subtitulo">Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
 
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur eum voluptatum odit autem quaerat facilis saepe repellendus quia asperiores magnam, molestiae, qui dolorum ipsam cum error sapiente expedita iusto!</p>
 
