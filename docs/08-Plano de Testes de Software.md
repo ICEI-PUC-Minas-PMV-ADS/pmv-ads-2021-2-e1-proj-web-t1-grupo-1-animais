@@ -16,6 +16,15 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 
 =====
 
+|  `Caso de Teste`           |  `CT-02`
+|----------------------------|-----------------------------------------------------------------|
+| `Requisitos  Associados`    |RNF-02: O site deverá ser responsivo, permitindo a visualização em um celular de forma adequada.  |
+|   `Objetivo do Teste`      |Verificar a responsividade do site em dispositivos móveis |
+|         `Passos`           |1. Abrir o navegador Web através de um dispositivo móvel; <br> 2. Informar a URL do site;</br> 3. Verificar a visualização do site no dispositivo e se os conteúdos estão sendo dispostos da forma correta.  |
+|   `Critérios de Êxito`     |•  O site deve apresentar responsividade adequada ao dispositivo de utilização, seja ele desktop ou mobile. |
+
+=====
+
 ## Ferramentas de Testes (Opcional)
 
 Comente sobre as ferramentas de testes utilizadas.
