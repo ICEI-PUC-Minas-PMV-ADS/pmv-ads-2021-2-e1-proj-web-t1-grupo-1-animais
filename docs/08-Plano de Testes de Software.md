@@ -25,14 +25,27 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 
 =====
 
-## Ferramentas de Testes (Opcional)
+|  `Caso de Teste`           |  `CT-03`
+|----------------------------|-----------------------------------------------------------------|
+| `Requisitos  Associados`    |RF-03: O site deve oferecer a função de pesquisa para o usuário buscar informações sobre espécies específicas. |
+|   `Objetivo do Teste`      | Verificar se o campo de pesquisa está funcionando corretamente, bem como seu direcionamento  |
+|         `Passos`           |1. Abrir o navegador web do celular do usuário; <br> 2. Informar a URL do site;</br> 3. Inserir a espécie desejada no campo de pesquisas; <br> 4. Aguardar o carregamento da página </br>  |
+|   `Critérios de Êxito`     |• O site deve apresentar em tela o resultado solicitado pelo usuário; <br> • Caso a espécie nao esteja em nosso banco de dados, o site deve apresentar mensagem informando isso ao usuário. </br> |
 
-Comente sobre as ferramentas de testes utilizadas.
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+=====
+
+|  `Caso de Teste`           |  `CT-04`
+|----------------------------|-----------------------------------------------------------------|
+| `Requisitos  Associados`    |RFN -01: O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku). |
+|   `Objetivo do Teste`      | Verificar se o site está sendo hospedado e disposto de forma web.  |
+|         `Passos`           |1. Abrir o navegador web do celular do usuário; <br> 2. Informar a URL do site.</br> |
+|   `Critérios de Êxito`     |• O site deve abrir corretamente através do link disposto. |
+
+=====
+
+|  `Caso de Teste`           |  `CT-05`
+|----------------------------|-----------------------------------------------------------------|
+| `Requisitos  Associados`    |RF - 02: O site deve apresentar as fontes de onde as informações foram retiradas. |
+|   `Objetivo do Teste`      | Verificar se as informações estão referenciadas corretamente. |
+|         `Passos`           |1. Abrir o navegador web do celular do usuário; <br> 2. Informar a URL do site.</br> |
+|   `Critérios de Êxito`     |• O site deve conter a fonte das informações dispostas. |
