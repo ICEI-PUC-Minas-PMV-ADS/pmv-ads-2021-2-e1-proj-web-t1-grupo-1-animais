@@ -13,7 +13,7 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 | `Objetivo do Teste`      | Verificar se as informações estão sendo dispostas da forma correta. E como está o layout do site. |
 | `Passos`                 | 1. Abrir o navegador Web de preferência do usuário; <br> 2. Informar a URL do site;</br> 3. Visualizar a página principal bem como seu conteúdo. |
 | Saída esperada:          | • As notícias devem ser dispostas de forma correta no site; <br> • Deve ser apresentado uma imagem central, o menu acima e também um pequeno resumo sobre as categorias;</br |
-| Saída do sistema:        | ![WhatsApp Image 2021-11-28 at 22.25.25](C:\Users\User\Downloads\WhatsApp Image 2021-11-28 at 22.25.25.jpeg) • imagem central, o menu acima![image-20211128222646331](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20211128222646331.png)•um pequeno resumo sobre as categorias e noticias dispostas de forma correta no site. |
+| Saída do sistema:        | ![01](C:\Users\User\Desktop\pmv-ads-2021-2-e1-proj-web-t1-grupo-1-animais\docs\img registro de teste\01.jpeg) • imagem central, o menu acima![02](C:\Users\User\Desktop\pmv-ads-2021-2-e1-proj-web-t1-grupo-1-animais\docs\img registro de teste\02.png)•um pequeno resumo sobre as categorias e noticias dispostas de forma correta no site. |
 | Registro de execução:    | Êxito no teste                                               |
 
 
@@ -26,7 +26,7 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 |      | `Objetivo do Teste`      | Verificar a responsividade do site em dispositivos móveis    |
 |      | `Passos`                 | 1. Abrir o navegador Web através de um dispositivo móvel; <br> 2. Informar a URL do site;</br> 3. Verificar a visualização do site no dispositivo e se os conteúdos estão sendo dispostos da forma correta. |
 |      | `Critérios de Êxito`     | •  O site deve apresentar responsividade adequada ao dispositivo de utilização, seja ele desktop ou mobile. |
-|      | Saída do sistema:        | ![WhatsApp Image 2021-11-28 at 22.30.42](C:\Users\User\Downloads\WhatsApp Image 2021-11-28 at 22.30.42.jpeg)  • Responsividade em dispositivo móvel![WhatsApp Image 2021-11-28 at 22.30.59](C:\Users\User\Downloads\WhatsApp Image 2021-11-28 at 22.30.59.jpeg)• Responsividade em dispositivo laptop![WhatsApp Image 2021-11-28 at 22.31.28](C:\Users\User\Downloads\WhatsApp Image 2021-11-28 at 22.31.28.jpeg)• Responsividade em dispositivo Desktop |
+|      | Saída do sistema:        | ![03](C:\Users\User\Desktop\pmv-ads-2021-2-e1-proj-web-t1-grupo-1-animais\docs\img registro de teste\03.jpeg)• Responsividade em dispositivo móvel•![04](C:\Users\User\Desktop\pmv-ads-2021-2-e1-proj-web-t1-grupo-1-animais\docs\img registro de teste\04.jpeg) Responsividade em dispositivo laptop    ![05](C:\Users\User\Desktop\pmv-ads-2021-2-e1-proj-web-t1-grupo-1-animais\docs\img registro de teste\05.jpeg)  • Responsividade em dispositivo Desktop |
 |      | Registro de execução:    | Êxito no teste                                               |
 
 =====
@@ -37,7 +37,7 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 | `Objetivo do Teste`      | Verificar se o campo de pesquisa está funcionando corretamente, bem como seu direcionamento |
 | `Passos`                 | 1. Abrir o navegador web do celular do usuário; <br> 2. Informar a URL do site;</br> 3. Inserir a espécie desejada no campo de pesquisas; <br> 4. Aguardar o carregamento da página </br> |
 | `Critérios de Êxito`     | • O site deve apresentar em tela o resultado solicitado pelo usuário; <br> • Caso a espécie não esteja em nosso banco de dados, o site deve apresentar mensagem informando isso ao usuário. </br> |
-| Saída do sistema:        | <img src="C:\Users\User\Downloads\02.jpg" alt="02" style="zoom:150%;" />• Barra de pesquisa não encaminha os usuário pra página solicitada é não mostra mensagem caso não esteja em nosso banco de dados. |
+| Saída do sistema:        | ![](C:\Users\User\Desktop\pmv-ads-2021-2-e1-proj-web-t1-grupo-1-animais\docs\img registro de teste\06.jpg)• Barra de pesquisa não encaminha os usuário pra página solicitada é não mostra mensagem caso não esteja em nosso banco de dados. |
 | Registro de execução:    | Falha no teste                                               |
 
 =====
@@ -48,8 +48,8 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 | `Objetivo do Teste`      | Verificar se o site está sendo hospedado e disposto de forma web. |
 | `Passos`                 | 1. Abrir o navegador web do celular do usuário; <br> 2. Informar a URL do site.</br> |
 | `Critérios de Êxito`     | • O site deve abrir corretamente através do link disposto.   |
-| Saída do sistema:        | Site não hospedado e disposto de forma web.                  |
-| Registro de execução:    | Falha no teste                                               |
+| Saída do sistema:        | ![09](C:\Users\User\Desktop\pmv-ads-2021-2-e1-proj-web-t1-grupo-1-animais\docs\img registro de teste\09.jpg)Site hospedado e disposto de forma web. (link https://wikipets.netlify.app/) |
+| Registro de execução:    | Êxito no teste                                               |
 
 =====
 
@@ -59,5 +59,5 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 | `Objetivo do Teste`      | Verificar se as informações estão referenciadas corretamente. |
 | `Passos`                 | 1. Abrir o navegador web do celular do usuário; <br> 2. Informar a URL do site.</br> |
 | `Critérios de Êxito`     | • O site deve conter a fonte das informações dispostas.      |
-| Saída do sistema:        | ![fonte 02](C:\Users\User\Downloads\fonte 02.jpg)![fonte 01](C:\Users\User\Downloads\fonte 01.jpg)• O site possui fonte confirmando a veracidade da informações. |
+| Saída do sistema:        | ![07](C:\Users\User\Desktop\pmv-ads-2021-2-e1-proj-web-t1-grupo-1-animais\docs\img registro de teste\07.jpg)![08](C:\Users\User\Desktop\pmv-ads-2021-2-e1-proj-web-t1-grupo-1-animais\docs\img registro de teste\08.jpg)• O site possui fonte confirmando a veracidade da informações. |
 | Registro de execução:    | Êxito no teste                                               |
