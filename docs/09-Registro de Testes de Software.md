@@ -37,7 +37,7 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 | `Objetivo do Teste`      | Verificar se o campo de pesquisa está funcionando corretamente, bem como seu direcionamento |
 | `Passos`                 | 1. Abrir o navegador web do celular do usuário; <br> 2. Informar a URL do site;</br> 3. Inserir a espécie desejada no campo de pesquisas; <br> 4. Aguardar o carregamento da página </br> |
 | `Critérios de Êxito`     | • O site deve apresentar em tela o resultado solicitado pelo usuário; <br> • Caso a espécie não esteja em nosso banco de dados, o site deve apresentar mensagem informando isso ao usuário. </br> |
-| Saída do sistema:        | ![](C:\Users\User\Desktop\pmv-ads-2021-2-e1-proj-web-t1-grupo-1-animais\docs\img registro de teste\06.jpg)• Barra de pesquisa não encaminha os usuário pra página solicitada é não mostra mensagem caso não esteja em nosso banco de dados. |
+| Saída do sistema:        | ![](\pmv-ads-2021-2-e1-proj-web-t1-grupo-1-animais\docs\img registro de teste\06.jpg)• Barra de pesquisa não encaminha os usuário pra página solicitada é não mostra mensagem caso não esteja em nosso banco de dados. |
 | Registro de execução:    | Falha no teste                                               |
 
 =====
