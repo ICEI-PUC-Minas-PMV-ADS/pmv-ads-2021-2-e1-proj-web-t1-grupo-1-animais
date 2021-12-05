@@ -26,7 +26,7 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 |      | `Objetivo do Teste`      | Verificar a responsividade do site em dispositivos móveis    |
 |      | `Passos`                 | 1. Abrir o navegador Web através de um dispositivo móvel; <br> 2. Informar a URL do site;</br> 3. Verificar a visualização do site no dispositivo e se os conteúdos estão sendo dispostos da forma correta. |
 |      | `Critérios de Êxito`     | •  O site deve apresentar responsividade adequada ao dispositivo de utilização, seja ele desktop ou mobile. |
-|      | Saída do sistema:        |![03](https://user-images.githubusercontent.com/86898010/144762828-bc03384b-2b6e-4155-8305-5e51c822e366.jpeg)• Responsividade em dispositivo móvel•![04](https://user-images.githubusercontent.com/86898010/144762836-43ddd238-6ffb-46dc-81aa-4408a53c5020.jpeg)Responsividade em dispositivo laptop![05](https://user-images.githubusercontent.com/86898010/144762842-2023f0a2-9800-4044-9336-df34fafa14b5.jpeg)• Responsividade em dispositivo Desktop |
+|      | Saída do sistema:        |![03](https://user-images.githubusercontent.com/86898010/144762828-bc03384b-2b6e-4155-8305-5e51c822e366.jpeg)• Responsividade em dispositivo móvel•![04](https://user-images.githubusercontent.com/86898010/144762836-43ddd238-6ffb-46dc-81aa-4408a53c5020.jpeg) •Responsividade em dispositivo laptop![05](https://user-images.githubusercontent.com/86898010/144762842-2023f0a2-9800-4044-9336-df34fafa14b5.jpeg)• Responsividade em dispositivo Desktop |
 |      | Registro de execução:    | Êxito no teste                                               |
 
 =====
@@ -37,7 +37,8 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 | `Objetivo do Teste`      | Verificar se o campo de pesquisa está funcionando corretamente, bem como seu direcionamento |
 | `Passos`                 | 1. Abrir o navegador web do celular do usuário; <br> 2. Informar a URL do site;</br> 3. Inserir a espécie desejada no campo de pesquisas; <br> 4. Aguardar o carregamento da página </br> |
 | `Critérios de Êxito`     | • O site deve apresentar em tela o resultado solicitado pelo usuário; <br> • Caso a espécie não esteja em nosso banco de dados, o site deve apresentar mensagem informando isso ao usuário. </br> |
-| Saída do sistema:        | ![](\pmv-ads-2021-2-e1-proj-web-t1-grupo-1-animais\docs\img registro de teste\06.jpg)• Barra de pesquisa não encaminha os usuário pra página solicitada é não mostra mensagem caso não esteja em nosso banco de dados. |
+| Saída do sistema:        | ![06](https://user-images.githubusercontent.com/86898010/144762889-26ffd692-4a82-4a61-aa1c-328a4e35cdef.jpg)
+• Barra de pesquisa não encaminha os usuário pra página solicitada é não mostra mensagem caso não esteja em nosso banco de dados. |
 | Registro de execução:    | Falha no teste                                               |
 
 =====
@@ -48,7 +49,7 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 | `Objetivo do Teste`      | Verificar se o site está sendo hospedado e disposto de forma web. |
 | `Passos`                 | 1. Abrir o navegador web do celular do usuário; <br> 2. Informar a URL do site.</br> |
 | `Critérios de Êxito`     | • O site deve abrir corretamente através do link disposto.   |
-| Saída do sistema:        | ![09](C:\Users\User\Desktop\pmv-ads-2021-2-e1-proj-web-t1-grupo-1-animais\docs\img registro de teste\09.jpg)Site hospedado e disposto de forma web. (link https://wikipets.netlify.app/) |
+| Saída do sistema:        | ![09](https://user-images.githubusercontent.com/86898010/144762923-dc02320b-e6b3-48e1-aa5a-fef8b121f398.jpg) Site hospedado e disposto de forma web. (link https://wikipets.netlify.app/) |
 | Registro de execução:    | Êxito no teste                                               |
 
 =====
@@ -59,5 +60,5 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 | `Objetivo do Teste`      | Verificar se as informações estão referenciadas corretamente. |
 | `Passos`                 | 1. Abrir o navegador web do celular do usuário; <br> 2. Informar a URL do site.</br> |
 | `Critérios de Êxito`     | • O site deve conter a fonte das informações dispostas.      |
-| Saída do sistema:        | ![07](C:\Users\User\Desktop\pmv-ads-2021-2-e1-proj-web-t1-grupo-1-animais\docs\img registro de teste\07.jpg)![08](C:\Users\User\Desktop\pmv-ads-2021-2-e1-proj-web-t1-grupo-1-animais\docs\img registro de teste\08.jpg)• O site possui fonte confirmando a veracidade da informações. |
+| Saída do sistema:        |![07](https://user-images.githubusercontent.com/86898010/144762949-409fd0f9-7cd8-4e17-95b5-c2de62fe4fad.jpg)![08](https://user-images.githubusercontent.com/86898010/144762956-c0553124-96fa-4fd7-ba27-9c230bbd7f78.jpg)• O site possui fonte confirmando a veracidade da informações. |
 | Registro de execução:    | Êxito no teste                                               |
