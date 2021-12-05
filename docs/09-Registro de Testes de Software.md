@@ -26,7 +26,7 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 |      | `Objetivo do Teste`      | Verificar a responsividade do site em dispositivos móveis    |
 |      | `Passos`                 | 1. Abrir o navegador Web através de um dispositivo móvel; <br> 2. Informar a URL do site;</br> 3. Verificar a visualização do site no dispositivo e se os conteúdos estão sendo dispostos da forma correta. |
 |      | `Critérios de Êxito`     | •  O site deve apresentar responsividade adequada ao dispositivo de utilização, seja ele desktop ou mobile. |
-|      | Saída do sistema:        | ![03](C:\Users\User\Desktop\pmv-ads-2021-2-e1-proj-web-t1-grupo-1-animais\docs\img registro de teste\03.jpeg)• Responsividade em dispositivo móvel•![04](C:\Users\User\Desktop\pmv-ads-2021-2-e1-proj-web-t1-grupo-1-animais\docs\img registro de teste\04.jpeg) Responsividade em dispositivo laptop    ![05](C:\Users\User\Desktop\pmv-ads-2021-2-e1-proj-web-t1-grupo-1-animais\docs\img registro de teste\05.jpeg)  • Responsividade em dispositivo Desktop |
+|      | Saída do sistema:        |![03](https://user-images.githubusercontent.com/86898010/144762828-bc03384b-2b6e-4155-8305-5e51c822e366.jpeg)• Responsividade em dispositivo móvel•![04](https://user-images.githubusercontent.com/86898010/144762836-43ddd238-6ffb-46dc-81aa-4408a53c5020.jpeg)Responsividade em dispositivo laptop![05](https://user-images.githubusercontent.com/86898010/144762842-2023f0a2-9800-4044-9336-df34fafa14b5.jpeg)• Responsividade em dispositivo Desktop |
 |      | Registro de execução:    | Êxito no teste                                               |
 
 =====
