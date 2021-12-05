@@ -13,7 +13,9 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 | `Objetivo do Teste`      | Verificar se as informações estão sendo dispostas da forma correta. E como está o layout do site. |
 | `Passos`                 | 1. Abrir o navegador Web de preferência do usuário; <br> 2. Informar a URL do site;</br> 3. Visualizar a página principal bem como seu conteúdo. |
 | Saída esperada:          | • As notícias devem ser dispostas de forma correta no site; <br> • Deve ser apresentado uma imagem central, o menu acima e também um pequeno resumo sobre as categorias;</br |
-| Saída do sistema:        | ![01](C:\Users\User\Desktop\pmv-ads-2021-2-e1-proj-web-t1-grupo-1-animais\docs\img registro de teste\01.jpeg) • imagem central, o menu acima![02](C:\Users\User\Desktop\pmv-ads-2021-2-e1-proj-web-t1-grupo-1-animais\docs\img registro de teste\02.png)•um pequeno resumo sobre as categorias e noticias dispostas de forma correta no site. |
+| Saída do sistema:        |  ![01](https://user-images.githubusercontent.com/86898010/144762697-48e246fa-57b7-42dd-a9d3-817249a5ba65.jpeg) • imagem central, o menu acima![02](https://user-images.githubusercontent.com/86898010/144762726-e86a53de-5520-45f6-8b97-ef23e29bab5b.png)
+•um pequeno resumo sobre as catego
+rias e noticias dispostas de forma correta no site. |
 | Registro de execução:    | Êxito no teste                                               |
 
 
