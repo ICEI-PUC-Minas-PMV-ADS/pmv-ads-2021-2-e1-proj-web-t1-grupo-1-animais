@@ -83,6 +83,10 @@ body{
     color: black;
 }
 
+#notFound{
+    display: none;
+}
+
 .abrirFiltro{
     display: none;
 }
