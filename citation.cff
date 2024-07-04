@@ -1,0 +1,25 @@
+message: Please cite this software using these metadata.
+title: Grow Human Resources
+authors:
+  - family-names: Hideki Artiga Watanabe
+    given-names: Ciro
+  - family-names: Leite Soares Ramos
+    given-names: Gabriel
+  - family-names: Alessandra Simão Reis
+    given-names: Nayra 
+  - family-names: Pacheco Leite
+    given-names: Rafael
+  - family-names: Carolino Lopes
+    given-names: Bruno 
+  - family-names: Gabriella Maffei Corrêa
+    given-names: Vitória
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Christina de Paiva Carvalho
+    given-names: Joyce 
+keywords:
+  - Animais
+  - Adoção
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t1-grupo-1-animais
+version: 1.0.0
+date-released: 2021-01
